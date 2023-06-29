@@ -1,8 +1,6 @@
 from __init__ import *
 import cv2
 '''nhiệm vụ của file này còn phải tạo ra vùng bounding để bỏ những thông tin không nằm trong vùng chứa hóa đơn tổng
-    bên cạnh đó khảo sát để bỏ những hóa đơn không có một cạnh nào thẳng ,không tuân theo giới hạn để duỗi thằng
-    đồng thời bỏ các hóa đơn có độ tin cậy đánh nhãn không quá cao.
 ''' 
 
 '''
@@ -12,6 +10,7 @@ padding một chút vùng đen xung quang hóa đơn để bao trọn được h
 padd_size = 30
 threshold_area = 100000  # Set your desired area threshold
 threshold_lenght = 1000
+thresh_canny = [50,150]
 ##############################################################
 
 def add_padding(img, padding_size= padd_size, padding_color=(0, 0, 0)):
@@ -26,7 +25,7 @@ def dilate(img,padd = padd_size):
     img = img[padd:h-padd,padd:w-padd]
     return img
 
-def puring(img,rgb):
+def puring(img):
     ''''
     fill all the area in invoice with same color of mask (1)
     input: RGB image
@@ -38,7 +37,7 @@ def puring(img,rgb):
     gray = cv2.cvtColor(img_cp,cv2.COLOR_BGR2GRAY)
     thresh = cv2.threshold(gray, 0, 255, cv2.THRESH_BINARY | cv2.THRESH_OTSU)[1]
 
-    cny = cv2.Canny(thresh,50,150)
+    cny = cv2.Canny(thresh,*thresh_canny)
     cny = cv2.dilate(cny,np.ones((3,3)),iterations=1)
     ctn, _ = cv2.findContours(cny, cv2.RETR_EXTERNAL, cv2.CHAIN_APPROX_SIMPLE)
 
