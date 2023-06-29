@@ -1,0 +1,8 @@
+index,bbox,label_id,label_text,content,width,height
+0,"[178, 379, 288, 399]",15,SELLER,VinCommerce,768,1024
+1,"[324, 336, 446, 353]",16,ADDRESS,VM+ CNH 112 Thanh Niên,768,1024
+2,"[308, 358, 473, 377]",16,ADDRESS,"Số 112 Thanh Niên, P.Cẩm Thành",768,1024
+3,"[327, 379, 450, 396]",16,ADDRESS,"TP.Cẩm Phả, Quảng Ninh",768,1024
+4,"[179, 452, 383, 474]",17,TIMESTAMP,ngày bán: 10/08/2020 17:55,768,1024
+5,"[183, 617, 355, 639]",17,TIMESTAMP,TỔNG TIỀN PHẢI T.TOÁN,768,1024
+6,"[457, 612, 510, 628]",17,TIMESTAMP,25.900,768,1024

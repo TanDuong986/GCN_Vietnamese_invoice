@@ -1,0 +1,5 @@
+index,bbox,label_id,label_text,content,width,height
+0,"[332, 34, 580, 92]",15,SELLER,Phúc Anh Minimart,1024,1820
+1,"[282, 60, 631, 135]",16,ADDRESS,248 Có Bi - Gio Lâm - Hà Nội,1024,1820
+2,"[565, 214, 798, 285]",17,TIMESTAMP,Ngày : 13-08-2020,1024,1820
+3,"[68, 1247, 281, 1290]",18,TOTAL_COST,Khách phải trả,1024,1820

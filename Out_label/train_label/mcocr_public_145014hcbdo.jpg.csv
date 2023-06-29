@@ -1,0 +1,5 @@
+index,bbox,label_id,label_text,content,width,height
+0,"[255, 258, 279, 415]",16,ADDRESS,"TP. Cẩm Phả, T.Quảng Ninh",1024,768
+1,"[325, 356, 365, 580]",17,TIMESTAMP,Ngày bán: 12/08/2020 15:37,1024,768
+2,"[474, 387, 509, 583]",18,TOTAL_COST,TỔNG TIỀN PHẢI T.TOÁN,1024,768
+3,"[480, 212, 505, 268]",18,TOTAL_COST,5.000 5.000,1024,768

@@ -1,0 +1,5 @@
+index,bbox,label_id,label_text,content,width,height
+0,"[249, 170, 446, 195]",15,SELLER,SIÊU THỊ BÁCH HOÁ TỔNG HỢP,720,1280
+1,"[421, 1058, 510, 1085]",17,TIMESTAMP,Ngày:,720,1280
+2,"[210, 971, 355, 995]",18,TOTAL_COST,Tổng cộng (đã gồm VAT),720,1280
+3,"[452, 964, 505, 987]",18,TOTAL_COST,483.200,720,1280

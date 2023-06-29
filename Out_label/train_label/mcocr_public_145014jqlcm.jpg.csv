@@ -1,0 +1,7 @@
+index,bbox,label_id,label_text,content,width,height
+0,"[147, 284, 559, 311]",15,SELLER,SCTC CÔ THỎ 104 TRẦN PHÚ- CẤM,720,1280
+1,"[323, 317, 390, 341]",15,SELLER,PHA,720,1280
+2,"[140, 344, 567, 371]",16,ADDRESS,"104 Trần Phú, Phường Cẩm Tây, Thành phố Cẩm",720,1280
+3,"[274, 376, 435, 397]",16,ADDRESS,Quảng Ninh,720,1280
+4,"[124, 748, 323, 779]",17,TIMESTAMP,Tổng thanh toán,720,1280
+5,"[476, 747, 587, 773]",17,TIMESTAMP,50.000đ,720,1280

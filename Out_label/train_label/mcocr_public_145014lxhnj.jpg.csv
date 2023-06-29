@@ -1,0 +1,6 @@
+index,bbox,label_id,label_text,content,width,height
+0,"[127, 267, 362, 291]",15,SELLER,NHÀ SÁCH CẨM PHẢ,576,1024
+1,"[69, 292, 351, 315]",16,ADDRESS,ĐC: 212 Đường Trần Phú - Cẩm Phả,576,1024
+2,"[69, 362, 304, 383]",17,TIMESTAMP,Thời gian 08 12 00 - 13/08/2020,576,1024
+3,"[55, 486, 209, 514]",18,TOTAL_COST,Tổng có thanh toán,576,1024
+4,"[347, 482, 418, 504]",18,TOTAL_COST,"14,000đ",576,1024

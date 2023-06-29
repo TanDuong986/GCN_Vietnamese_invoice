@@ -1,0 +1,6 @@
+index,bbox,label_id,label_text,content,width,height
+0,"[514, 140, 652, 170]",15,SELLER,Saigon Co.op,1024,1366
+1,"[465, 163, 707, 200]",15,SELLER,Co.op Food HN The K-PARK,1024,1366
+2,"[456, 298, 714, 327]",16,ADDRESS,"tai Khu do thi moi Van Phu,",1024,1366
+3,"[501, 493, 769, 531]",17,TIMESTAMP,Ngay: 20/09/2019 10:25:34,1024,1366
+4,"[359, 810, 758, 852]",18,TOTAL_COST,"Tong so tien thanh toan: 27,291.20",1024,1366

@@ -1,0 +1,8 @@
+index,bbox,label_id,label_text,content,width,height
+0,"[345, 0, 904, 26]",16,ADDRESS,Du an Dau tu xay dung Khu nha o Hi Brand,1024,1366
+1,"[455, 22, 831, 54]",16,ADDRESS,"tai Khu do thi moi Van Phu,",1024,1366
+2,"[405, 49, 868, 84]",16,ADDRESS,"P. Phu La, Q. Ha Dong, Tp Ha Noi",1024,1366
+3,"[525, 283, 756, 314]",17,TIMESTAMP,Ngày: 23/09/2019,1024,1366
+4,"[773, 276, 902, 311]",17,TIMESTAMP,11:00:11,1024,1366
+5,"[310, 558, 673, 599]",18,TOTAL_COST,Tong so tien thanh toan:,1024,1366
+6,"[755, 554, 912, 598]",18,TOTAL_COST,"57,000.00",1024,1366

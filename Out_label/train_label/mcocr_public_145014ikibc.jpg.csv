@@ -1,0 +1,6 @@
+index,bbox,label_id,label_text,content,width,height
+0,"[309, 339, 489, 360]",15,SELLER,CỬA HÀNG NĂM OÁNH,768,1024
+1,"[215, 351, 588, 384]",16,ADDRESS,"Thôi Phú Thụy, Xã Phú Thị, Huyện Gia Lâm, TP Hà Nội",768,1024
+2,"[467, 478, 592, 501]",17,TIMESTAMP,Ngày: 11-08-2020,768,1024
+3,"[205, 778, 338, 813]",18,TOTAL_COST,Cộng tiền hàng,768,1024
+4,"[539, 782, 604, 806]",18,TOTAL_COST,"19,900",768,1024

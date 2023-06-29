@@ -1,0 +1,4 @@
+index,bbox,label_id,label_text,content,width,height
+0,"[310, 906, 679, 938]",15,SELLER,Công ty Cổ Phần Thế Giới Di Động,1024,2115
+1,"[308, 943, 702, 971]",16,ADDRESS,5780 - TINO - Kho CN DMX Dong Anh,1024,2115
+2,"[451, 1218, 518, 1240]",18,TOTAL_COST,400.000,1024,2115

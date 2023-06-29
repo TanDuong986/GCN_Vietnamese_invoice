@@ -1,0 +1,7 @@
+index,bbox,label_id,label_text,content,width,height
+0,"[178, 161, 252, 179]",15,SELLER,PHO MO,472,1024
+1,"[76, 179, 347, 203]",16,ADDRESS,Tổ 7 Khu Tân Lập 4-P.Cẩm Thủy,472,1024
+2,"[110, 200, 326, 223]",16,ADDRESS,Tp Cẩm Phả - Quảng Ninh,472,1024
+3,"[152, 290, 281, 305]",17,TIMESTAMP,09/08/2020 22:00,472,1024
+4,"[195, 552, 269, 569]",18,TOTAL_COST,Tổng cộng:,472,1024
+5,"[320, 555, 361, 567]",18,TOTAL_COST,"45,000",472,1024

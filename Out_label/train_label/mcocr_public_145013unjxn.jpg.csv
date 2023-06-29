@@ -1,0 +1,7 @@
+index,bbox,label_id,label_text,content,width,height
+0,"[276, 400, 307, 454]",15,SELLER,PHẢ,1024,768
+1,"[300, 239, 340, 612]",16,ADDRESS,104 Trần Phú - phường Cẩm Tây - Thành phố Cẩm,1024,768
+2,"[328, 350, 354, 494]",16,ADDRESS,Phả - Quảng Ninh,1024,768
+3,"[498, 475, 520, 622]",17,TIMESTAMP,Ngày: 10/05/2020 (09:12,1024,768
+4,"[721, 448, 753, 619]",18,TOTAL_COST,Tổng thanh toán,1024,768
+5,"[713, 214, 747, 308]",18,TOTAL_COST,65.000đ,1024,768

@@ -1,0 +1,4 @@
+index,bbox,label_id,label_text,content,width,height
+0,"[269, 108, 581, 133]",16,ADDRESS,"37 Nguyễn Thượng Hiền - Quận Hai Bà Trưng, Hà Nội",1024,1366
+1,"[137, 152, 325, 173]",17,TIMESTAMP,Ngày bán: 14/08/2020 11:44,1024,1366
+2,"[393, 1206, 766, 1257]",18,TOTAL_COST,Tổng tiền hàng:,1024,1366

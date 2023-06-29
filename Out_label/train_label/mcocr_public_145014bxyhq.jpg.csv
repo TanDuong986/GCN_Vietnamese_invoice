@@ -1,0 +1,6 @@
+index,bbox,label_id,label_text,content,width,height
+0,"[283, 250, 506, 298]",15,SELLER,MINIMART ANAN,768,1024
+1,"[244, 289, 531, 340]",16,ADDRESS,Chợ Sủi Phú Thị Gia Lâm,768,1024
+2,"[586, 665, 668, 697]",18,TOTAL_COST,"83,000",768,1024
+3,"[95, 666, 206, 703]",18,TOTAL_COST,Tổng tiền,768,1024
+4,"[425, 792, 668, 832]",17,TIMESTAMP,Ngày : 17/08/2020 15:30,768,1024

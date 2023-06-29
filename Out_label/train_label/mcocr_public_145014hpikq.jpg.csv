@@ -1,0 +1,4 @@
+index,bbox,label_id,label_text,content,width,height
+0,"[79, 306, 556, 412]",15,SELLER,FamilyMart,730,1440
+1,"[61, 397, 578, 487]",16,ADDRESS,"Block D3--Khu B KTX ĐHQG, P.Đông Hòa,TX,Dĩ An,Bình Dương",730,1440
+2,"[87, 688, 588, 737]",18,TOTAL_COST,Tổng cộng,730,1440

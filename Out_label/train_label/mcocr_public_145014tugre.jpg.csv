@@ -1,0 +1,8 @@
+index,bbox,label_id,label_text,content,width,height
+0,"[164, 181, 290, 211]",15,SELLER,VinCommerce,768,1024
+1,"[316, 136, 525, 156]",16,ADDRESS,VM+QNH Dự án KDC lấn biển coc 6,768,1024
+2,"[327, 162, 516, 181]",16,ADDRESS,"DA khu DCLB coc 8, P.Cẩm Sơn",768,1024
+3,"[336, 185, 504, 207]",16,ADDRESS,"TP. Cẩm Phả, T. Quảng Ninh",768,1024
+4,"[162, 279, 401, 299]",17,TIMESTAMP,Ngày bán: 14/08/2020 16:34,768,1024
+5,"[161, 529, 365, 554]",18,TOTAL_COST,TỔNG TIỀN PHẢI T.TOÁN,768,1024
+6,"[499, 533, 564, 554]",18,TOTAL_COST,12.800 12.800,768,1024

@@ -1,0 +1,5 @@
+index,bbox,label_id,label_text,content,width,height
+0,"[66, 138, 281, 267]",15,SELLER,Vincommerce,1024,1366
+1,"[296, 124, 619, 235]",16,ADDRESS,Ma Pham Ngọc Thạch,1024,1366
+2,"[75, 321, 431, 364]",17,TIMESTAMP,Ngày bán: 14/08/2020 15:33,1024,1366
+3,"[58, 542, 682, 603]",18,TOTAL_COST,TỔNG TIỀN PHẢI T.TOÁN,1024,1366

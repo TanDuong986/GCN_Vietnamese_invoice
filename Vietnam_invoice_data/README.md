@@ -1,0 +1,1 @@
+- Train data for KIE model: 1090 images

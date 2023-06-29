@@ -1,0 +1,8 @@
+index,bbox,label_id,label_text,content,width,height
+0,"[278, 164, 436, 212]",15,SELLER,VinCommerce,1024,1366
+1,"[442, 108, 732, 140]",16,ADDRESS,"VM + HCM CC The Manor 1, 91 Ng. H . Canh",1024,1366
+2,"[470, 141, 714, 173]",16,ADDRESS,"91 Nguyễn Hữu Cảnh, Phường 22",1024,1366
+3,"[504, 175, 670, 203]",16,ADDRESS,"Q.Bình Thạnh, TP.HCM",1024,1366
+4,"[286, 289, 563, 319]",17,TIMESTAMP,Ngày bán: 12/08/2020 17:12,1024,1366
+5,"[281, 795, 518, 822]",18,TOTAL_COST,TỔNG TIỀN PHẢI T.TOÁN,1024,1366
+6,"[664, 799, 745, 821]",18,TOTAL_COST,235.932,1024,1366

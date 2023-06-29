@@ -1,0 +1,6 @@
+index,bbox,label_id,label_text,content,width,height
+0,"[373, 126, 704, 181]",15,SELLER,FamilyMart,1024,1366
+1,"[224, 191, 750, 234]",16,ADDRESS,"8 Đường số 35, KDC Cát Lái, P.Cát Lái, Q2",1024,1366
+2,"[194, 998, 563, 1032]",17,TIMESTAMP,Ngày : 17/08/2020 - Giờ: 19:37,1024,1366
+3,"[193, 570, 333, 606]",18,TOTAL_COST,Tổng cộng:,1024,1366
+4,"[697, 572, 782, 599]",18,TOTAL_COST,"28,000",1024,1366

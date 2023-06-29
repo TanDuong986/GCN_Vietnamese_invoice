@@ -1,0 +1,5 @@
+index,bbox,label_id,label_text,content,width,height
+0,"[174, 230, 832, 297]",16,ADDRESS,"Thôn Phú Thụy, Xã Phú Thị, Huyện Gia Lâm, TP Hà Nội",1024,1365
+1,"[617, 424, 845, 478]",17,TIMESTAMP,Ngày: 11-08-2020,1024,1365
+2,"[104, 1095, 386, 1154]",18,TOTAL_COST,Cộng tiền hàng,1024,1365
+3,"[762, 1091, 898, 1150]",18,TOTAL_COST,"74,000 74,000 74,000",1024,1365

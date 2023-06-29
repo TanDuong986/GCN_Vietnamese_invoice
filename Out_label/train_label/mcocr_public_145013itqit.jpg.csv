@@ -1,0 +1,8 @@
+index,bbox,label_id,label_text,content,width,height
+0,"[207, 166, 318, 194]",15,SELLER,VinCommerce,768,1024
+1,"[373, 125, 498, 147]",16,ADDRESS,VM + QNH 690 Trần Phú,768,1024
+2,"[358, 149, 514, 169]",16,ADDRESS,Số 590 Trần Phú P. Cẩm Thuỷ,768,1024
+3,"[367, 172, 504, 192]",16,ADDRESS,"TP. Cẩm Phả, Quảng Ninh",768,1024
+4,"[205, 255, 415, 275]",17,TIMESTAMP,Ngày bán: 15/08/2020 09:54,768,1024
+5,"[201, 558, 382, 579]",17,TIMESTAMP,TỔNG TIỀN PHẢI T.TOÁN,768,1024
+6,"[498, 563, 554, 582]",17,TIMESTAMP,91.674,768,1024

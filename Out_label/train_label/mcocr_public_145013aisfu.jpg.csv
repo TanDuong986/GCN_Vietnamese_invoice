@@ -1,0 +1,7 @@
+index,bbox,label_id,label_text,content,width,height
+0,"[132, 209, 157, 633]",15,SELLER,SCTC CÔ THỎ 104 TRẦN PHÚ - CẨM,1024,768
+1,"[160, 392, 191, 445]",15,SELLER,PHẢ,1024,768
+2,"[192, 198, 223, 640]",16,ADDRESS,104 Trần Phú - phường Cẩm Tây - Thành phố Cẩm,1024,768
+3,"[226, 338, 248, 503]",16,ADDRESS,Phả - Quảng Ninh,1024,768
+4,"[736, 448, 772, 650]",18,TOTAL_COST,Tổng thanh toán,1024,768
+5,"[728, 169, 767, 293]",18,TOTAL_COST,135.000đ,1024,768

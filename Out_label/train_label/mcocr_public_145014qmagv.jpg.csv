@@ -1,0 +1,6 @@
+index,bbox,label_id,label_text,content,width,height
+0,"[238, 107, 504, 141]",16,ADDRESS,Chợ sửi phú Thị Gia Lâm,768,1024
+1,"[262, 77, 475, 112]",15,SELLER,MINIMART ANAN,768,1024
+2,"[416, 834, 654, 870]",17,TIMESTAMP,Ngày: 17/08/2020 - 18:31,768,1024
+3,"[82, 709, 211, 737]",18,TOTAL_COST,Tổng tiền:,768,1024
+4,"[559, 707, 663, 730]",18,TOTAL_COST,"149,000",768,1024

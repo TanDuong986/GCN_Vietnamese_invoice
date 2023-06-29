@@ -1,0 +1,4 @@
+index,bbox,label_id,label_text,content,width,height
+0,"[304, 266, 542, 293]",16,ADDRESS,168 Nguyễn,1024,1365
+1,"[369, 377, 626, 429]",17,TIMESTAMP,Ngày: 21/05/2020 17:14:18,1024,1365
+2,"[517, 1005, 612, 1040]",18,TOTAL_COST,6.500.00,1024,1365

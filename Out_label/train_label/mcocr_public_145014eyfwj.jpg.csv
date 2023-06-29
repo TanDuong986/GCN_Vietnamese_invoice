@@ -1,0 +1,5 @@
+index,bbox,label_id,label_text,content,width,height
+0,"[377, 203, 776, 256]",15,SELLER,BOOKS n COFFEE,1024,1366
+1,"[196, 719, 811, 765]",17,TIMESTAMP,Ngày 14/08/2020 Giờ: 21:04:24,1024,1366
+2,"[219, 1131, 428, 1181]",18,TOTAL_COST,Thanh toán,1024,1366
+3,"[686, 1149, 812, 1187]",18,TOTAL_COST,"89,000",1024,1366

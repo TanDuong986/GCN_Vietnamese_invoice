@@ -1,0 +1,8 @@
+index,bbox,label_id,label_text,content,width,height
+0,"[149, 250, 246, 277]",15,SELLER,VinCommerce,576,1024
+1,"[264, 220, 410, 238]",16,ADDRESS,VM + ONH Tổ 8 Khu 3B Cẩm Trung,576,1024
+2,"[279, 239, 398, 256]",16,ADDRESS,"Tổ 8, Khu 38, P. Cẩm Trung",576,1024
+3,"[281, 259, 400, 273]",16,ADDRESS,"TP. Cẩm Phả, T.Quảng Ninh",576,1024
+4,"[152, 322, 329, 340]",17,TIMESTAMP,Ngày bán: 13/08/2020 12:54,576,1024
+5,"[160, 440, 308, 457]",18,TOTAL_COST,HỒNG TIẾN PHẢI T.TOÁN,576,1024
+6,"[399, 437, 452, 453]",18,TOTAL_COST,179.000,576,1024

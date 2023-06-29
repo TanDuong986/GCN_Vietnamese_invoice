@@ -1,0 +1,7 @@
+index,bbox,label_id,label_text,content,width,height
+0,"[437, 106, 744, 157]",16,ADDRESS,"166 Tô Hiệu tổ 1, P.Đích Vọng",1024,1366
+1,"[463, 165, 705, 197]",16,ADDRESS,"Cầu Giấy, TP. Hà Nội",1024,1366
+2,"[142, 313, 553, 351]",17,TIMESTAMP,Ngày bán: 03/08/2020 11:15,1024,1366
+3,"[686, 655, 793, 706]",18,TOTAL_COST,39.000,1024,1366
+4,"[487, 61, 702, 107]",15,SELLER,VM + 1S5 Tô Hiệu,1024,1366
+5,"[160, 668, 505, 711]",18,TOTAL_COST,TỔNG TIỀN PHẢI T.TOÁN,1024,1366

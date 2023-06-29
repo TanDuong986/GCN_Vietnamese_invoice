@@ -1,0 +1,5 @@
+index,bbox,label_id,label_text,content,width,height
+0,"[296, 343, 690, 388]",15,SELLER,CỮA HÀNG NĂM OÁNH,1024,1365
+1,"[641, 644, 911, 689]",17,TIMESTAMP,Ngày: 11-08-2020,1024,1365
+2,"[79, 1011, 354, 1069]",18,TOTAL_COST,Cộng tiền hàng tiền hàng,1024,1365
+3,"[766, 1022, 928, 1061]",18,TOTAL_COST,"145,000",1024,1365

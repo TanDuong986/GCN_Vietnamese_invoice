@@ -1,0 +1,5 @@
+index,bbox,label_id,label_text,content,width,height
+0,"[286, 159, 720, 197]",16,ADDRESS,"A001 Chung Cư Citineme, P.Cát Lái, Q.2",1024,1366
+1,"[244, 314, 317, 346]",17,TIMESTAMP,Ngày,1024,1366
+2,"[405, 311, 623, 343]",17,TIMESTAMP,11/06/2020 21:07:25,1024,1366
+3,"[393, 1087, 555, 1122]",18,TOTAL_COST,Tổng tiền (VND),1024,1366

@@ -1,0 +1,6 @@
+index,bbox,label_id,label_text,content,width,height
+0,"[356, 42, 756, 95]",15,SELLER,Nhà Hàng Aozora Sushi,1024,1332
+1,"[202, 378, 335, 415]",17,TIMESTAMP,Thời gian,1024,1332
+2,"[663, 388, 896, 420]",17,TIMESTAMP,15-08-2020 19:31,1024,1332
+3,"[131, 1047, 241, 1109]",18,TOTAL_COST,Tổng,1024,1332
+4,"[745, 1074, 926, 1119]",18,TOTAL_COST,"421,000đ",1024,1332

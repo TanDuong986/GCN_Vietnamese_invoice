@@ -1,0 +1,4 @@
+index,bbox,label_id,label_text,content,width,height
+0,"[250, 55, 440, 90]",15,SELLER,MINIMART ANANAI,768,1024
+1,"[97, 840, 203, 869]",18,TOTAL_COST,Tổng tiền,768,1024
+2,"[542, 830, 628, 857]",18,TOTAL_COST,"109,500",768,1024

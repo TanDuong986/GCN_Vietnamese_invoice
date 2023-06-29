@@ -1,0 +1,6 @@
+index,bbox,label_id,label_text,content,width,height
+0,"[319, 120, 443, 139]",16,ADDRESS,VM+ QNH 590 Trần Phú,768,1024
+1,"[302, 141, 470, 163]",16,ADDRESS,Số 590 Trần Phú P. Cẩm Thuỷ,768,1024
+2,"[317, 163, 454, 182]",16,ADDRESS,"TP. Cẩm Phả, Quảng Ninh",768,1024
+3,"[158, 243, 372, 272]",17,TIMESTAMP,Ngày bán: 15/08/2020 10:40,768,1024
+4,"[174, 512, 532, 552]",18,TOTAL_COST,211.820,768,1024

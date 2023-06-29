@@ -1,0 +1,7 @@
+index,bbox,label_id,label_text,content,width,height
+0,"[34, 335, 198, 384]",15,SELLER,VinCommerce,576,1024
+1,"[227, 282, 491, 313]",16,ADDRESS,VM+ QNH Dự án KDC lấn biển coc 6,576,1024
+2,"[245, 319, 482, 346]",16,ADDRESS,"DA khu DCLB coc 6,P.Cẩm Sơn",576,1024
+3,"[252, 348, 464, 379]",16,ADDRESS,"TP. Cẩm Phả, T.Quảng Ninh",576,1024
+4,"[32, 434, 219, 462]",17,TIMESTAMP,Ngày : 14/08/2020,576,1024
+5,"[349, 436, 530, 463]",17,TIMESTAMP,Thời gian: 21:41,576,1024

@@ -1,0 +1,5 @@
+index,bbox,label_id,label_text,content,width,height
+0,"[274, 174, 504, 211]",15,SELLER,Guitar Cafe,768,1024
+1,"[139, 263, 648, 298]",16,ADDRESS,"Đa Phan Chu Trinh, Hiếp Phú, Quận 9, Hồ",768,1024
+2,"[129, 316, 381, 348]",17,TIMESTAMP,Ngày 1 tháng 2020,768,1024
+3,"[282, 766, 683, 809]",18,TOTAL_COST,"Thành tiền: 125,000",768,1024

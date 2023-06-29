@@ -1,0 +1,5 @@
+index,bbox,label_id,label_text,content,width,height
+0,"[216, 168, 369, 289]",15,SELLER,VinCommerce,1024,1366
+1,"[392, 172, 601, 260]",16,ADDRESS,"VM+ HNI 32 Láng Trung số 32 Ngô Láng Trung, P.Lăng Ha Q.Đống Đa , Hà Nội",1024,1366
+2,"[221, 313, 479, 359]",17,TIMESTAMP,Ngày bán: 11/08/2020 18:06,1024,1366
+3,"[210, 707, 650, 741]",18,TOTAL_COST,TỔNG TIỀN PHẢI T.TOÁN,1024,1366

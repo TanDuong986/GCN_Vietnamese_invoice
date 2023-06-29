@@ -1,0 +1,5 @@
+index,bbox,label_id,label_text,content,width,height
+0,"[259, 167, 427, 191]",15,SELLER,SIÊU THỊ BÁCH HOÁ TỔNG HỢP,720,1280
+1,"[376, 879, 481, 895]",17,TIMESTAMP,Ngày: 09/08/2020 - 16,720,1280
+2,"[238, 729, 348, 745]",18,TOTAL_COST,Tổng tiền đã gồm VAT:,720,1280
+3,"[434, 723, 476, 739]",18,TOTAL_COST,96.000,720,1280

@@ -1,0 +1,7 @@
+index,bbox,label_id,label_text,content,width,height
+0,"[40, 83, 118, 108]",15,SELLER,VinCommerce,352,480
+1,"[145, 77, 235, 91]",16,ADDRESS,Số: CCB ngõ 168 Kim Giang,352,480
+2,"[145, 91, 234, 105]",16,ADDRESS,"P.Đại Kim, Q.Hoàng Mai, HN",352,480
+3,"[39, 140, 184, 153]",17,TIMESTAMP,Ngày bán: 23/07/2020 21:09,352,480
+4,"[44, 246, 161, 262]",18,TOTAL_COST,TỔNG TIỀN PHẢI T.TOÁN,352,480
+5,"[227, 249, 261, 262]",18,TOTAL_COST,13.500,352,480

@@ -1,0 +1,3 @@
+index,bbox,label_id,label_text,content,width,height
+0,"[170, 703, 275, 720]",18,TOTAL_COST,Tổng số thanh toán,576,1024
+1,"[362, 703, 425, 720]",18,TOTAL_COST,"584,000đ",576,1024

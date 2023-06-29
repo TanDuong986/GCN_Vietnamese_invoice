@@ -1,0 +1,8 @@
+index,bbox,label_id,label_text,content,width,height
+0,"[349, 68, 530, 125]",15,SELLER,co.op mart,960,1280
+1,"[388, 96, 562, 156]",15,SELLER,Co.opMart HAU GIANG,960,1280
+2,"[350, 126, 620, 198]",16,ADDRESS,"188 Hau Giang, P.6 Q.6 , TPHCM",960,1280
+3,"[429, 330, 573, 375]",17,TIMESTAMP,Ngày: 21/05/2028,960,1280
+4,"[588, 313, 668, 345]",17,TIMESTAMP,H1:53:16,960,1280
+5,"[326, 705, 544, 735]",18,TOTAL_COST,Tong so tien thanh toan:,960,1280
+6,"[585, 691, 694, 723]",18,TOTAL_COST,"748,600.00",960,1280

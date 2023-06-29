@@ -1,0 +1,6 @@
+index,bbox,label_id,label_text,content,width,height
+0,"[355, 272, 672, 310]",15,SELLER,Phúc Anh Minimart,1024,1820
+1,"[262, 298, 731, 336]",16,ADDRESS,248 Cổ Bi - Gia Lâm - Hà Nội,1024,1820
+2,"[655, 535, 944, 584]",17,TIMESTAMP,Ngày: 16-08-2020,1024,1820
+3,"[36, 1184, 296, 1221]",18,TOTAL_COST,Khách phải trả,1024,1820
+4,"[764, 1180, 904, 1241]",18,TOTAL_COST,"153,000 153,000",1024,1820

@@ -1,0 +1,4 @@
+index,bbox,label_id,label_text,content,width,height
+0,"[413, 342, 444, 532]",15,SELLER,MINIMART ANAN,1024,768
+1,"[863, 212, 896, 403]",17,TIMESTAMP,Ngày: 10/08/2020 09:31,1024,768
+2,"[794, 546, 822, 648]",18,TOTAL_COST,Tổng cộng :,1024,768

@@ -1,0 +1,7 @@
+index,bbox,label_id,label_text,content,width,height
+0,"[225, 190, 318, 228]",15,SELLER,VinCommerce,768,1024
+1,"[354, 154, 473, 183]",16,ADDRESS,"Số 42 Phố Sủi, xã Phú Thị",768,1024
+2,"[359, 172, 470, 203]",16,ADDRESS,"huyện Gia Lâm, Hà Nội",768,1024
+3,"[223, 249, 397, 287]",17,TIMESTAMP,Ngày bán: 15/08/2020 07:55,768,1024
+4,"[208, 492, 319, 517]",18,TOTAL_COST,TIỀN KHÁCH TRÀ,768,1024
+5,"[473, 481, 535, 498]",18,TOTAL_COST,148.000,768,1024

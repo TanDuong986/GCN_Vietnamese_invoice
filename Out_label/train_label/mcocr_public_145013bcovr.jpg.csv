@@ -1,0 +1,6 @@
+index,bbox,label_id,label_text,content,width,height
+0,"[251, 256, 276, 429]",16,ADDRESS,"DA khu DCLB cọc 6, P. Cẩm Sơn",1024,768
+1,"[275, 268, 301, 422]",16,ADDRESS,"TP. Cẩm Phả, T.Quảng Ninh",1024,768
+2,"[353, 364, 384, 588]",17,TIMESTAMP,Ngày bán: 15/08/2020 10:59,1024,768
+3,"[505, 401, 533, 593]",18,TOTAL_COST,TỔNG TIỀN PHẢI T.TOÁN,1024,768
+4,"[517, 221, 536, 282]",18,TOTAL_COST,75.900,1024,768

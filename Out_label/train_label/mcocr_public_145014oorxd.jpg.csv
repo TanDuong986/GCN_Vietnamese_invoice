@@ -1,0 +1,9 @@
+index,bbox,label_id,label_text,content,width,height
+0,"[236, 88, 710, 201]",15,SELLER,co.op smile,1024,1366
+1,"[100, 239, 898, 286]",16,ADDRESS,CO.OPSMILE -A1 KHU B KTX ĐẠI HỌC QUỐC GIA,1024,1366
+2,"[142, 289, 867, 324]",16,ADDRESS,"Toa nha A1, Ky tuc xa khu B, Khu pho Tan Hoa,",1024,1366
+3,"[131, 322, 877, 360]",16,ADDRESS,"Phuong Dong Hoa, Thị xa Di An, Tỉnh Bình Duong",1024,1366
+4,"[108, 514, 382, 549]",17,TIMESTAMP,Ngay: 13/09/2020,1024,1366
+5,"[506, 506, 704, 540]",17,TIMESTAMP,Gio: 20:40:40:02,1024,1366
+6,"[126, 826, 329, 861]",18,TOTAL_COST,TONG CONG,1024,1366
+7,"[805, 815, 906, 847]",18,TOTAL_COST,26.500,1024,1366

@@ -1,0 +1,7 @@
+index,bbox,label_id,label_text,content,width,height
+0,"[233, 342, 556, 416]",15,SELLER,FamilyMart,730,1440
+1,"[99, 438, 600, 473]",16,ADDRESS,"Block D3 Khu B KTX ĐHQG, P.Đông Hoà,",730,1440
+2,"[218, 476, 490, 504]",16,ADDRESS,"TX Lĩ An, Bình Dương",730,1440
+3,"[60, 928, 433, 995]",17,TIMESTAMP,Ngày 13/08/2020 - Giờ: 18:41,730,1440
+4,"[96, 767, 232, 804]",18,TOTAL_COST,Tổng cộng:,730,1440
+5,"[556, 756, 628, 793]",18,TOTAL_COST,8.000,730,1440

@@ -1,0 +1,7 @@
+index,bbox,label_id,label_text,content,width,height
+0,"[45, 80, 428, 169]",15,SELLER,TỔNG CÔNG TY ĐẦU TƯ PHÁT TRIỂN ĐƯỜNG CAO TỐC VIỆT NAM - Cty TNHH MTV,1024,1366
+1,"[447, 82, 906, 127]",15,SELLER,CÔNG TY CỔ PHẦN BOT PHÁP VÂN - CẦU GIẼ,1024,1366
+2,"[38, 142, 426, 222]",16,ADDRESS,"Trụ sở chính: Tầng 2,3,4,5 Tháp A, Toà nhà CENTRAL POINT - Số 219 phố Trung Kính, Phường Yên Hoà, Quận Cầu Giấy, Thành phố Hà Nội, Việt Nam",1024,1366
+3,"[446, 122, 909, 186]",16,ADDRESS,"Trụ sở chính: Km 188+300 cao tóc Pháp Vân - Cầu Giẽ, thôn Nội Am Xã Liên Ninh, Huyện Thanh Trì, Thành phố Hà Nội, Việt Nam",1024,1366
+4,"[613, 702, 836, 762]",17,TIMESTAMP,14-08-2020,1024,1366
+5,"[58, 1072, 240, 1123]",18,TOTAL_COST,Tổng số tiền:,1024,1366

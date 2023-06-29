@@ -1,0 +1,6 @@
+index,bbox,label_id,label_text,content,width,height
+0,"[216, 259, 378, 292]",15,SELLER,VinCommerce,1024,1366
+1,"[467, 184, 633, 220]",16,ADDRESS,VM+ 139 Chiến Thắng,1024,1366
+2,"[423, 235, 673, 274]",16,ADDRESS,"P Tân Triều, H Thanh Trì, Hà Nội",1024,1366
+3,"[211, 364, 517, 404]",17,TIMESTAMP,Ngày bán: 13/08/2020 08:32,1024,1366
+4,"[627, 620, 720, 646]",18,TOTAL_COST,255.000,1024,1366

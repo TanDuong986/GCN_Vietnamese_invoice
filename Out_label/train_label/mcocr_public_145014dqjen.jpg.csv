@@ -1,0 +1,7 @@
+index,bbox,label_id,label_text,content,width,height
+0,"[194, 179, 387, 240]",15,SELLER,VinCommerce,1024,1366
+1,"[473, 117, 674, 154]",16,ADDRESS,Phạm Ngọc Thạch,1024,1366
+2,"[411, 153, 737, 193]",16,ADDRESS,TTTM Vincom Số 1 Phạm Ngọc Thạch,1024,1366
+3,"[187, 314, 543, 355]",17,TIMESTAMP,Ngày/giờ: 14/08/2020 15:36,1024,1366
+4,"[186, 552, 490, 588]",18,TOTAL_COST,TỔNG TIỀN PHẢI T.TOÁN,1024,1366
+5,"[681, 548, 789, 577]",18,TOTAL_COST,184.500,1024,1366

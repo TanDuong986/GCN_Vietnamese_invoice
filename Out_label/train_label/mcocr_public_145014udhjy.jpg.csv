@@ -1,0 +1,4 @@
+index,bbox,label_id,label_text,content,width,height
+0,"[273, 195, 404, 209]",17,TIMESTAMP,NGÀY KINH DOANH: 14/08/2020,768,1024
+1,"[272, 324, 350, 338]",18,TOTAL_COST,Tổng thanh toán,768,1024
+2,"[432, 328, 483, 341]",18,TOTAL_COST,5.360.869,768,1024

@@ -1,0 +1,3 @@
+index,bbox,label_id,label_text,content,width,height
+0,"[98, 294, 516, 361]",17,TIMESTAMP,Ngày bán: 17/08/2020 06:28,1024,1366
+1,"[114, 668, 781, 718]",18,TOTAL_COST,TỔNG TIỀN PHẢI T.TOÁN,1024,1366

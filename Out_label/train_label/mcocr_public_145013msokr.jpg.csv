@@ -1,0 +1,5 @@
+index,bbox,label_id,label_text,content,width,height
+0,"[249, 2, 480, 35]",16,ADDRESS,Chợ Sủi Phú Thị Gia Lam,768,1024
+1,"[396, 984, 609, 1015]",17,TIMESTAMP,Ngày: 11/08/2020 - 17:57,768,1024
+2,"[115, 865, 217, 898]",18,TOTAL_COST,Tổng tiền:,768,1024
+3,"[525, 869, 609, 893]",18,TOTAL_COST,"345,000",768,1024

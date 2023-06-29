@@ -1,0 +1,5 @@
+index,bbox,label_id,label_text,content,width,height
+0,"[333, 54, 587, 107]",15,SELLER,BÁCH HOÁ XANH,1024,1366
+1,"[241, 130, 684, 190]",16,ADDRESS,"116-118 Vĩnh Hội, Phường 04, Quận 4, Thành phố Hồ Chí Minh, Việt Nam",1024,1366
+2,"[224, 269, 549, 308]",17,TIMESTAMP,Ngày CT: 11/08/2020 18:57,1024,1366
+3,"[341, 896, 695, 944]",18,TOTAL_COST,"Tổng tiền: 218,770",1024,1366

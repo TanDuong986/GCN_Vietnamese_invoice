@@ -1,0 +1,7 @@
+index,bbox,label_id,label_text,content,width,height
+0,"[188, 183, 254, 200]",15,SELLER,PHỐ MỎ,472,1024
+1,"[90, 198, 346, 224]",16,ADDRESS,Tổ 7 khu Tân Lập 4 - Phường Cẩnm Thuỷ,472,1024
+2,"[123, 220, 323, 242]",16,ADDRESS,Tp Cẩm Phả - Quảng Ninh,472,1024
+3,"[166, 304, 285, 316]",17,TIMESTAMP,11/08/2020 21:37,472,1024
+4,"[331, 588, 374, 604]",18,TOTAL_COST,"60,000",472,1024
+5,"[215, 590, 285, 608]",18,TOTAL_COST,Tổng cộng:,472,1024

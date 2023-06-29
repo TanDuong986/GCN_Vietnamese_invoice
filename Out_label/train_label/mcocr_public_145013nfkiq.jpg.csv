@@ -1,0 +1,6 @@
+index,bbox,label_id,label_text,content,width,height
+0,"[208, 219, 629, 264]",15,SELLER,SCTC cổ THỎ 104 TRẦN PHÚ - CẨM,720,1280
+1,"[385, 258, 449, 288]",15,SELLER,PHẢ,720,1280
+2,"[191, 284, 643, 333]",16,ADDRESS,"104 Trần Phú, phường Cẩm Tê, Thành phố Cẩm",720,1280
+3,"[172, 469, 463, 507]",17,TIMESTAMP,Ngày: 08/08/2020 (08:30 CH 08:30 CH),720,1280
+4,"[160, 711, 647, 753]",18,TOTAL_COST,Tổng thanh toán,720,1280

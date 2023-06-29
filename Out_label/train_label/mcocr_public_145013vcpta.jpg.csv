@@ -1,0 +1,4 @@
+index,bbox,label_id,label_text,content,width,height
+0,"[458, 507, 746, 561]",17,TIMESTAMP,Ngày: 17/07/2018,1024,1366
+1,"[218, 752, 776, 787]",18,TOTAL_COST,Tiền Thanh Toán: 22.000,1024,1366
+2,"[662, 744, 782, 782]",18,TOTAL_COST,33 000,1024,1366

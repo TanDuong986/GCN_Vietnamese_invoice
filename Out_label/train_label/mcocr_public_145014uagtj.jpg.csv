@@ -1,0 +1,6 @@
+index,bbox,label_id,label_text,content,width,height
+0,"[114, 230, 158, 443]",16,ADDRESS,"VM+ QNH Tổ 7, Khu Minh Tiến A",1024,768
+1,"[146, 263, 180, 407]",16,ADDRESS,"Tổ 7, Khu Minh Tiến A",1024,768
+2,"[289, 355, 325, 618]",17,TIMESTAMP,Ngày bán: 14/08/2020 17:28,1024,768
+3,"[496, 385, 532, 611]",18,TOTAL_COST,TỔNG TIỀN PHẢI T.TOÁN,1024,768
+4,"[492, 162, 518, 233]",18,TOTAL_COST,50.000,1024,768

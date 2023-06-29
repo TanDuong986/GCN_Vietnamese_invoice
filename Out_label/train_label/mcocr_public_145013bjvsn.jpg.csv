@@ -1,0 +1,5 @@
+index,bbox,label_id,label_text,content,width,height
+0,"[238, 407, 262, 464]",15,SELLER,PHẢ,1024,768
+1,"[254, 213, 302, 647]",16,ADDRESS,104 Trần Phú - phường Cẩm Tây - Thành phố Cẩm,1024,768
+2,"[292, 339, 321, 512]",16,ADDRESS,Phả - Quảng Ninh,1024,768
+3,"[693, 458, 739, 652]",18,TOTAL_COST,Tổng thanh toán,1024,768

@@ -1,0 +1,9 @@
+index,bbox,label_id,label_text,content,width,height
+0,"[252, 641, 550, 672]",18,TOTAL_COST,Tong so tien thanh toan:,1024,1366
+1,"[611, 633, 735, 665]",18,TOTAL_COST,"114,150.00",1024,1366
+2,"[416, 373, 731, 405]",17,TIMESTAMP,Ngày: 12/08/2020 18:56:54,1024,1366
+3,"[327, 93, 655, 119]",16,ADDRESS,400m2.tang 01 toa nha CT5A,1024,1366
+4,"[304, 118, 673, 151]",16,ADDRESS,thuoc du an Van Khe tai dia chỉ,1024,1366
+5,"[258, 145, 716, 179]",16,ADDRESS,"khu đo thị van Khe, Ha Dong, Tp.Ha Noi",1024,1366
+6,"[410, 1, 558, 30]",15,SELLER,Saigon Co.op,1024,1366
+7,"[352, 34, 619, 65]",15,SELLER,Co.op Food HN VAN KHE,1024,1366

@@ -1,0 +1,7 @@
+index,bbox,label_id,label_text,content,width,height
+0,"[115, 170, 239, 204]",15,SELLER,VinCommercce,576,1024
+1,"[263, 149, 455, 172]",16,ADDRESS,"Số 112 Thanh Niên, P.Cẩm Thành",576,1024
+2,"[286, 172, 434, 194]",16,ADDRESS,"TP Cẩm Bình, Quảng Ninh",576,1024
+3,"[113, 260, 341, 280]",17,TIMESTAMP,Ngày bán: 12/08/2020 07:445,576,1024
+4,"[119, 456, 322, 474]",18,TOTAL_COST,TỔNG TIỀN PHẢI T.TOÁN,576,1024
+5,"[438, 449, 498, 472]",18,TOTAL_COST,23.400,576,1024

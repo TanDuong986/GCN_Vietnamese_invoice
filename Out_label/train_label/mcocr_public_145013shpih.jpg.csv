@@ -1,0 +1,8 @@
+index,bbox,label_id,label_text,content,width,height
+0,"[301, 119, 588, 164]",15,SELLER,Co.opXtra LINH TRUNG,1024,1366
+1,"[228, 48, 519, 104]",15,SELLER,Coop xtra,1024,1366
+2,"[163, 170, 716, 227]",16,ADDRESS,"934 Quoc Lo 1A, P.Linh Trung, Q.Thu Duc",1024,1366
+3,"[369, 379, 595, 427]",17,TIMESTAMP,Ngày : 11/01/2020,1024,1366
+4,"[621, 376, 731, 414]",17,TIMESTAMP,12:41:42,1024,1366
+5,"[201, 721, 526, 766]",18,TOTAL_COST,Tong so tien thanh toan:,1024,1366
+6,"[609, 716, 747, 749]",18,TOTAL_COST,"51,640.60",1024,1366

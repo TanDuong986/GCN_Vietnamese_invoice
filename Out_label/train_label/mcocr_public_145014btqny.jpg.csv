@@ -1,0 +1,8 @@
+index,bbox,label_id,label_text,content,width,height
+0,"[203, 339, 405, 395]",15,SELLER,VinCommerce,1024,1366
+1,"[461, 265, 752, 303]",16,ADDRESS,VM+ HNI TDP 2 Mễ Trí Thương,1024,1366
+2,"[464, 308, 757, 344]",16,ADDRESS,"TDP 2 Mễ Tri thương, P.Mễ Trí",1024,1366
+3,"[495, 349, 723, 390]",16,ADDRESS,"Q. Nam Từ Liêm, Hà Nội",1024,1366
+4,"[200, 494, 580, 531]",17,TIMESTAMP,Ngày bán: 27/08/2020 21:21,1024,1366
+5,"[202, 741, 525, 779]",18,TOTAL_COST,HỒNG TIỀN PHẢI T.TOÁN,1024,1366
+6,"[734, 747, 834, 781]",18,TOTAL_COST,13.000,1024,1366

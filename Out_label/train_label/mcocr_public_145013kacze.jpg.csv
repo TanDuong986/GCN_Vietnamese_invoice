@@ -1,0 +1,7 @@
+index,bbox,label_id,label_text,content,width,height
+0,"[326, 21, 733, 81]",15,SELLER,Nhà hàng Aozora Sushi,1024,1629
+1,"[205, 55, 855, 127]",16,ADDRESS,"BS3 Thụy Khuê, Quận Tây Hồ, Thành phố Hà Nội",1024,1629
+2,"[155, 338, 284, 384]",17,TIMESTAMP,Giờ vào,1024,1629
+3,"[629, 364, 878, 412]",17,TIMESTAMP,14-08-2020 20:53,1024,1629
+4,"[149, 385, 258, 423]",18,TOTAL_COST,Giờ ma :,1024,1629
+5,"[623, 409, 881, 447]",18,TOTAL_COST,14-08-2020 21:31,1024,1629

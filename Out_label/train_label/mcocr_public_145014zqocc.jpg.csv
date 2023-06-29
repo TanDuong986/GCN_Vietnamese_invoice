@@ -1,0 +1,5 @@
+index,bbox,label_id,label_text,content,width,height
+0,"[417, 75, 667, 140]",15,SELLER,sai gon co.op Co.op Food HN THE K - PARK,1024,1366
+1,"[317, 136, 729, 295]",16,ADDRESS,"Dang 1, SH42 - Toa K3, Cong trinh chung qu",1024,1366
+2,"[430, 429, 705, 478]",17,TIMESTAMP,Ngày: 20/09/2019 10:25:05,1024,1366
+3,"[267, 593, 682, 670]",18,TOTAL_COST,Tong so tien thanh toan,1024,1366

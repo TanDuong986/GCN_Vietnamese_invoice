@@ -1,0 +1,4 @@
+index,bbox,label_id,label_text,content,width,height
+0,"[143, 148, 280, 159]",17,TIMESTAMP,NGÀY HỆ THỐNG: 12/06/2020 22:11,576,1024
+1,"[143, 387, 193, 401]",18,TOTAL_COST,Tổng Tiền,576,1024
+2,"[294, 387, 343, 399]",18,TOTAL_COST,0.357.075,576,1024

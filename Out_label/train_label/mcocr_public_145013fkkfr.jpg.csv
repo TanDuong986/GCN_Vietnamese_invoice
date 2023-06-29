@@ -1,0 +1,8 @@
+index,bbox,label_id,label_text,content,width,height
+0,"[513, 11, 730, 77]",15,SELLER,HCM 793 Nguyễn Kiệm,1024,1213
+1,"[429, 116, 492, 153]",16,ADDRESS,793,1024,1213
+2,"[438, 75, 699, 153]",16,ADDRESS,"VM + Quận Gò Vấp, TP HCM",1024,1213
+3,"[154, 273, 470, 324]",17,TIMESTAMP,Ngày bán: 30/03/2019,1024,1213
+4,"[165, 627, 804, 722]",18,TOTAL_COST,TỔNG TIỀN PHẢI T.TOÁN,1024,1213
+5,"[158, 131, 375, 193]",15,SELLER,VinCommerce,1024,1213
+6,"[487, 36, 729, 114]",16,ADDRESS,Nguyễn Kiêm. Phường 3,1024,1213

@@ -1,0 +1,5 @@
+index,bbox,label_id,label_text,content,width,height
+0,"[263, 55, 748, 147]",15,SELLER,THE COFFEE HQUSE,1024,1366
+1,"[310, 139, 704, 191]",16,ADDRESS,"14B1 Ngô Tất Tổ, Q Bình Thanh",1024,1366
+2,"[200, 230, 508, 275]",17,TIMESTAMP,THời gian: 16.08.2020 08.51,1024,1366
+3,"[245, 676, 419, 716]",18,TOTAL_COST,Thanh Toán:,1024,1366

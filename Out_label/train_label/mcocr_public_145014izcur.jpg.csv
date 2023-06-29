@@ -1,0 +1,4 @@
+index,bbox,label_id,label_text,content,width,height
+0,"[428, 163, 566, 208]",15,SELLER,BIG C AN PHÚ,1024,1366
+1,"[304, 184, 692, 265]",16,ADDRESS,"CN CTY TNHH TM-DV-PPTH ( TP HA NOI) 01. Cantavil An Phu. KP. 5, An Phu, Q2",1024,1366
+2,"[366, 521, 718, 577]",18,TOTAL_COST,TONG CONG 86.100đ,1024,1366

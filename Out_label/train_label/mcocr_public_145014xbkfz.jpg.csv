@@ -1,0 +1,8 @@
+index,bbox,label_id,label_text,content,width,height
+0,"[329, 36, 437, 73]",15,SELLER,VinCommerce,960,1280
+1,"[487, 8, 593, 30]",16,ADDRESS,VM+HN: 36 Đình Thôn,960,1280
+2,"[467, 29, 611, 48]",16,ADDRESS,Số 35 Đinh Thôn Thôn P. Mỹ Đình 1,960,1280
+3,"[480, 49, 599, 65]",16,ADDRESS,"Q. Nam Từ Uấn, Hà Nội",960,1280
+4,"[329, 121, 526, 139]",17,TIMESTAMP,Ngày bán: 23/08/2020 18:04,960,1280
+5,"[321, 858, 500, 881]",18,TOTAL_COST,TỔNG TIỀN PHẢI T.TOÁN,960,1280
+6,"[596, 854, 668, 880]",18,TOTAL_COST,"464,549",960,1280

@@ -1,0 +1,7 @@
+index,bbox,label_id,label_text,content,width,height
+0,"[374, 16, 670, 95]",15,SELLER,mart,1024,1366
+1,"[300, 146, 741, 185]",16,ADDRESS,"Số 5 ngõ 26 Nguyễn Khánh Toàn, Cầu Giấy, Hà Nội",1024,1366
+2,"[248, 285, 359, 327]",17,TIMESTAMP,Ngày bán,1024,1366
+3,"[414, 295, 617, 332]",17,TIMESTAMP,15/08/2020 12:55,1024,1366
+4,"[241, 973, 400, 1006]",18,TOTAL_COST,Tổng tiền hàng,1024,1366
+5,"[687, 980, 773, 1013]",18,TOTAL_COST,268000,1024,1366

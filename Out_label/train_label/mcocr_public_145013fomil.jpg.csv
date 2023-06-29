@@ -1,0 +1,3 @@
+index,bbox,label_id,label_text,content,width,height
+0,"[215, 482, 395, 505]",18,TOTAL_COST,TỔNG TIỀN PHẢI T.TOÁN,768,1024
+1,"[498, 481, 560, 503]",18,TOTAL_COST,105.806,768,1024

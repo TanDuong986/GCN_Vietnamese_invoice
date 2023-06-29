@@ -1,0 +1,7 @@
+index,bbox,label_id,label_text,content,width,height
+0,"[240, 81, 482, 112]",15,SELLER,BÁCH HOÀ XANH,720,1280
+1,"[142, 145, 596, 172]",16,ADDRESS,Thửa đất số 14 Tờ bản đồ số 3 Khu phố Đông,720,1280
+2,"[151, 172, 584, 195]",16,ADDRESS,"Chiêu, Phường Tân Đông Hiệp, Thị xã Dĩ An.",720,1280
+3,"[269, 297, 447, 320]",17,TIMESTAMP,01/08/2020 11:45,720,1280
+4,"[196, 740, 356, 774]",18,TOTAL_COST,Thanh toán:,720,1280
+5,"[509, 749, 609, 776]",18,TOTAL_COST,"88,500",720,1280

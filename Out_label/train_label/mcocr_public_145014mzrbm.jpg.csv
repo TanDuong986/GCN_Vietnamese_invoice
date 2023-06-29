@@ -1,0 +1,7 @@
+index,bbox,label_id,label_text,content,width,height
+0,"[167, 287, 276, 316]",15,SELLER,VinCommerce,768,1024
+1,"[295, 244, 482, 280]",16,ADDRESS,Số 36 Đường Trần Phú P. Cẩm Tây,768,1024
+2,"[315, 272, 461, 302]",16,ADDRESS,"TP Cẩm Phả, T. Quảng Ninh.",768,1024
+3,"[169, 361, 376, 390]",17,TIMESTAMP,Ngày bán: 08/08/2020 20:50,768,1024
+4,"[177, 501, 353, 530]",18,TOTAL_COST,TỔNG TIỀN PHẢI T.TOÁN,768,1024
+5,"[464, 493, 520, 515]",18,TOTAL_COST,61.800,768,1024

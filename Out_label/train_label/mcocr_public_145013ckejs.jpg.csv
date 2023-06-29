@@ -1,0 +1,4 @@
+index,bbox,label_id,label_text,content,width,height
+0,"[175, 33, 619, 117]",15,SELLER,co.op mart,1024,1938
+1,"[225, 126, 712, 216]",16,ADDRESS,Co.opMart XA LO HA NOI,1024,1938
+2,"[490, 1857, 605, 1912]",17,TIMESTAMP,18:11,1024,1938

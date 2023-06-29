@@ -1,0 +1,6 @@
+index,bbox,label_id,label_text,content,width,height
+0,"[176, 258, 201, 399]",16,ADDRESS,"Tổ 7, Khu Minh Tiến A",1024,768
+1,"[199, 472, 236, 604]",15,SELLER,VinCommerce,1024,768
+2,"[305, 355, 328, 612]",17,TIMESTAMP,Ngày bán: 14/08/2020 20:00,1024,768
+3,"[528, 391, 553, 613]",18,TOTAL_COST,TỔNG TIỀN PHẢI T.TOÁN,1024,768
+4,"[531, 174, 560, 251]",18,TOTAL_COST,20.900,1024,768

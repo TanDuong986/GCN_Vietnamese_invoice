@@ -1,0 +1,7 @@
+index,bbox,label_id,label_text,content,width,height
+0,"[108, 382, 287, 433]",15,SELLER,VinCommerce,720,1280
+1,"[369, 330, 544, 357]",16,ADDRESS,VM+ QQNH 86 Trần Phú,720,1280
+2,"[319, 359, 598, 394]",16,ADDRESS,"Số 86 Đường Trần Phú , P.Cẩm Tây",720,1280
+3,"[341, 398, 562, 426]",16,ADDRESS,"TP Cẩm Phả, T.Quang Ninh",720,1280
+4,"[111, 487, 307, 512]",17,TIMESTAMP,Ngày: 09/08/2020,720,1280
+5,"[446, 487, 645, 512]",17,TIMESTAMP,Thời gian: 18:04,720,1280

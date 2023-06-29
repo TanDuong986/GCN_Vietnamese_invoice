@@ -1,0 +1,8 @@
+index,bbox,label_id,label_text,content,width,height
+0,"[162, 280, 282, 310]",15,SELLER,VinCommerce,768,1024
+1,"[328, 231, 472, 249]",16,ADDRESS,VM+QNH 112 Thanh Niên,768,1024
+2,"[309, 251, 492, 277]",16,ADDRESS,"Số 112 Thanh Niên,P.Cẩm Thành",768,1024
+3,"[329, 274, 473, 298]",16,ADDRESS,"TP.Cẩm Phả, Quảng Ninh",768,1024
+4,"[168, 366, 384, 390]",17,TIMESTAMP,Ngày bán: 09/08/2020 18:21,768,1024
+5,"[174, 511, 363, 537]",18,TOTAL_COST,TỔNG TIỀN PHẢI T.TOÁN,768,1024
+6,"[482, 508, 539, 525]",18,TOTAL_COST,47 . 500,768,1024

@@ -1,0 +1,5 @@
+index,bbox,label_id,label_text,content,width,height
+0,"[409, 174, 668, 226]",15,SELLER,BIG C LONG BIEN,1024,1820
+1,"[250, 202, 846, 320]",16,ADDRESS,"Cty TNHH TMQT DV Sthi Big C Thang Long, 222 Trần Duy Hung, cau Giay, Ha Noi",1024,1820
+2,"[563, 1243, 879, 1290]",17,TIMESTAMP,13/08/2020 19:26:36,1024,1820
+3,"[329, 787, 867, 874]",18,TOTAL_COST,TONG CONG 92 . 400d,1024,1820

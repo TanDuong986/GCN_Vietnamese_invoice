@@ -1,0 +1,7 @@
+index,bbox,label_id,label_text,content,width,height
+0,"[177, 187, 304, 230]",15,SELLER,VinCommerce,768,1024
+1,"[343, 179, 531, 202]",16,ADDRESS,DA QĐ đọc tuyến ĐS Tổ 3 Khu 2,768,1024
+2,"[342, 204, 535, 229]",16,ADDRESS,"P.Cẩm Sơn, TP. Cẩm Phả, T.QN",768,1024
+3,"[173, 294, 415, 322]",17,TIMESTAMP,Ngày bán: 14/08/2020 17:23,768,1024
+4,"[172, 531, 374, 553]",18,TOTAL_COST,TỔNG TIỀN PHẢI T.TOÁN,768,1024
+5,"[512, 538, 571, 556]",18,TOTAL_COST,81.302,768,1024

@@ -1,0 +1,5 @@
+index,bbox,label_id,label_text,content,width,height
+0,"[260, 57, 410, 105]",15,SELLER,VinCommerce,1024,1365
+1,"[430, 70, 645, 102]",16,ADDRESS,"P.Dịch Vọng, Q.Cầu Giấy , Hà Nội",1024,1365
+2,"[483, 16, 598, 42]",15,SELLER,VM Thàng Long,1024,1365
+3,"[615, 699, 705, 730]",18,TOTAL_COST,209.996,1024,1365

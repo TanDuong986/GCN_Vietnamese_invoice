@@ -1,0 +1,4 @@
+index,bbox,label_id,label_text,content,width,height
+0,"[416, 775, 717, 801]",18,TOTAL_COST,Tổng tiền thanh toasn (Grand Total) CND,1024,1366
+1,"[638, 106, 801, 131]",17,TIMESTAMP,Date print: 31/1/2020,1024,1366
+2,"[830, 98, 930, 126]",17,TIMESTAMP,10:50:14AM,1024,1366

@@ -1,0 +1,4 @@
+index,bbox,label_id,label_text,content,width,height
+0,"[185, 292, 463, 324]",16,ADDRESS,191 Quang Trung Q.9,708,2860
+1,"[248, 573, 631, 619]",17,TIMESTAMP,Ngay: 3/07/2020 19:07:32,708,2860
+2,"[38, 1400, 637, 1442]",18,TOTAL_COST,Tong so tien thanh toan:,708,2860

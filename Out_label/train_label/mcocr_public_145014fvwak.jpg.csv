@@ -1,0 +1,5 @@
+index,bbox,label_id,label_text,content,width,height
+0,"[282, 200, 498, 225]",15,SELLER,Co.op mart,1024,1365
+1,"[272, 228, 573, 282]",16,ADDRESS,Co.opMart NGUYEN DINH CHIEU,1024,1365
+2,"[364, 430, 657, 464]",17,TIMESTAMP,Ngày: 21/05/2020 9:13:55,1024,1365
+3,"[225, 821, 641, 862]",18,TOTAL_COST,Tong so tien thanh toan,1024,1365

@@ -1,0 +1,8 @@
+index,bbox,label_id,label_text,content,width,height
+0,"[276, 701, 508, 728]",18,TOTAL_COST,TỔNG TIẾN PHẢI T.TOÁN,1024,1366
+1,"[653, 696, 729, 721]",18,TOTAL_COST,128.900,1024,1366
+2,"[266, 316, 538, 347]",17,TIMESTAMP,Ngày bán: 07/08/2020 20:08,1024,1366
+3,"[477, 153, 636, 183]",16,ADDRESS,VM+ HNI 32 Láng Trung,1024,1366
+4,"[446, 181, 667, 213]",16,ADDRESS,"Số 32 ngõ Láng Trung, P . Lánh Hạ",1024,1366
+5,"[490, 214, 624, 241]",16,ADDRESS,"Q. Đống Đa, Hà Nội",1024,1366
+6,"[268, 207, 415, 249]",15,SELLER,VinCommerce,1024,1366

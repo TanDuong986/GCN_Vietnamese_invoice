@@ -1,0 +1,11 @@
+index,bbox,label_id,label_text,content,width,height
+0,"[460, 214, 580, 259]",15,SELLER,Saigon Co.op,1024,1366
+1,"[408, 227, 638, 300]",15,SELLER,Co.op Food HN THE K-PARK,1024,1366
+2,"[317, 273, 717, 361]",16,ADDRESS,"Tang 1, SH 42 Toa K3 cong trinh chung cu",1024,1366
+3,"[325, 306, 709, 387]",16,ADDRESS,ket hop dich vu tren o dat H-CT2 thuoc,1024,1366
+4,"[316, 330, 718, 415]",16,ADDRESS,Du an Dau tu xay dung Khu nha o Hi Brand,1024,1366
+5,"[469, 592, 753, 627]",17,TIMESTAMP,Ngày: 17/09/2019 10:50:29,1024,1366
+6,"[312, 763, 586, 793]",18,TOTAL_COST,Tong so tien thanh toan:,1024,1366
+7,"[677, 757, 768, 785]",18,TOTAL_COST,"6,800.00",1024,1366
+8,"[401, 371, 674, 424]",16,ADDRESS,"tai khu do thi moi Van Phu,",1024,1366
+9,"[368, 394, 698, 455]",16,ADDRESS,"P. Phu La, Q. Ha Dong, Tp Ha Noi",1024,1366

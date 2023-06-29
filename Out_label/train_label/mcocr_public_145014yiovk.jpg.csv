@@ -1,0 +1,7 @@
+index,bbox,label_id,label_text,content,width,height
+0,"[460, 19, 995, 160]",16,ADDRESS,Dự án đầu tư xây dựng khu nhà ở Hi Brand,1024,1366
+1,"[556, 122, 907, 185]",16,ADDRESS,tai Khu do thi moi Van PHu,1024,1366
+2,"[520, 141, 938, 220]",16,ADDRESS,"P. Phu La, Q - Ha Dong, TP Ha Noi",1024,1366
+3,"[619, 387, 958, 452]",17,TIMESTAMP,Ngay : 17/09/2019 11 : 34 : 32,1024,1366
+4,"[413, 745, 741, 802]",18,TOTAL_COST,Tong so tien thanh toan:,1024,1366
+5,"[803, 760, 940, 817]",18,TOTAL_COST,"81,140,00",1024,1366
