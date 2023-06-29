@@ -27,9 +27,10 @@ def dilate(img,padd = padd_size):
 
 def puring(img):
     ''''
-    fill all the area in invoice with same color of mask (1)
-    input: RGB image
-    ____
+    input: thresh image output of U2net
+
+    -------------------
+
     output : mask of image after pured 2D value in {0,1} int
     '''
     img_cp = img.copy()
