@@ -26,7 +26,7 @@ def dilate(img,padd = padd_size):
     return img
 
 def puring(img):
-    ''''
+    '''
     input: thresh image output of U2net
 
     -------------------
