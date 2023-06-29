@@ -6,12 +6,16 @@ import argparse
 
 here = '/home/dtan/Documents/GCN/GCN_Vietnam'
 
+def gpr():
+    parser = argparse.ArgumentParser()
+    parser.add_argument('--source',type=str
+                        ,default='mcocr_private_145120gmdua.jpg'
+                        ,help="source image")
+    return parser.parse_args()
+
 def show(img):
     cv2.imshow("tmp window",img)
     cv2.waitKey(0)
-
-def sp(ist):
-    print(ist.shape)
 
 def merge(rgb,mask):
     '''

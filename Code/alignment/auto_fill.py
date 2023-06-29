@@ -53,7 +53,13 @@ def puring(img):
 
     mask = np.zeros(img_cp.shape[0:2]).astype(np.uint8) # h,w
     cv2.drawContours(mask,filtered_contours,0,(1),thickness=-1)
-    return dilate(mask)
+
+    ########### extension to get pure canny ##############
+    tmp = mask*255
+    cny = cv2.Canny(tmp,*thresh_canny)
+    cny = cv2.dilate(cny,np.ones((3,3)),iterations=1)
+    ######################################################
+    return dilate(mask),dilate(cny)
     
 
 #mcocr_private_145120gmdua.jpg |normal
@@ -63,7 +69,7 @@ def puring(img):
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument('--source',type=str
-                        ,default=os.path.join(here,'Code/U2Net/output/mcocr_private_145120pxmgi.jpg'),
+                        ,default=os.path.join(here,'Code/U2Net/outputmcocr_private_145120pxmgi.jpg'),
                         help="source image")
     otp = parser.parse_args()
 
