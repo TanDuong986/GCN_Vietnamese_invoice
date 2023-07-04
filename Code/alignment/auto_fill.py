@@ -69,11 +69,11 @@ def puring(img):
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
     parser.add_argument('--source',type=str
-                        ,default=os.path.join(here,'Code/U2Net/outputmcocr_private_145120pxmgi.jpg'),
+                        ,default=os.path.join(here,'Code/U2Net/output/mcocr_private_145120pxmgi.jpg'),
                         help="source image")
     otp = parser.parse_args()
 
     anh = cv2.imread(otp.source)
     name_image = os.path.splitext(os.path.basename(otp.source))[0]
     rgb = cv2.imread(os.path.join(here,'Vietnam_invoice_data/mcocr2021_raw/test/test_images',name_image+".jpg"))
-    puring(anh,rgb)
+    puring(anh)
