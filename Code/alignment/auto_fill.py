@@ -77,7 +77,3 @@ if __name__ == '__main__':
     name_image = os.path.splitext(os.path.basename(otp.source))[0]
     rgb = cv2.imread(os.path.join(here,'Vietnam_invoice_data/mcocr2021_raw/test/test_images',name_image+".jpg"))
     puring(anh,rgb)
-
-
-
-

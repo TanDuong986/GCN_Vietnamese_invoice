@@ -38,7 +38,7 @@ def save_output(image_name,pred,d_dir):
 
     predict = pred
     predict = predict.squeeze()
-    predict_np = predict.cpu().data.numpy()
+    predict_np = predict.cpu().data.numpy() # mask in here can be use, don't need save
 
     im = Image.fromarray(predict_np*255).convert('RGB')
     img_name = image_name.split(os.sep)[-1]
@@ -49,11 +49,11 @@ def save_output(image_name,pred,d_dir):
 
     aaa = img_name.split(".")
     bbb = aaa[0:-1]
-    imidx = bbb[0]
+    imidx = bbb[0] # get origin name of image
     for i in range(1,len(bbb)):
-        imidx = imidx + "." + bbb[i]
+        imidx = imidx + "." + bbb[i] 
 
-    imo.save(d_dir+imidx+'.jpg')
+    imo.save(d_dir+imidx+'.jpg') # name folder + name image + extention  
 
 def otp():
     parser = argparse.ArgumentParser()
