@@ -1,0 +1,2 @@
+convert lại thành một list mask gồm: 
+[[khoảng cách (đã abs) , góc ( lấy đối xứng, nếu nhỏ hơn Pi/2 thì giữ nguyên, lớn hơn Pi/2 = Pi - abs)]] để đối chiếu

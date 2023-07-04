@@ -4,27 +4,58 @@ file này khảo sát để bỏ những hóa đơn không có một cạnh nào
 '''
 from auto_fill import puring
 from __init__ import *
-from Buddha.endless_source_of_light import omm
 
 '''
 task: 
 1: find all line approximate 4 line of bill (hough)
 2: compare with threshold of angle'''
-
 ##### Global variable #########
-Pi = 1.57079632679
+Pi = 3.14159265359
 variance_rho = 30
-variance_theta = Pi/6
+variance_theta = Pi/12
 ###############################
+
+def norm_line(lines):
+    '''
+    Nếu góc trong khoảng từ 0- Pi/2 thì mặc định là góc theo trục Y
+    
+    Nếu góc trong khoảng từ Pi/2 - Pi (theo y) thì đổi góc về Pi - abs'''
+    dist = lines[:,0]
+    angle = lines[:,1]
+
+    dist = np.array([dt if dt >0 else np.abs(dt) for dt in dist])
+    angle = np.array([value if (value < Pi/2) else (Pi-value) for value in angle])
+    return (dist,angle)
+
 def lab(image):
     cl_img = cv2.cvtColor(image,cv2.COLOR_GRAY2BGR)
-    lines = cv2.HoughLines(image, 1, np.pi/180, threshold=200)
-    print(len(lines))
+    lines = cv2.HoughLines(image, 1, np.pi/180, threshold=400) 
+    '''
+    rho là khoảng cách đến tâm (0,0), theta là góc tạo bởi đừng thẳng và trục Oy
+    góc 0 dựng đứng, góc 90 nằm ngang, góc 180 độ chỉ xuống dưới'''
 # Draw detected lines on the image
+    
     if lines is not None:
-        lines = np.squeeze(lines)
+        print(lines.shape)
         print(lines)
-        for rho, theta in lines:
+        lines = np.squeeze(lines)
+        
+        print()
+        mask = norm_line(lines)
+        x_coords = mask[0]
+        y_coords = mask[1]
+        # Plotting the points
+        plt.scatter(x_coords,y_coords)
+
+        # Adding labels and title
+        plt.xlabel('X-axis')
+        plt.ylabel('Y-axis')
+        plt.title('Plotting Points')
+
+        # Display the plot
+        plt.show()
+        
+        for rho, theta in lines: 
             a = np.cos(theta)
             b = np.sin(theta)
             x0 = a*rho
@@ -42,6 +73,8 @@ def lab(image):
 #mcocr_private_145120pxmgi.jpg |code bar down
 #mcocr_private_145120btfhn.jpg |short
 #mcocr_private_145120ddbdw.jpg |text out bill
+#mcocr_private_145120clklv.jpg |not enough
+#mcocr_private_145120vogtr.jpg | not really line
 if __name__ == "__main__":
 
     otp = gpr()

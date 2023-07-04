@@ -15,7 +15,7 @@ def gpr():
 
 def show(img):
     cv2.imshow("tmp window",img)
-    cv2.waitKey(0)
+    cv2.waitKey(3579)
 
 def merge(rgb,mask):
     '''
