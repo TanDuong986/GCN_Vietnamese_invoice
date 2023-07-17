@@ -11,7 +11,7 @@ task:
 2: compare with threshold of angle'''
 ##### Global variable #########
 Pi = 3.14159265359
-variance_rho = 30
+variance_rho = 40
 variance_theta = 0.06
 ###############################
 
@@ -23,10 +23,10 @@ def norm_line(lines):
     dist = lines[:,0]
     angle = lines[:,1]
 
-    # dist = np.array([dt if dt >0 else np.abs(dt) for dt in dist]).reshape(-1,1)
-    dist =np.array(dist).reshape(-1,1)
-    # angle = np.array([value if (value < Pi/2) else (Pi-value) for value in angle]).reshape(-1,1)
-    angle = np.array(angle).reshape(-1,1)
+    dist = np.array([dt if dt >0 else np.abs(dt) for dt in dist]).reshape(-1,1)
+    # dist =np.array(dist).reshape(-1,1)
+    angle = np.array([value if (value < Pi/2) else (Pi-value) for value in angle]).reshape(-1,1)
+    # angle = np.array(angle).reshape(-1,1)
     rs = np.concatenate((dist,angle),axis = 1)
     return rs # shape (nx2)
 
@@ -73,6 +73,7 @@ def show_img_plot(mask,cl_img):
         x2 = int(x0 - 600*(-b))
         y2 = int(y0 - 600*(a))
         cv2.line(cl_img, (x1, y1), (x2, y2), (0, 0, 255), 3)
+    # cv2.imwrite("line_detect.jpg",cl_img)
     show(cv2.resize(cl_img,(500,800)))
 
 def detect_angle(image):
@@ -82,18 +83,19 @@ def detect_angle(image):
     Output: List of lines (rho,alpha)
     '''
     cl_img = cv2.cvtColor(image,cv2.COLOR_GRAY2BGR)
-    lines = cv2.HoughLines(image, 5, np.pi/180, threshold=400) 
+    # lines = cv2.HoughLines(image, 1, np.pi/180, threshold=250) 
+    lines = cv2.HoughLinesP(image, rho=1, theta=np.pi/180, threshold=10, minLineLength=100, maxLineGap=30)
     '''
     rho là khoảng cách đến tâm (0,0), theta là góc tạo bởi đừng thẳng và trục Oy
     góc 0 dựng đứng, góc 90 nằm ngang, góc 180 độ chỉ xuống dưới'''
-    
     if lines is not None:
         lines = np.reshape(lines,(lines.shape[0],-1))
         mask = sort_line(lines)
+        print(mask)
         print(lines)
         print(lines.shape[0],mask.shape[0])
         # print(mask)
-        show_img_plot(mask, cl_img)
+        show_img_plot(lines, cl_img)
         return mask
 
 def diagnose(lines):# Draw detected lines on the image

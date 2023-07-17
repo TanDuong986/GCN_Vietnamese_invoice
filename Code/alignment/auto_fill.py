@@ -31,7 +31,7 @@ def puring(img):
 
     -------------------
 
-    output : mask of image after pured 2D value in {0,1} int
+    output : mask of image after pured 2D value in {0,1} int and canny
     '''
     img_cp = img.copy()
     img_cp = add_padding(img_cp) # add padding to get bill which cover the bouding of image
@@ -76,4 +76,5 @@ if __name__ == '__main__':
     anh = cv2.imread(otp.source)
     name_image = os.path.splitext(os.path.basename(otp.source))[0]
     rgb = cv2.imread(os.path.join(here,'Vietnam_invoice_data/mcocr2021_raw/test/test_images',name_image+".jpg"))
-    puring(anh)
+    mask = puring(anh)
+    cv2.imwrite("pured.jpg",mask[0]*255)

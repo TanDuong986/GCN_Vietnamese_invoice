@@ -5,11 +5,11 @@ import cv2
 import argparse
 
 here = '/home/dtan/Documents/GCN/GCN_Vietnam'
-
+# /home/dtan/Documents/GCN/GCN_Vietnam/Code/U2Net/output/mcocr_public_145014ubwmd.jpg
 def gpr():
     parser = argparse.ArgumentParser()
     parser.add_argument('--source',type=str
-                        ,default='mcocr_private_145120gmdua.jpg'
+                        ,default='mcocr_public_145014ubwmd.jpg'
                         ,help="source image")
     return parser.parse_args()
 

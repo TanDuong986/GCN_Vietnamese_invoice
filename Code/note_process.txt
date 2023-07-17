@@ -1,0 +1,2 @@
+- cắt nhỏ ảnh từ đầu sau đó perspective dựa trên tọa độ đó
+- tích hợp hàm đọc bên ocr, viết một file config tổng để khi chạy không phải đợi
