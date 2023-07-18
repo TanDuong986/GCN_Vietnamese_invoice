@@ -1,7 +1,5 @@
 import cv2
 import numpy as np
-from PIL import Image
-
 
 
 def draw(frame,img):
@@ -18,19 +16,6 @@ def draw(frame,img):
     cv2.line(img, point2, point3, cl, thickness=ts)
     cv2.line(img, point3, point4, cl, thickness=ts)
     cv2.line(img, point4, point1, cl, thickness=ts)
-
-instruct = '/home/dtan/Documents/GCN/GCN_Vietnam/Code/detect_word/origin/result/res_mcocr_public_145013alybg.txt'
-# Read the text file
-with open(instruct, 'r') as file:
-    lines = file.readlines()
-
-# Convert the data into a matrix
-matrix = np.zeros((len(lines), 8), dtype=int)
-for i, line in enumerate(lines):
-    values = line.strip().split(',') # strip is not take /n, split is its name
-    matrix[i] = [int(val) for val in values]
-
-img = cv2.imread('/home/dtan/Documents/GCN/GCN_Vietnam/Code/detect_word/origin/result/res_mcocr_public_145013alybg.jpg')
 
 
 def stretch_ROI(roi,src):  # 0,0016s
@@ -56,6 +41,16 @@ def stretch_ROI(roi,src):  # 0,0016s
 
 
 if __name__ == "__main__":
+    instruct = '/home/dtan/Documents/GCN/GCN_Vietnam/Code/detect_word/origin/result/res_mcocr_public_145013alybg.txt'
+    # Read the text file
+    with open(instruct, 'r') as file:
+        lines = file.readlines()
+        matrix = np.zeros((len(lines), 8), dtype=int)
+    for i, line in enumerate(lines):
+        values = line.strip().split(',') # strip is not take /n, split is its name
+        matrix[i] = [int(val) for val in values]
+
+    img = cv2.imread('/home/dtan/Documents/GCN/GCN_Vietnam/Code/detect_word/origin/result/res_mcocr_public_145013alybg.jpg')
     import timeit
     time_test = timeit.timeit(stretch_ROI,number=1000)/1000
 
