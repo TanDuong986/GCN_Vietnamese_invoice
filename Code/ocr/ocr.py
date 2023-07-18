@@ -1,17 +1,19 @@
-from PIL import Image
-from vietocr.tool.predictor import Predictor
-from vietocr.tool.config import Cfg
 import timeit
+import numpy
+import cv2
+from PIL import Image
 
-config = Cfg.load_config_from_name('vgg_seq2seq')
-config['cnn']['pretrained'] = True
-config['device'] = 'cuda'
-detector = Predictor(config)
+from __init__ import gen_model
+from detect_word.perspective import stretch_ROI
+from utils import read_txt
 
-def test_time():
-    path = '/home/dtan/Documents/GCN/GCN_Vietnam/Code/detect_word/origin/ROI/sub_10.jpg'
-    img = Image.open(path)
-    s = detector.predict(img) #1.67 s without cuda | 0.02 with cuda
+def cv2image(image): #convert cut image into input of ocr
+    return Image.fromarray(cv2.cvtColor(image, cv2.COLOR_BGR2RGB))
 
-ext = timeit.timeit(test_time,number=100)/100
-print(ext)
+if __name__ == "__main__":
+    model = gen_model #1.67 s without cuda | 0.02 with cuda
+    img = cv2.imread('/home/dtan/Documents/GCN/GCN_Vietnam/Code/detect_word/origin/result/res_mcocr_public_145013amzul.jpg')
+    position = read_txt('/home/dtan/Documents/GCN/GCN_Vietnam/Code/detect_word/origin/result/res_mcocr_public_145013amzul.txt')
+    img = stretch_ROI(position[28],img)
+    cv2.imshow(img)
+    cv2.waitKey(0)
