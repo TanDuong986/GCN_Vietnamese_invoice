@@ -1,0 +1,36 @@
+poly,cate_id,cate_text,vietocr_text
+"[204, 224, 342, 222, 342, 242, 204, 248]",15,SELLER,Saigon Co-op 1
+"[136, 251, 409, 242, 410, 265, 134, 273]",15,SELLER,Co-op Food HN THE K-PARK NG
+"[124, 280, 421, 269, 422, 292, 124, 300]",0,OTHER,Ma 50 thue: 0309129418-1159
+"[194, 306, 494, 300, 494, 316, 194, 328]",16,ADDRESS,"Toa K3, Cong trinh chung cu"
+"[34, 307, 162, 306, 162, 334, 32, 330]",16,ADDRESS,"Tang 1,5H42"
+"[44, 338, 482, 326, 482, 348, 44, 360]",16,ADDRESS,ket hop dich vu tren o dat H-C12 thuoc thuong
+"[34, 366, 497, 351, 498, 373, 34, 388]",16,ADDRESS,Du an Dau tu xay dung Khu nha o Hi Brand 1991
+"[128, 394, 442, 388, 439, 410, 128, 416]",16,ADDRESS,tai Khu do thi moi van Phuy
+"[92, 424, 466, 412, 466, 434, 92, 446]",16,ADDRESS,"Phu La, D. Ha Dong 1 Noi thong 1 Ho Hai Hoi Hai"
+"[116, 452, 457, 440, 458, 466, 116, 476]",0,OTHER,Emailsocfthekparkscoopfood.vn
+"[105, 483, 472, 474, 472, 494, 106, 506]",0,OTHER,Website: waw.53igonco-op.con-vn the the the the the the the the ton the tong con the tong nam
+"[106, 543, 461, 528, 462, 555, 108, 571]",0,OTHER,PHIEUTINHTTENS
+"[34, 576, 500, 564, 500, 586, 34, 598]",0,OTHER,Co gia tri xuat Hoa don Giot trong ngay
+"[204, 634, 519, 616, 521, 643, 204, 660]",17,TIMESTAMP,Ngsy: 19/09/2019 18:38:08
+"[34, 637, 138, 636, 138, 662, 32, 661]",0,OTHER,Quay 202
+"[34, 670, 522, 650, 522, 678, 34, 694]",0,OTHER,Nhan vien: Doan Quang Trung So HD: 02294
+"[33, 731, 456, 716, 456, 744, 34, 760]",0,OTHER,0000002255826 Ca chua Man
+"[428, 748, 530, 742, 530, 770, 428, 774]",0,OTHER,"3,700.00"
+"[234, 756, 348, 752, 348, 776, 234, 784]",0,OTHER,"25,000.000"
+"[34, 764, 116, 764, 116, 792, 34, 792]",0,OTHER,VATO57
+"[122, 796, 240, 790, 240, 816, 122, 820]",0,OTHER,00.148
+"[438, 846, 540, 842, 540, 870, 438, 876]",18,TOTAL_COST,"3,700.00"
+"[36, 866, 338, 856, 338, 878, 33, 893]",18,TOTAL_COST,Tong so tien thanh toan:
+"[98, 899, 342, 892, 341, 919, 96, 927]",0,OTHER,Tong 50 luong hang:
+"[34, 974, 330, 962, 330, 984, 34, 1002]",0,OTHER,Phuong thuc thanh toan:
+"[446, 986, 550, 978, 550, 1006, 446, 1014]",0,OTHER,"3,700.00"
+"[36, 1006, 142, 1002, 142, 1030, 36, 1034]",0,OTHER,Tien mat
+"[471, 1016, 551, 1013, 553, 1041, 472, 1045]",0,OTHER,176.19
+"[36, 1042, 324, 1028, 324, 1056, 36, 1070]",0,OTHER,Bao gom thue gigt 157:
+"[31, 1076, 454, 1056, 454, 1086, 34, 1111]",0,OTHER,THONG TIN KHÁCH HÀNG THAN THIET:
+"[62, 1114, 132, 1114, 132, 1136, 62, 1140]",0,OTHER,Ma 50
+"[62, 1150, 158, 1146, 158, 1174, 62, 1176]",0,OTHER,Ho ten:
+"[62, 1184, 250, 1182, 250, 1210, 62, 1214]",0,OTHER,Diem dau ngay
+"[62, 1224, 424, 1206, 424, 1232, 62, 1254]",0,OTHER,Diem su dung trong hoa don:
+"[386, 1250, 410, 1250, 410, 1258, 386, 1258]",0,OTHER,care

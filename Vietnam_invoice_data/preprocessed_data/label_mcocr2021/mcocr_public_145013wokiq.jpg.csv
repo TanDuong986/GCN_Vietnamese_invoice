@@ -1,0 +1,39 @@
+poly,cate_id,cate_text,vietocr_text
+"[198, 233, 318, 216, 318, 238, 200, 257]",15,SELLER,Saigon Co.op
+"[144, 274, 375, 223, 381, 248, 146, 297]",15,SELLER,Co.op Food HN THE K-PARK
+"[138, 302, 388, 251, 393, 275, 138, 322]",0,OTHER,Mas so thuen 0307129418-115
+"[170, 300, 192, 300, 192, 318, 170, 318]",16,OTHER,so
+"[200, 320, 452, 274, 452, 294, 200, 340]",16,ADDRESS,Toa Ki Cong trinh chung cuan
+"[56, 332, 171, 323, 173, 346, 56, 352]",16,ADDRESS,"Tang 1, HH22"
+"[66, 354, 443, 304, 446, 327, 66, 376]",16,ADDRESS,ket hop dich chu trong tau dat thuoc thuong
+"[54, 380, 455, 325, 460, 350, 54, 398]",16,ADDRESS,Duy nam lan the minh thu nha ho thu nha di Brand
+"[140, 400, 416, 372, 416, 394, 140, 418]",16,ADDRESS,tai Khu do thi noi Van Phu;
+"[108, 428, 436, 392, 436, 418, 108, 444]",16,ADDRESS,Phu Lanh Thu Nam To Ha Noi Thu Nai
+"[127, 449, 432, 428, 432, 448, 128, 470]",0,OTHER,Email: oftheknarkerond and
+"[118, 474, 446, 456, 446, 474, 118, 496]",0,OTHER,Websiterownessesses anders anders anders
+"[118, 524, 439, 510, 441, 533, 118, 546]",0,OTHER,PHIEUTINHTINE
+"[54, 554, 475, 538, 477, 561, 54, 574]",0,OTHER,Co gia tri xuat Hoa don STGT trong ngay nguyen
+"[52, 607, 144, 606, 144, 626, 51, 628]",0,OTHER,Quay: 02
+"[206, 602, 491, 591, 493, 615, 206, 626]",17,TIMESTAMP,Ngay: 17/09/2019 10:50:29
+"[52, 634, 496, 620, 496, 642, 52, 654]",0,OTHER,Nhan vien: Dinh Thi Bich Ng So HD: 07652
+"[51, 685, 500, 674, 500, 696, 52, 709]",0,OTHER,08934564600128 Tra xanh K2 hchanh pet chinh
+"[412, 704, 502, 702, 502, 724, 412, 728]",0,OTHER,"16,800.00"
+"[244, 710, 338, 706, 338, 730, 244, 732]",0,OTHER,"16,800.00"
+"[52, 712, 124, 712, 124, 734, 52, 734]",0,OTHER,VAT107
+"[416, 758, 508, 758, 508, 780, 416, 784]",18,TOTAL_COST,"16,800.00"
+"[52, 766, 326, 764, 326, 784, 49, 789]",18,TOTAL_COST,Tong so tien thanh toan:
+"[108, 794, 327, 794, 325, 817, 105, 817]",0,OTHER,Tong so luong hang cho
+"[48, 853, 318, 850, 318, 872, 47, 877]",0,OTHER,Phuong thuc thanh toan 19
+"[422, 876, 520, 872, 520, 898, 422, 902]",0,OTHER,"6,800.00"
+"[50, 884, 144, 884, 144, 906, 50, 908]",0,OTHER,Tien mate
+"[447, 904, 521, 901, 522, 926, 448, 928]",0,OTHER,618.18
+"[48, 916, 310, 910, 310, 932, 48, 938]",0,OTHER,Bao gom thue GTGT 107:
+"[47, 946, 432, 936, 432, 964, 48, 973]",0,OTHER,THONG TIN KHÁCH HÀNG THAN THIET:
+"[70, 976, 134, 980, 134, 1000, 70, 1002]",0,OTHER,Ma son
+"[70, 1008, 156, 1008, 156, 1030, 70, 1032]",0,OTHER,Ho ten:
+"[70, 1038, 239, 1038, 241, 1064, 70, 1064]",0,OTHER,Diem dau ngay:
+"[70, 1070, 400, 1064, 400, 1088, 70, 1096]",0,OTHER,Diem su dung trong hoa don: thuo
+"[56, 1168, 533, 1155, 535, 1175, 56, 1196]",0,OTHER,Tran trong cam on Quy Khach dan mua thuong
+"[92, 1202, 487, 1186, 490, 1214, 89, 1229]",0,OTHER,"hang tai Co.opfood, Hen gap lai thuong"
+"[488, 1254, 558, 1254, 558, 1284, 488, 1284]",0,OTHER,27529
+"[42, 1272, 454, 1260, 454, 1290, 42, 1300]",0,OTHER,MA HD: EOEDACLIIANMY 10:50 27529

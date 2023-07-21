@@ -1,0 +1,40 @@
+poly,cate_id,cate_text,vietocr_text
+"[154, 156, 250, 152, 250, 164, 154, 170]",15,SELLER,"Saigon to, pp"
+"[108, 176, 299, 158, 300, 174, 108, 190]",15,SELLER,Corop Food HN THE K-PARK
+"[98, 194, 308, 176, 308, 192, 98, 206]",16,ADDRESS,Ma so thue: 0309129418-115
+"[36, 201, 360, 190, 360, 202, 31, 220]",16,ADDRESS,03010000001000 1970
+"[42, 230, 354, 210, 354, 226, 42, 244]",16,ADDRESS,ket hop dich vu tren o dat huoc
+"[36, 248, 363, 223, 365, 238, 36, 262]",16,ADDRESS,Du an Dau tu xay dung Khu nha brand cho thuo
+"[102, 264, 320, 248, 320, 264, 102, 276]",16,ADDRESS,thi thi Khu do thi moi Van Phu
+"[78, 282, 344, 264, 344, 280, 78, 296]",16,ADDRESS,"Phu Lay 20 Ha Dong, Hai Noi"
+"[94, 298, 338, 286, 338, 298, 94, 314]",0,OTHER,Email: ofthekparkeccopfood.vn
+"[85, 317, 350, 302, 350, 314, 86, 332]",0,OTHER,Website: waw: saigonco-op.com nam
+"[85, 350, 344, 336, 344, 354, 86, 369]",0,OTHER,PHIEUTINATIEN
+"[34, 374, 373, 355, 374, 370, 34, 390]",0,OTHER,Co gia tri xuat Hoa don giot trong ngay
+"[156, 404, 387, 386, 389, 405, 156, 424]",17,TIMESTAMP,Ngay: 19/09/2019 18:18:30
+"[34, 409, 108, 408, 108, 426, 33, 428]",0,OTHER,Quay: 02
+"[36, 432, 392, 406, 392, 426, 36, 446]",0,OTHER,Nhan vien Doan Quang Trung So HD: 08280
+"[33, 468, 289, 452, 291, 473, 34, 487]",0,OTHER,00000002953571 Canh gach
+"[316, 470, 402, 464, 402, 482, 316, 488]",0,OTHER,"36,490.00"
+"[180, 480, 266, 476, 266, 494, 180, 498]",0,OTHER,"89,000.00"
+"[32, 486, 92, 486, 92, 506, 32, 506]",0,OTHER,VATO5X
+"[98, 508, 184, 502, 184, 518, 98, 522]",0,OTHER,0.410
+"[324, 530, 412, 524, 412, 544, 324, 550]",18,TOTAL_COST,"36,490.00"
+"[32, 554, 260, 540, 260, 558, 32, 574]",18,TOTAL_COST,Tong so tien thanh toan:
+"[80, 574, 262, 564, 262, 582, 80, 594]",0,OTHER,Tong so luong hang 1
+"[32, 624, 258, 610, 258, 628, 32, 644]",0,OTHER,Phuong thuc thanh toan:
+"[332, 624, 428, 618, 428, 638, 335, 645]",0,OTHER,"50,000.00"
+"[34, 648, 113, 642, 115, 663, 34, 668]",0,OTHER,Tien mat
+"[330, 673, 435, 665, 437, 690, 332, 699]",0,OTHER,"-13,510.00"
+"[34, 700, 166, 690, 166, 712, 34, 722]",0,OTHER,Tien thoi lai
+"[355, 728, 444, 722, 444, 742, 358, 752]",0,OTHER,"1,77766"
+"[36, 754, 258, 736, 258, 758, 36, 776]",0,OTHER,Bao gom thue GTGT 55:
+"[33, 781, 363, 754, 364, 777, 36, 807]",0,OTHER,THONG TIN KHÁCH HANG THAN THIETH NHINH
+"[56, 808, 112, 808, 112, 826, 56, 828]",0,OTHER,Ma 500
+"[56, 836, 132, 834, 132, 854, 56, 856]",0,OTHER,Ho ten:
+"[58, 862, 196, 858, 196, 880, 58, 886]",0,OTHER,Diem dau ngay 1
+"[58, 892, 344, 872, 344, 894, 58, 914]",0,OTHER,Diem su dung trong hoa don:
+"[48, 980, 463, 952, 465, 971, 48, 1002]",0,OTHER,Tran trong can on Buy Khach dan mua thuo
+"[80, 1009, 424, 984, 424, 1008, 78, 1031]",0,OTHER,"hang tai Co.opfood, Hen gap lai the tinh"
+"[428, 1044, 469, 1040, 471, 1065, 430, 1069]",0,OTHER,250
+"[36, 1070, 399, 1047, 401, 1075, 36, 1096]",0,OTHER,ME HD: TODRACMGMANMY 18:18 25051

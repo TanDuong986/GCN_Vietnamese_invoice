@@ -19,13 +19,13 @@ from PIL import Image
 import cv2
 from skimage import io
 import numpy as np
-import craft_utils # some convert function built-in process of CRAFT model
-import imgproc # image procesing - normalize, denormalize v.v
-import file_utils # working with folder, save, load dir etc
+import utils.craft_utils as craft_utils # some convert function built-in process of CRAFT model
+import utils.imgproc as imgproc# image procesing - normalize, denormalize v.v
+import utils.file_utils as file_utils# working with folder, save, load dir etc
 import json
 import zipfile
 
-from craft import CRAFT
+from utils.craft import CRAFT
 
 from collections import OrderedDict
 def copyStateDict(state_dict):
@@ -43,7 +43,6 @@ def str2bool(v):
     return v.lower() in ("yes", "y", "true", "t", "1")
 
 here = os.path.dirname(os.path.abspath(__file__))
-print(here)
 # /home/dtan/Documents/GCN/GCN_Vietnam/Code/detect_word/origin/weights/craft_mlt_25k.pth
 parser = argparse.ArgumentParser(description='CRAFT Text Detection')
 parser.add_argument('--trained_model', default=os.path.join(here,'weights/craft_mlt_25k.pth'), type=str, help='pretrained model')
@@ -133,7 +132,7 @@ if __name__ == '__main__':
         net.load_state_dict(copyStateDict(torch.load(args.trained_model)))
     else:
         net.load_state_dict(copyStateDict(torch.load(args.trained_model, map_location='cpu')))
-
+    
     if args.cuda:
         net = net.cuda()
         net = torch.nn.DataParallel(net)
@@ -144,7 +143,7 @@ if __name__ == '__main__':
     # LinkRefiner
     refine_net = None
     if args.refine:
-        from refinenet import RefineNet
+        from utils.refinenet import RefineNet
         refine_net = RefineNet()
         # print('Loading weights of refiner from checkpoint (' + args.refiner_model + ')')
         if args.cuda:
@@ -169,7 +168,7 @@ if __name__ == '__main__':
         # mask_file = result_folder + "/res_" + filename + '_mask.jpg'
         # cv2.imwrite(mask_file, score_text)
 
-        file_utils.saveResult(image_path, image[:,:,::-1], polys, dirname=result_folder) # see file_utils.py to set output is image, txt or ste
+        file_utils.saveResult(image_path, image[:,:,::-1], polys, dirname=result_folder,draw=True) # see file_utils.py to set output is image, txt or ste
     if args.refine:
         is_refine = True
     else:

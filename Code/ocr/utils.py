@@ -23,7 +23,6 @@ def stretch_ROI(roi,src):  # 0,0016s
     '''Input : roi is coordinate size (8,), src : source image
             
     Output : aligmented image'''
-
     old_coor = roi.reshape(-1,2)
     x_ = old_coor[:,0]
     y_ = old_coor[:,1]

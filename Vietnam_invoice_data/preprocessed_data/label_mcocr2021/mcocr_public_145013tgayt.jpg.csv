@@ -1,0 +1,12 @@
+poly,cate_id,cate_text,vietocr_text
+"[268, 380, 312, 378, 312, 392, 268, 390]",18,TOTAL_COST,"80,000"
+"[26, 378, 122, 378, 122, 392, 26, 392]",18,TOTAL_COST,TIẾN KHÁCH TRẢ
+"[262, 396, 312, 396, 312, 408, 262, 408]",0,OTHER,100.000
+"[32, 396, 88, 396, 88, 408, 32, 410]",0,OTHER,TIÊN MẶT
+"[26, 412, 108, 414, 108, 426, 26, 426]",0,OTHER,TIẾN TRÀ LẠI
+"[268, 412, 312, 412, 312, 426, 268, 426]",0,OTHER,20.000
+"[78, 430, 256, 428, 256, 442, 78, 444]",0,OTHER,(Gia đã bao gống thuế gigt)
+"[72, 478, 258, 480, 258, 494, 72, 492]",0,OTHER,Chỉ xuất hóa đơn trong ngày
+"[24, 496, 312, 498, 312, 510, 24, 510]",0,OTHER,Tha Tax invoice will be issued within same day
+"[58, 530, 272, 530, 272, 544, 58, 544]",0,OTHER,CÁM ƠN GUÝ KHÁCH VÀ HÊN GẬP LAI
+"[22, 548, 306, 550, 306, 562, 22, 560]",0,OTHER,Hot liner 02471066666 nebsiteratical

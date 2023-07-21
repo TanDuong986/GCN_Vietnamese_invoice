@@ -1,0 +1,13 @@
+poly,cate_id,cate_text,vietocr_text
+"[240, 140, 458, 140, 458, 164, 240, 162]",16,ADDRESS,"Viên Chi Tô 7, Khu Hinh Tiến Anh"
+"[274, 172, 424, 172, 424, 194, 274, 196]",16,ADDRESS,"107, Khu linh Tiên Anh"
+"[46, 185, 198, 188, 197, 228, 45, 225]",15,SELLER,Vincommerce
+"[242, 202, 458, 202, 458, 224, 242, 222]",16,ADDRESS,Chm Thi Tiến Tinh Thi Thu Tiến Điện Thi Thu Tiến Điện Thi Thu Tiến Điện Thi Thu Tiến Điện Thi Thu Tiến Điện Thi Thu Tiến Điện Thi
+"[280, 234, 418, 234, 418, 254, 280, 254]",0,OTHER,011100011111
+"[42, 284, 216, 284, 216, 306, 42, 306]",17,TIMESTAMP,Ngày:12/08/2020
+"[346, 286, 513, 282, 514, 306, 346, 308]",17,TIMESTAMP,Thời gian:20:66
+"[202, 314, 358, 316, 358, 336, 202, 334]",0,OTHER,Giao dịch treo
+"[42, 342, 138, 342, 138, 366, 42, 366]",0,OTHER,Quấy:001
+"[365, 341, 513, 341, 513, 361, 365, 361]",0,OTHER,NYBH:09025438
+"[44, 372, 218, 370, 218, 392, 44, 394]",0,OTHER,TÊN NV:5156POS2
+"[42, 400, 206, 400, 206, 420, 42, 426]",0,OTHER,Số GD treo:110
