@@ -81,4 +81,6 @@ for epoch in range(1, no_epochs + 1):
             fmt_log = "Epoch: {:03d}, train_loss:{:.4f}, val_loss:{:.4f}"
             print(fmt_log.format(epoch, loss, loss_val))
             print(">" * 50)
+        if epoch % 1000:
+            torch.save(model.state_dict(),save_fd+f'/KIE_epochs_{str(epoch)}.pt')
 
