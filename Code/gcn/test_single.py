@@ -63,11 +63,10 @@ def cook_input(name):
     # instance_geo = torch_geometric.data.Batch.from_data_list(list(data)) # this create batch from instance data 
     return G,img,df,data
 
-    return G, df, individual_data, img
 #/home/dtan/Documents/GCN/GCN_Vietnam/Vietnam_invoice_data/preprocessed_data/images/mcocr_public_145014zvrla.jpg
 if __name__ == "__main__":
     # test_data = torch.load(os.path.join(save_fd, 'test_dataVN.dataset'))
-    device = 'cuda' if torch.cuda.is_available() else 'cpu'
+    device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
     G,img,df,test_data = cook_input('mcocr_public_145014zvrla')
     here = os.path.dirname(os.path.abspath(__file__))
 

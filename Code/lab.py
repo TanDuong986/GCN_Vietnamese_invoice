@@ -5,22 +5,19 @@ import cv2
 import os
 import pandas as pd
 import ast
+import tqdm
+import time
+from tqdm.notebook import tqdm
 
-# data_fd = '/home/dtan/Documents/GCN/GCN_Vietnam/Vietnam_invoice_data/preprocessed_data'
-# instance = Grapher('mcocr_public_145013aagqw',data_fd)
-# G,_,_ = instance.graph_formation()
-# df = instance.relative_distance()
-# print(df.head(20))
-save_fd = '/home/dtan/Documents/GCN/GCN_Vietnam/Code/material'
-test_data = torch.load(os.path.join(save_fd, 'test_dataVN.dataset'))
-device = 'cuda' if torch.cuda.is_available() else 'cpu'
+from tqdm import tqdm
+import numpy as np
 
-model = InvoiceGCN(input_dim=test_data.x.shape[1],chebnet=True)
-model.load_state_dict(torch.load('/home/dtan/Documents/GCN/GCN_Vietnam/Code/gcn/weights/model_std.pt'))
-model.eval()
-model.to(device)
-test_data.to(device)
+train_x = np.random.rand(100)
 
-# y_pred = model(test_data).max(dim=1)[1].cpu().numpy()
-print(test_data[1]['text'])
 
+# Notice `train_iter` can only be iter over once, so i get `total` in this way.
+
+with tqdm(total=len(train_x)) as pbar:
+    for item in train_x:
+        time.sleep(0.2)
+        pbar.update(1)
