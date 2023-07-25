@@ -21,10 +21,10 @@ class Grapher:
         self.data_fd = data_fd
 
         # tim path den file label box
-        file_path = os.path.join(self.data_fd, "label_mcocr2021", 'mcocr_public_'+filename + '.jpg.csv') 
+        file_path = os.path.join(self.data_fd, "label_mcocr2021",filename + '.jpg.csv') 
         
         #path cua image roi - concat file name -> absolute path of image
-        image_path = os.path.join(self.data_fd, "images",  'mcocr_public_'+filename + '.jpg')
+        image_path = os.path.join(self.data_fd, "images", filename + '.jpg')
 
         #read box file not have label
         with open(file_path,'r') as f:
@@ -173,7 +173,7 @@ class Grapher:
         for key in (dic1.keys() | dic2.keys()):
             if key in dic1: result.setdefault(key, []).append(dic1[key])
             if key in dic2: result.setdefault(key, []).append(dic2[key])
-        print(result)
+        # print(result)
 
         G = nx.from_dict_of_lists(result)
         
@@ -184,7 +184,7 @@ class Grapher:
                 os.makedirs(should_save_dir)			
            
             plot_path = should_save_dir + self.filename + 'plain_graph' '.jpg'
-            print(plot_path)
+            # print(plot_path)
             layout = nx.kamada_kawai_layout(G)   
             layout = nx.spring_layout(G)     
             nx.draw(G, layout, with_labels=True)
