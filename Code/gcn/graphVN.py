@@ -13,12 +13,16 @@ class Grapher:
                     1) the graph (in dictionary form) { source_node: [destination_node1, destination_node2]}
                     2) the dataframe with relative_distances 
 
-    Inputs: The class consists of a pandas dataframe consisting of cordinates for bounding boxe and the image of the invoice/receipt. 
+    Inputs: (dtan)
+        1) filename not have extension
+        2) data folder contains image and annotation file
+        3, this is train or test mode? - True is train
 
-    """
-    def __init__(self, filename, data_fd):
+    """ 
+    def __init__(self, filename, data_fd,train = True):
         self.filename = filename
         self.data_fd = data_fd
+        self.flag_infer = train
 
         # tim path den file label box
         file_path = os.path.join(self.data_fd, "label_mcocr2021",filename + '.jpg.csv') 
@@ -52,7 +56,10 @@ class Grapher:
 
         # Drop the original column with the string representations of lists
         df.drop(['poly','pos3','pos4','pos7','pos8'], axis=1, inplace=True)
-        new_name_and_order = {'pos1':'xmin','pos2':'ymin','pos5':'xmax','pos6':'ymax','cate_id':'label_id','cate_text':'label_text','vietocr_text':'content'}
+        if self.flag_infer: # only in train mode, we have id and text of label (interesting field)
+            new_name_and_order = {'pos1':'xmin','pos2':'ymin','pos5':'xmax','pos6':'ymax','cate_id':'label_id','cate_text':'label_text','vietocr_text':'content'}
+        else:
+            new_name_and_order = {'pos1':'xmin','pos2':'ymin','pos5':'xmax','pos6':'ymax','vietocr_text':'content'}
         # column = ['label_id','label_text','content','xmin','ymin','xmax','ymax']
         df = df[list(new_name_and_order.keys())].rename(columns=new_name_and_order)
         for col in df.columns:
@@ -60,7 +67,6 @@ class Grapher:
                 df[col] = df[col].str.strip()
             except AttributeError:
                 pass
-
 
         df.dropna(inplace=True)
         #sort from top to bottom

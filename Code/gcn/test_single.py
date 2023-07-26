@@ -26,10 +26,10 @@ def make_sent_bert_features(text):
     emb = sent_model.encode([text])[0]
     return emb
 
-def cook_input(name):
+def cook_input(name,train_mode = True):
     '''Get input is name of image, Output is instance of geometry of data'''
     img = cv2.imread(os.path.join(data_fd,'images',name+'.jpg'))
-    graph = Grapher(name,data_fd)
+    graph = Grapher(name,data_fd,train_mode) 
     G,_,_ = graph.graph_formation()
     df = graph.relative_distance()
     data = from_networkx(G)

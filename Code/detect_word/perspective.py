@@ -41,7 +41,7 @@ def stretch_ROI(roi,src):  # 0,0016s
 
 
 if __name__ == "__main__":
-    instruct = '/home/dtan/Documents/GCN/GCN_Vietnam/Code/detect_word/origin/result/res_mcocr_public_145013alybg.txt'
+    instruct = '/home/dtan/Documents/GCN/GCN_Vietnam/Code/detect_word/result/res_mcocr_public_145013alybg.txt'
     # Read the text file
     with open(instruct, 'r') as file:
         lines = file.readlines()
@@ -50,10 +50,8 @@ if __name__ == "__main__":
         values = line.strip().split(',') # strip is not take /n, split is its name
         matrix[i] = [int(val) for val in values]
 
-    img = cv2.imread('/home/dtan/Documents/GCN/GCN_Vietnam/Code/detect_word/origin/result/res_mcocr_public_145013alybg.jpg')
-    import timeit
-    time_test = timeit.timeit(stretch_ROI,number=1000)/1000
+    img = cv2.imread('/home/dtan/Documents/GCN/GCN_Vietnam/Code/detect_word/result/res_mcocr_public_145013alybg.jpg')
 
-    # test_range = stretch_ROI(matrix[26],img)
-    # cv2.imshow("raw",test_range)
-    # cv2.waitKey(0)
+    test_range = stretch_ROI(matrix[26],img)
+    cv2.imshow("raw",test_range)
+    cv2.waitKey(0)

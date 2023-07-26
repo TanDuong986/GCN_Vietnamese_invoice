@@ -2,7 +2,6 @@
 import os
 import numpy as np
 import cv2
-import imgproc
 
 # borrowed from https://github.com/lengstrom/fast-style-transfer/blob/master/src/utils.py
 def get_files(img_dir):
