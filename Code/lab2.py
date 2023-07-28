@@ -16,6 +16,7 @@ def group_boxes(matrix, threshold):
     grouped_boxes.append(current_group)  # Add the last group
 
     return grouped_boxes
+import numpy as np
 
 # Example matrix
 matrix = [[206, 125 ,225, 125 ,225 ,145, 206 ,145],
@@ -26,8 +27,13 @@ matrix = [[206, 125 ,225, 125 ,225 ,145, 206 ,145],
  [321, 128 ,350, 128, 350, 146, 321, 146],
  [351 ,126 ,386, 132, 382, 152, 347, 145]]
 
-threshold_distance = 10  # Set your desired threshold distance here
+# threshold_distance = 10  # Set your desired threshold distance here
 
-result = group_boxes(matrix, threshold_distance)
-for rs in result:
-    print(rs)
+# result = group_boxes(matrix, threshold_distance)
+# for rs in result:
+#     print(rs)
+matrix = np.array(matrix)
+
+# Find the minimum value among columns 1, 3, 5, and 7
+min_value = np.min(matrix[:, [0, 2, 4, 6]])
+print(min_value)
