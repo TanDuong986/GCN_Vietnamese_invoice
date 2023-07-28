@@ -75,12 +75,11 @@ class Grapher:
 
         #subtracting ymax by 1 to eliminate ambiguity of boxes being in both left and right 
         df["ymax"] = df["ymax"].apply(lambda x: x - 1)
-        
         master = []
-        for idx, row in df.iterrows():
-            # print(idx,row)
+        print(df)
+        for idx, row in df.iterrows(): # go through line by line of data frame
             #flatten the nested list 
-            flat_master = list(itertools.chain(*master))
+            flat_master = list(itertools.chain(*master)) #flat master in a list
             #check to see if idx is in flat_master
             if idx not in flat_master:
                 top_a = row['ymin']
@@ -97,11 +96,13 @@ class Grapher:
                             bottom_b = row_2['ymax'] 
                             if (top_a <= bottom_b) and (bottom_a >= top_b): 
                                 line.append(idx_2)
+                                print(f'box_a is {top_a,bottom_a} | box_b is {top_b,bottom_b}')
+                                print(line)
                 master.append(line)
         df2 = pd.DataFrame({'words_indices': master, 'line_number':[x for x in range(1,len(master)+1)]})
+        
         #explode the list columns eg : [1,2,3]
-        df2 = df2.set_index('line_number').words_indices.apply(pd.Series).stack()\
-                .reset_index(level=0).rename(columns={0:'words_indices'})
+        df2 = df2.set_index('line_number').words_indices.apply(pd.Series).stack().reset_index(level=0).rename(columns={0:'words_indices'})
         df2['words_indices'] = df2['words_indices'].astype('int')
         #put the line numbers back to the list
         final = df.merge(df2, left_on=df.index, right_on='words_indices')

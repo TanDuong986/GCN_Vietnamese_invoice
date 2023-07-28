@@ -5,7 +5,7 @@ import numpy as np
 import cv2 
 import os
 
-instruct = '/home/dtan/Documents/GCN/GCN_Vietnam/Code/detect_word/result/res_mcocr_public_145013aedmq.txt'
+instruct = '/home/dtan/Documents/GCN/GCN_Vietnam/Code/detect_word/result/res_mcocr_public_145013aukcu.txt'
 name_img = os.path.basename(instruct).split('.')[0]+'.jpg'
 here = os.path.dirname(os.path.abspath(__file__))
 
@@ -34,6 +34,8 @@ matrix = np.zeros((len(lines), 8), dtype=int)
 for i, line in enumerate(lines):
     values = line.strip().split(',') # strip is not take /n, split is its name
     matrix[i] = [int(val) for val in values]
+
+matrix = matrix[matrix[:,1].argsort()]
 
 i=0
 img = cv2.imread(os.path.join(here,'result',name_img))

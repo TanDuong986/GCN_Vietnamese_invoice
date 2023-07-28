@@ -14,7 +14,6 @@ import torch.nn as nn
 import torch.backends.cudnn as cudnn
 from torch.autograd import Variable
 
-from PIL import Image
 
 import cv2
 from skimage import io
@@ -22,8 +21,6 @@ import numpy as np
 import utils.craft_utils as craft_utils # some convert function built-in process of CRAFT model
 import utils.imgproc as imgproc# image procesing - normalize, denormalize v.v
 import utils.file_utils as file_utils# working with folder, save, load dir etc
-import json
-import zipfile
 
 from utils.craft import CRAFT
 
