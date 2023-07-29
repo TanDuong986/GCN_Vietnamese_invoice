@@ -5,18 +5,24 @@ from PIL import Image
 import sys
 import os
 
-from utils import read_txt,gen_model,stretch_ROI
+from ocr.utils import read_txt,gen_model,stretch_ROI
 
 
-current_dir = os.path.dirname(os.path.abspath(__file__))
-code_dir = os.path.join(current_dir, "..")
-sys.path.append(code_dir)
 
 def cv2image(image): #convert cut image into input of ocr
     return Image.fromarray(cv2.cvtColor(image, cv2.COLOR_BGR2RGB))
 
+def ocr_csd(pos,img,model):
+    # img = stretch_ROI(pos,img_src)
+    csd = img[pos[1]:pos[3],pos[0]:pos[2]]
+    text = model.predict(cv2image(csd))
+    return text
+
 if __name__ == "__main__":
-    model = gen_model() #1.67 s without cuda | 0.02 with cuda
+    current_dir = os.path.dirname(os.path.abspath(__file__))
+    code_dir = os.path.join(current_dir, "..")
+    sys.path.append(code_dir)
+    model = gen_model()
     img_src = cv2.imread('/home/dtan/Documents/GCN/GCN_Vietnam/Code/detect_word/result/res_mcocr_public_145013alybg.jpg')
     position = read_txt('/home/dtan/Documents/GCN/GCN_Vietnam/Code/detect_word/result/res_mcocr_public_145013alybg.txt')
     i=0
