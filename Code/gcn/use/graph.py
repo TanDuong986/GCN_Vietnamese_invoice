@@ -7,59 +7,27 @@ import networkx as nx
 import matplotlib.pyplot as plt
 
 class Grapher:
-    """
-    Description:
-            This class is used to generate:
-                    1) the graph (in dictionary form) { source_node: [destination_node1, destination_node2]}
-                    2) the dataframe with relative_distances 
-
-    Inputs: (dtan)
-        1) filename not have extension
-        2) data folder contains image and annotation file
-        3, this is train or test mode? - True is train
-
-    """ 
-    def __init__(self, filename, data_fd,train = True):
-        self.filename = filename
-        self.data_fd = data_fd
-        self.flag_infer = train
-
-        # tim path den file label box
-        file_path = os.path.join(self.data_fd, "label_mcocr2021",filename + '.jpg.csv') 
-        
-        #path cua image roi - concat file name -> absolute path of image
-        image_path = os.path.join(self.data_fd, "images", filename + '.jpg')
-
-        #read box file not have label
-        with open(file_path,'r') as f:
-            self.df = pd.read_csv(f)
-        # self.df.drop(["cells index","cate_id","group_id"], axis=1, inplace=True)
-        
+    def __init__(self, img, df):
         #read that image
-        self.image = cv2.imread(image_path)
-
-    def convert_to_list(self,input_string):
-        return [int(num) for num in input_string[1:-1].split(', ')]
+        self.image = img
+        self.df = df
 
     def graph_formation(self, export_graph = False):
         df, image = self.df, self.image
         """
         preprocessing the raw csv files to favorable df 
         """
-        df['poly'] = df['poly'].apply(self.convert_to_list)
-
+        
         # Create separate columns for each element in the lists
-        df_split = pd.DataFrame(df['poly'].to_list(), columns=[f'pos{i+1}' for i in range(8)])
+        df_split = pd.DataFrame(df['poly'].to_list(), columns=[f'pos{i+1}' for i in range(4)])
 
         # Concatenate the original DataFrame with the new split columns
         df = pd.concat([ df_split,df], axis=1)
 
         # Drop the original column with the string representations of lists
-        df.drop(['poly','pos3','pos4','pos7','pos8'], axis=1, inplace=True)
-        if self.flag_infer: # only in train mode, we have id and text of label (interesting field)
-            new_name_and_order = {'pos1':'xmin','pos2':'ymin','pos5':'xmax','pos6':'ymax','cate_id':'label_id','cate_text':'label_text','vietocr_text':'content'}
-        else:
-            new_name_and_order = {'pos1':'xmin','pos2':'ymin','pos5':'xmax','pos6':'ymax','vietocr_text':'content'}
+        df.drop(['poly'], axis=1, inplace=True)
+        new_name_and_order = {'pos1':'xmin','pos2':'ymin','pos3':'xmax','pos4':'ymax','content':'content'}
+
         # column = ['label_id','label_text','content','xmin','ymin','xmax','ymax']
         df = df[list(new_name_and_order.keys())].rename(columns=new_name_and_order)
         for col in df.columns:
@@ -72,11 +40,9 @@ class Grapher:
         #sort from top to bottom
         df.sort_values(by=['ymin'], inplace=True)
         df.reset_index(drop=True, inplace=True)
-
         #subtracting ymax by 1 to eliminate ambiguity of boxes being in both left and right 
         df["ymax"] = df["ymax"].apply(lambda x: x - 1)
         master = []
-        print(df)
         for idx, row in df.iterrows(): # go through line by line of data frame
             #flatten the nested list 
             flat_master = list(itertools.chain(*master)) #flat master in a list
@@ -213,14 +179,6 @@ class Grapher:
         """
         data = df['content'].tolist()
         
-        '''
-            Args:
-                df
-                
-            Returns: 
-                character and word features
-                
-        '''
         special_chars = ['&', '@', '#', '(',')','-','+', 
                     '=', '*', '%', '.', ',', '\\','/', 
                     '|', ':']

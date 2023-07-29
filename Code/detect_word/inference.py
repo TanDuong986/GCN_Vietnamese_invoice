@@ -1,8 +1,3 @@
-"""  
-Copyright (c) 2019-present NAVER Corp.
-MIT License
-"""
-
 # -*- coding: utf-8 -*-
 import sys
 import os
@@ -41,7 +36,6 @@ def str2bool(v):
 
 def test_net(net, image, text_threshold = 0.75, link_threshold=0.5, low_text=0.3, cuda = 1, poly = False, refine_net=None):
     
-
     # resize
     img_resized, target_ratio, size_heatmap = imgproc.resize_aspect_ratio(image, 1280, interpolation=cv2.INTER_LINEAR, mag_ratio=1.5)
     # image size is resize base on min of mag_ratio * max(w,h) or square

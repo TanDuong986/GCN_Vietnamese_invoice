@@ -44,19 +44,20 @@ def cook_input(name,train_mode = True):
             df[col] = df[col].str.strip()
         except AttributeError as e:
             pass
-    df['label_text'] = df['label_text'].fillna('OTHER')
-    df.loc[df['label_text'] == 'SELLER', 'num_labels'] = 1
-    df.loc[df['label_text'] == 'ADDRESS', 'num_labels'] = 2
-    df.loc[df['label_text'] == 'TIMESTAMP', 'num_labels'] = 3
-    df.loc[df['label_text'] == 'TOTAL_COST', 'num_labels'] = 4
-    df.loc[df['label_text'] == 'OTHER', 'num_labels'] = 5
+    if train_mode:
+        df['label_text'] = df['label_text'].fillna('OTHER')
+        df.loc[df['label_text'] == 'SELLER', 'num_labels'] = 1
+        df.loc[df['label_text'] == 'ADDRESS', 'num_labels'] = 2
+        df.loc[df['label_text'] == 'TIMESTAMP', 'num_labels'] = 3
+        df.loc[df['label_text'] == 'TOTAL_COST', 'num_labels'] = 4
+        df.loc[df['label_text'] == 'OTHER', 'num_labels'] = 5
 
-    assert df['num_labels'].isnull().values.any() == False, f'labeling error! Invalid label(s) present in {name}.csv'
-    labels = torch.tensor(df['num_labels'].values.astype(np.int8))
+        assert df['num_labels'].isnull().values.any() == False, f'labeling error! Invalid label(s) present in {name}.csv'
+        labels = torch.tensor(df['num_labels'].values.astype(np.int8))
+        data.y = labels
+
     text = df['content'].values
-
     data.x = features
-    data.y = labels
     data.text = text
     data.img_id = name
     
@@ -67,7 +68,8 @@ def cook_input(name,train_mode = True):
 if __name__ == "__main__":
     # test_data = torch.load(os.path.join(save_fd, 'test_dataVN.dataset'))
     device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
-    G,img,df,test_data = cook_input('mcocr_public_145014zvrla')
+    G,img,df,test_data = cook_input('mcocr_public_145014zvrla',train_mode=False)
+    print(test_data)
     here = os.path.dirname(os.path.abspath(__file__))
 
     model = InvoiceGCN(input_dim=test_data.x.shape[1], chebnet=True)
@@ -97,7 +99,7 @@ if __name__ == "__main__":
     img2 = np.copy(img)
     for row_index, row in df.iterrows():
         x1, y1, x2, y2 = row[['xmin', 'ymin', 'xmax', 'ymax']]
-        true_label = row["label_text"]
+        # true_label = row["label_text"]
 
         # if isinstance(true_label, str) and true_label != "invoice": #draw for OTHER
         #     cv2.rectangle(img2, (x1, y1), (x2, y2), (0, 255, 0), 2)

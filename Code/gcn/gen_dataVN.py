@@ -12,7 +12,6 @@ import tqdm
 import numpy as np
 import os
 
-
 here = '/home/dtan/Documents/GCN/GCN_Vietnam'
 data_fd ='/home/dtan/Documents/GCN/GCN_Vietnam/Vietnam_invoice_data/preprocessed_data'
 label_pth = os.path.join(data_fd,'label_mcocr2021')

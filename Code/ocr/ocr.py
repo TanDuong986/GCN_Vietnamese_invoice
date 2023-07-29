@@ -14,7 +14,8 @@ def cv2image(image): #convert cut image into input of ocr
 
 def ocr_csd(pos,img,model):
     # img = stretch_ROI(pos,img_src)
-    csd = img[pos[1]:pos[3],pos[0]:pos[2]]
+    off = 3
+    csd = img[pos[1]-off:pos[3]+off,pos[0]-off:pos[2]+off]
     text = model.predict(cv2image(csd))
     return text
 
