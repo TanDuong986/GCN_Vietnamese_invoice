@@ -59,10 +59,10 @@ if __name__ == "__main__":
     model = gen_model()
     
     t = time.time()
-    path_img = '/home/dtan/Documents/GCN/GCN_Vietnam/Vietnam_invoice_data/mcocr2021_raw/test/test_images/mcocr_private_145120dvojm.jpg'
+    path_img = '/home/dtan/Documents/GCN/GCN_Vietnam/Code/detect_word/data_set_test_craft/46056287dfaa0cf455bb.jpg'
     name_img = os.path.basename(path_img).split(".")[0]
 
-    poly = inferDetect(path_img)[0]
+    poly = inferDetect(path_img,cuda=0)[0]
     canvas = cv2.imread(path_img)
     poly = np.array(poly).reshape(len(poly),-1)
     box,text = end2end(poly,canvas,model)

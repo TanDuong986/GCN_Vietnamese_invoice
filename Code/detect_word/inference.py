@@ -34,7 +34,7 @@ def copyStateDict(state_dict):
 def str2bool(v):
     return v.lower() in ("yes", "y", "true", "t", "1")
 
-def test_net(net, image, text_threshold = 0.75, link_threshold=0.5, low_text=0.3, cuda = 1, poly = False, refine_net=None):
+def test_net(net, image, text_threshold = 0.75, link_threshold=0.5, low_text=0.3, cuda = 0, poly = False, refine_net=None):
     
     # resize
     img_resized, target_ratio, size_heatmap = imgproc.resize_aspect_ratio(image, 1280, interpolation=cv2.INTER_LINEAR, mag_ratio=1.5)
@@ -91,7 +91,7 @@ def inferDetect(img_path,cuda=1):
     for k, image_path in enumerate(image_list):
         # print("Test image {}/{}: {}".format(k+1,len(image_list),image_path))
         image = imgproc.loadImage(image_path) # chi don gian la doc cai anh theo RGB thoi | 0.006s
-        polys= test_net(net, image)
+        polys= test_net(net, image,cuda)
 
         # file_utils.saveResult(image_path, image[:,:,::-1], polys, dirname=result_folder,draw=True) # see file_utils.py to set output is image, txt or ste
 
