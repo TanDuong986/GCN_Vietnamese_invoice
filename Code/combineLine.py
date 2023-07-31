@@ -98,7 +98,7 @@ def end2end(matrix,img,model):
             xmin,ymin,xmax,ymax = combination(cl)
             box.append([xmin,ymin,xmax,ymax])
             texts.append(ocr_csd([xmin,ymin,xmax,ymax],img,model))
-    return box,texts
+    return box ,texts
 
 if __name__ == "__main__":
     path = '/home/dtan/Documents/GCN/GCN_Vietnam/Code/detect_word/result/res_mcocr_public_145013aukcu.txt'

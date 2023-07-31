@@ -68,7 +68,7 @@ def cook_input(name,train_mode = True):
 if __name__ == "__main__":
     # test_data = torch.load(os.path.join(save_fd, 'test_dataVN.dataset'))
     device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
-    G,img,df,test_data = cook_input('mcocr_public_145014zvrla',train_mode=False)
+    G,img,df,test_data = cook_input('mcocr_public_145014yxijr',train_mode=False)
     print(test_data)
     here = os.path.dirname(os.path.abspath(__file__))
 

@@ -13,10 +13,10 @@ def cv2image(image): #convert cut image into input of ocr
     return Image.fromarray(cv2.cvtColor(image, cv2.COLOR_BGR2RGB))
 
 def ocr_csd(pos,img,model):
-    # img = stretch_ROI(pos,img_src)
-    off = 3
-    csd = img[pos[1]-off:pos[3]+off,pos[0]-off:pos[2]+off]
-    text = model.predict(cv2image(csd))
+    # img = stretch_ROI(pos,img)
+    csd = img[pos[1]:pos[3],pos[0]:pos[2]]
+    h,w = pos[3]-pos[1],pos[2]-pos[0]
+    text = model.predict(cv2image(cv2.resize(csd,(int(w*3.0),int(h*3.0)))))
     return text
 
 if __name__ == "__main__":

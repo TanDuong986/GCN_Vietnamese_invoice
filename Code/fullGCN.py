@@ -56,29 +56,22 @@ def infer_gcn(img,name,data,model):
 
 if __name__ == "__main__":
     here = os.path.dirname(os.path.abspath(__file__))
-    model = gen_model()
+    model_OCR = gen_model()
     
     t = time.time()
-    path_img = '/home/dtan/Documents/GCN/GCN_Vietnam/Vietnam_invoice_data/mcocr2021_raw/test/test_images/mcocr_private_145120dvojm.jpg'
+    path_img = '/home/dtan/Documents/GCN/GCN_Vietnam/Vietnam_invoice_data/preprocessed_data/images/mcocr_public_145014yccar.jpg'
     name_img = os.path.basename(path_img).split(".")[0]
+    canvas = cv2.imread(path_img)
 
     poly = inferDetect(path_img)[0]
-    canvas = cv2.imread(path_img)
     poly = np.array(poly).reshape(len(poly),-1)
-    box,text = end2end(poly,canvas,model)
+    box,text = end2end(poly,canvas,model_OCR)
     df_box = pd.DataFrame({"poly":list(box),"content":text},index=None)
+    # draw_poly(canvas=canvas,poly=box)
     G,df,data = cook_input(canvas,df_box)
-    model = InvoiceGCN(input_dim=data.x.shape[1], chebnet=True)
-    model.load_state_dict(torch.load(os.path.join(here,'gcn','weights','model_std.pt')))
-    model.eval()
-    infer_gcn(canvas,name_img,data,model)
-    print(time.time()-t)
-
-    
-
-
-
-
-
-
+    model_GCN = InvoiceGCN(input_dim=data.x.shape[1], chebnet=True)
+    model_GCN.load_state_dict(torch.load(os.path.join(here,'gcn','weights','model_std.pt')))
+    model_GCN.eval()
+    infer_gcn(canvas,name_img,data,model_GCN)
+    # print(time.time()-t)
 
