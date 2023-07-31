@@ -1,0 +1,8 @@
+index,bbox,label_id,label_text,content,width,height
+0,"[199, 297, 315, 323]",15,SELLER,VinCommerce,768,1024
+1,"[365, 240, 483, 273]",16,ADDRESS,VM+ QNH 86 Trần Phú,768,1024
+2,"[331, 266, 514, 294]",16,ADDRESS,Số 86 Đường Trần Phú P. Cẩm Tây,768,1024
+3,"[350, 291, 494, 317]",16,ADDRESS,"TP Cẩm Phả, T.Quảng Ninh",768,1024
+4,"[203, 375, 410, 399]",17,TIMESTAMP,Ngày bán: 08/08/2020 17:21,768,1024
+5,"[214, 551, 383, 574]",18,TOTAL_COST,TỔNG TIỀN PHẢI T.TOÁN,768,1024
+6,"[489, 549, 550, 569]",18,TOTAL_COST,61.800,768,1024

@@ -1,0 +1,5 @@
+index,bbox,label_id,label_text,content,width,height
+0,"[366, 367, 596, 397]",15,SELLER,SIỀU THỊ MINH LOAN,1024,1366
+1,"[273, 397, 686, 433]",16,ADDRESS,TT 101 CC 12 Tầng Ngõ 25 Vũ Ngọc Phan,1024,1366
+2,"[247, 530, 603, 561]",17,TIMESTAMP,Ngày,1024,1366
+3,"[363, 1060, 748, 1100]",18,TOTAL_COST,"Tổng tiền (VND) : 61 ,000",1024,1366

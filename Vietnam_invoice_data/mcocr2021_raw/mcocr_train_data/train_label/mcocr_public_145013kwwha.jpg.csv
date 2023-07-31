@@ -1,0 +1,7 @@
+index,bbox,label_id,label_text,content,width,height
+0,"[230, 244, 298, 263]",15,SELLER,Giảm giá,576,1024
+1,"[153, 368, 438, 387]",16,ADDRESS,"244/23a Huỳnh Văn Bánh, P.11, Q.PN",576,1024
+2,"[134, 538, 235, 556]",17,TIMESTAMP,Ngày giờ vào:,576,1024
+3,"[262, 535, 384, 551]",17,TIMESTAMP,30.09.2020 18.31,576,1024
+4,"[429, 770, 511, 795]",18,TOTAL_COST,12 000,576,1024
+5,"[143, 769, 339, 794]",18,TOTAL_COST,Tiên Thanh Toán,576,1024

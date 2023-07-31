@@ -1,0 +1,6 @@
+index,bbox,label_id,label_text,content,width,height
+0,"[299, 209, 936, 248]",15,SELLER,NHÀ THUỐC BỆNH VIỆN ĐA KHOA,1024,1366
+1,"[452, 253, 798, 289]",15,SELLER,THÀNH PHỐ VINH,1024,1366
+2,"[263, 297, 987, 344]",16,ADDRESS,"Số 178 Trần Phú, Hồng Sơn, TP. Vinh, Nghệ An",1024,1366
+3,"[85, 470, 554, 514]",17,TIMESTAMP,Ngày mua: 14:14:24 14/08/2020,1024,1366
+4,"[587, 784, 883, 829]",18,TOTAL_COST,Tiền hàng: 46.000,1024,1366

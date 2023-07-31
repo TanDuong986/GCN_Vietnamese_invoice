@@ -1,0 +1,6 @@
+index,bbox,label_id,label_text,content,width,height
+0,"[379, 171, 543, 224]",15,SELLER,Saigon Co.op,1024,1366
+1,"[325, 195, 613, 257]",15,SELLER,Co.op Food HN THE K-PARK,1024,1366
+2,"[306, 362, 672, 450]",16,ADDRESS,"P. Phu La, Q. Ha Dong, Tp Ha Noi",1024,1366
+3,"[428, 550, 741, 628]",17,TIMESTAMP,Ngày: 19/09/2019 18:38:08,1024,1366
+4,"[650, 746, 769, 807]",18,TOTAL_COST,"3,700.00",1024,1366

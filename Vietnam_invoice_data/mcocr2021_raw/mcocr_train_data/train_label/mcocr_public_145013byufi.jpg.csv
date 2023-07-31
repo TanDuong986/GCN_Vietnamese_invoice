@@ -1,0 +1,5 @@
+index,bbox,label_id,label_text,content,width,height
+0,"[245, 224, 590, 273]",15,SELLER,CH THỜI TRANG ADIDAS,1024,1366
+1,"[265, 272, 574, 307]",16,ADDRESS,"17A, KP.11,P.BTD, Q. Bình Tân",1024,1366
+2,"[266, 364, 587, 410]",17,TIMESTAMP,Ngày 22/01/2020 Giờ: 16:49,1024,1366
+3,"[303, 718, 720, 778]",18,TOTAL_COST,Tổng thành toàn,1024,1366

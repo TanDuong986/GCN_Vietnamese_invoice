@@ -1,0 +1,4 @@
+index,bbox,label_id,label_text,content,width,height
+0,"[582, 476, 805, 518]",17,TIMESTAMP,Ngày 02-07-2020,1024,1820
+1,"[132, 1260, 320, 1304]",18,TOTAL_COST,Khách phải trả:,1024,1820
+2,"[710, 1295, 810, 1323]",18,TOTAL_COST,382.000,1024,1820

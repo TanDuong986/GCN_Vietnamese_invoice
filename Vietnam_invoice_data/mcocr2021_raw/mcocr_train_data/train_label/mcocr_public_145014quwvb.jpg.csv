@@ -1,0 +1,10 @@
+index,bbox,label_id,label_text,content,width,height
+0,"[325, 709, 594, 757]",18,TOTAL_COST,Tong so tien thanh toan:,1024,1366
+1,"[664, 737, 766, 771]",18,TOTAL_COST,"18,200.00",1024,1366
+2,"[490, 505, 784, 548]",17,TIMESTAMP,Ngày: 23/09/2019 9:10:04,1024,1366
+3,"[356, 181, 810, 239]",16,ADDRESS,"Tang 1,SH42 - Toa K3, Cong trinh chung cu",1024,1366
+4,"[356, 244, 802, 297]",16,ADDRESS,Du an Dau tu xay dung Khu nha o Hi Brand,1024,1366
+5,"[445, 277, 745, 322]",16,ADDRESS,"tai Khu do thi moi Van Phu,",1024,1366
+6,"[408, 302, 769, 354]",16,ADDRESS,"P. Phu La, Q.Ha Dong, Tp Ha Noi",1024,1366
+7,"[521, 102, 679, 143]",15,SELLER,Saigon Co.op,1024,1366
+8,"[460, 126, 734, 170]",15,SELLER,Co.op Food HN THE K-PARK,1024,1366

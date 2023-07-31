@@ -1,0 +1,8 @@
+index,bbox,label_id,label_text,content,width,height
+0,"[172, 232, 300, 265]",15,SELLER,VinCommerce,768,1024
+1,"[340, 177, 538, 207]",16,ADDRESS,"VM+ QNH Tổ 7, Khu Minh Tiến A",768,1024
+2,"[369, 208, 508, 231]",16,ADDRESS,"Tổ 7, Khu Minh Tiến A",768,1024
+3,"[339, 232, 534, 259]",16,ADDRESS,"P. Cẩm Bình. TP, Cẩm Phả, QNH",768,1024
+4,"[167, 332, 416, 355]",17,TIMESTAMP,Ngày bán: 15/08/2020 06:58,768,1024
+5,"[166, 522, 383, 550]",18,TOTAL_COST,TỔNG TIỀN PHẢI T.TOÁN,768,1024
+6,"[517, 527, 584, 549]",18,TOTAL_COST,42.000,768,1024

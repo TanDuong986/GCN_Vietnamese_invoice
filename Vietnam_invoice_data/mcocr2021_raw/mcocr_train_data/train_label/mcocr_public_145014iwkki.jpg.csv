@@ -1,0 +1,3 @@
+index,bbox,label_id,label_text,content,width,height
+0,"[8, 863, 290, 922]",18,TOTAL_COST,Khách phải trả,1024,2276
+1,"[856, 881, 1019, 927]",18,TOTAL_COST,"164,000",1024,2276

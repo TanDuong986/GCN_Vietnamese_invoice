@@ -1,0 +1,5 @@
+index,bbox,label_id,label_text,content,width,height
+0,"[162, 0, 596, 97]",15,SELLER,Co.op mart,988,2540
+1,"[232, 182, 671, 252]",16,ADDRESS,Quang Trung Q.9,988,2540
+2,"[314, 506, 880, 585]",17,TIMESTAMP,Ngày: 15/07/2020 18:55:24,988,2540
+3,"[23, 1833, 893, 1894]",18,TOTAL_COST,"Tong so tien thanh toan: 429,776.00",988,2540

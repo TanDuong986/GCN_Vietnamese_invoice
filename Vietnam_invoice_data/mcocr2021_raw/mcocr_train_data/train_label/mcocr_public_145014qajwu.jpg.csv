@@ -1,0 +1,7 @@
+index,bbox,label_id,label_text,content,width,height
+0,"[314, 63, 508, 85]",15,SELLER,Co.opMart HAU GIANG,960,1280
+1,"[266, 96, 568, 127]",16,ADDRESS,"B8 Hau Giang, P.6, Q.6, TpHCM",960,1280
+2,"[333, 304, 500, 330]",17,TIMESTAMP,Ngày: 21/05/2020,960,1280
+3,"[519, 313, 602, 336]",17,TIMESTAMP,PA:50:01,960,1280
+4,"[180, 644, 450, 679]",18,TOTAL_COST,Tong so tien thanh toan:,960,1280
+5,"[490, 654, 615, 679]",18,TOTAL_COST,"3,564,200.40",960,1280

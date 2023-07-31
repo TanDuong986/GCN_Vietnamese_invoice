@@ -1,0 +1,4 @@
+index,bbox,label_id,label_text,content,width,height
+0,"[168, 187, 312, 202]",17,TIMESTAMP,Ngày hệ thống: 12/08/2020 22:12,576,1024
+1,"[167, 441, 213, 453]",18,TOTAL_COST,Tổng Tiền,576,1024
+2,"[321, 439, 372, 451]",18,TOTAL_COST,15.796.516,576,1024

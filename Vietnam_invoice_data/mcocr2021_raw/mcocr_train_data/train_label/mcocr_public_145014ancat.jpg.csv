@@ -1,0 +1,8 @@
+index,bbox,label_id,label_text,content,width,height
+0,"[124, 191, 168, 593]",15,SELLER,SCTC CỔ THỎ 104 TRẦN PHÚ - CẨM,1024,768
+1,"[160, 368, 185, 417]",15,SELLER,PHẢ,1024,768
+2,"[188, 178, 227, 605]",16,ADDRESS,104 Trần Phú - phường Cẩm Tây - Thành phố Cẩm,1024,768
+3,"[218, 309, 246, 474]",16,ADDRESS,Phả - Quảng Ninh,1024,768
+4,"[412, 339, 435, 620]",17,TIMESTAMP,Ngày: 10/08/2020 (07:35 CH - 07:35 CH),1024,768
+5,"[794, 410, 826, 612]",18,TOTAL_COST,Tổng thanh toán,1024,768
+6,"[786, 134, 816, 258]",18,TOTAL_COST,155.000đ,1024,768

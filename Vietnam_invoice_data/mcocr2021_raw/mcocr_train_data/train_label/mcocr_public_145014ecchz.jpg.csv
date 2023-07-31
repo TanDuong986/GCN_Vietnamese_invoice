@@ -1,0 +1,7 @@
+index,bbox,label_id,label_text,content,width,height
+0,"[193, 480, 231, 601]",15,SELLER,VinCommerce,1024,768
+1,"[182, 270, 199, 447]",16,ADDRESS,"DA khu DCLB cọc 8, P. Cẩm Sơn",1024,768
+2,"[205, 284, 226, 440]",16,ADDRESS,"TP. Cẩm Phả, T.Quảng Ninh",1024,768
+3,"[281, 378, 312, 609]",17,TIMESTAMP,Ngày bán: 15/08/2020 11:59,1024,768
+4,"[479, 416, 508, 617]",18,TOTAL_COST,TỔNG TIỀN PHẢI T.TOÁN,1024,768
+5,"[486, 228, 509, 297]",18,TOTAL_COST,156.000,1024,768

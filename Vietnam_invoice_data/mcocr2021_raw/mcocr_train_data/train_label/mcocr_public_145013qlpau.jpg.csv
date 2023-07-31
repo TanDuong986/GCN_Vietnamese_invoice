@@ -1,0 +1,8 @@
+index,bbox,label_id,label_text,content,width,height
+0,"[155, 469, 364, 493]",18,TOTAL_COST,TỔNG TIỀN PHẢI T.TOÁN,720,1280
+1,"[498, 469, 566, 493]",18,TOTAL_COST,20.000,720,1280
+2,"[155, 301, 406, 332]",17,TIMESTAMP,Ngày bán: 11/08/2020 20:58,720,1280
+3,"[341, 166, 497, 190]",16,ADDRESS,VM + QNH 112 Thanh Niên,720,1280
+4,"[321, 188, 523, 215]",16,ADDRESS,"Số 112 Thanh Niên, P.Cẩm Thành",720,1280
+5,"[344, 214, 497, 243]",16,ADDRESS,"TP Cẩm Phả, Quảng Ninh",720,1280
+6,"[153, 204, 290, 238]",15,SELLER,VinCommerce,720,1280

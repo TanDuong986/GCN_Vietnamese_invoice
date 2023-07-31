@@ -1,0 +1,6 @@
+index,bbox,label_id,label_text,content,width,height
+0,"[262, 306, 282, 460]",16,ADDRESS,"Số 590 Trần Phú, P. Cẩm Thủy",1024,768
+1,"[284, 318, 305, 447]",16,ADDRESS,"TP. Cẩm Phả, Quảng Ninh",1024,768
+2,"[365, 399, 388, 613]",17,TIMESTAMP,Ngày bán: 15/08/2020 09:59,1024,768
+3,"[503, 430, 530, 608]",18,TOTAL_COST,TỔNG TIỀN PHẢI T.TOÁN,1024,768
+4,"[502, 259, 526, 315]",18,TOTAL_COST,79.800,1024,768

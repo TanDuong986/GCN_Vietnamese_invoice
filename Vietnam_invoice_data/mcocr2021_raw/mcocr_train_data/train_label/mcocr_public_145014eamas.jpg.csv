@@ -1,0 +1,6 @@
+index,bbox,label_id,label_text,content,width,height
+0,"[364, 129, 623, 160]",15,SELLER,SIÊU THỊ BÁCH HOÁ TỔNG HỢP,960,1280
+1,"[398, 156, 594, 179]",16,ADDRESS,"Số 5 Cẩm Tây , Cẩm Phả QN",960,1280
+2,"[586, 1062, 699, 1092]",17,TIMESTAMP,Ngày:,960,1280
+3,"[326, 979, 503, 1004]",18,TOTAL_COST,Tổng tiền (đã gồm VAT),960,1280
+4,"[633, 977, 700, 996]",18,TOTAL_COST,518.900,960,1280

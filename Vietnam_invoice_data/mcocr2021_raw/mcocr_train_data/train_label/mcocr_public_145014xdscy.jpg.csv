@@ -1,0 +1,5 @@
+index,bbox,label_id,label_text,content,width,height
+0,"[245, 292, 264, 414]",16,ADDRESS,"Tổ 7, Khu Hình Tiến A",1024,768
+1,"[264, 266, 289, 438]",16,ADDRESS,"Đ. Cẩm Bình TP. Cẩm Phả, QNH",1024,768
+2,"[537, 399, 566, 593]",17,TIMESTAMP,TỔNG TIỀN PHẢI T.TOÁN,1024,768
+3,"[538, 217, 562, 273]",17,TIMESTAMP,98.500,1024,768

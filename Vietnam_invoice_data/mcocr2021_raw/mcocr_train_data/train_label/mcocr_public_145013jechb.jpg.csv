@@ -1,0 +1,8 @@
+index,bbox,label_id,label_text,content,width,height
+0,"[211, 165, 331, 205]",15,SELLER,VinCommerce,768,1024
+1,"[354, 128, 544, 156]",16,ADDRESS,VM+ QNH Dư án quỹ đát đướng sắt,768,1024
+2,"[365, 158, 535, 178]",16,ADDRESS,DA QĐ doc tuyến ĐS Tổ 3 Khu 2,768,1024
+3,"[360, 181, 539, 203]",16,ADDRESS,"P.Cẩm Sơn, TP.Cẩm Phả, T.QN",768,1024
+4,"[208, 257, 429, 287]",17,TIMESTAMP,Ngày bán: 14/08/2020 20:11,768,1024
+5,"[205, 487, 394, 518]",18,TOTAL_COST,TỔNG TIỀN PHẢI T.TOÁN,768,1024
+6,"[505, 497, 573, 519]",18,TOTAL_COST,322.800,768,1024

@@ -1,0 +1,7 @@
+index,bbox,label_id,label_text,content,width,height
+0,"[143, 170, 236, 197]",15,SELLER,Vcommerce,576,1024
+1,"[267, 136, 375, 153]",16,ADDRESS,VM + QNH 112 Thanh Niên,576,1024
+2,"[250, 153, 392, 172]",16,ADDRESS,"Số 112 Thanh Hiên, P.Cẩm Thành",576,1024
+3,"[147, 234, 314, 256]",17,TIMESTAMP,Ngày bán: 14/08/2020 06:16,576,1024
+4,"[159, 406, 303, 428]",18,TOTAL_COST,TÒNG TIỀN PHẢI T.TOÁN,576,1024
+5,"[390, 400, 433, 417]",18,TOTAL_COST,19.900,576,1024

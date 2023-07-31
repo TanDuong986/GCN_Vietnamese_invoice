@@ -1,0 +1,4 @@
+index,bbox,label_id,label_text,content,width,height
+0,"[676, 1140, 894, 1200]",18,TOTAL_COST,149.585.00,1024,2290
+1,"[26, 1168, 548, 1242]",18,TOTAL_COST,Tong so tien thanh toan:,1024,2290
+2,"[248, 193, 672, 250]",16,ADDRESS,191 Quang Trung Q.9,1024,2290

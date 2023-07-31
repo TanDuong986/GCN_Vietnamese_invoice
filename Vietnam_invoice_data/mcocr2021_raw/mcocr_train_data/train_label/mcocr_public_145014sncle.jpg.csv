@@ -1,0 +1,5 @@
+index,bbox,label_id,label_text,content,width,height
+0,"[246, 166, 580, 209]",15,SELLER,Cty LD TNHH KFC Viet Nam,1024,1366
+1,"[224, 193, 633, 251]",16,ADDRESS,"92 Ba Trieu, Hai Ba Trung, Ha N",1024,1366
+2,"[317, 520, 549, 560]",17,TIMESTAMP,15 Aug 20 19:12:07,1024,1366
+3,"[262, 693, 585, 726]",18,TOTAL_COST,Total,1024,1366

@@ -1,0 +1,7 @@
+index,bbox,label_id,label_text,content,width,height
+0,"[29, 492, 213, 553]",15,SELLER,VinCommerce,590,1280
+1,"[241, 442, 501, 475]",16,ADDRESS,VM+QNH Tổ 8 Khu 3B Cẩm Trung,590,1280
+2,"[271, 475, 477, 509]",16,ADDRESS,"Tổ 8, Khu 3B, P. Cẩm Trung",590,1280
+3,"[268, 508, 480, 542]",16,ADDRESS,"TP. Cẩm Phả, T.Quảng Ninh",590,1280
+4,"[28, 598, 226, 631]",17,TIMESTAMP,Ngày : 13/08/2020,590,1280
+5,"[367, 600, 556, 629]",17,TIMESTAMP,Thời gian: 17:39,590,1280

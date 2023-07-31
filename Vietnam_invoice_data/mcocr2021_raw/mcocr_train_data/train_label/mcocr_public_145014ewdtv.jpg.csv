@@ -1,0 +1,6 @@
+index,bbox,label_id,label_text,content,width,height
+0,"[259, 172, 386, 187]",16,ADDRESS,"Số 112 Thanh Niên, P. Cẩm Thịnh",576,1024
+1,"[274, 186, 370, 200]",16,ADDRESS,"TP. Cẩm Phả, Quảng Ninh",576,1024
+2,"[154, 227, 308, 253]",17,TIMESTAMP,Ngày bán: 13/08/2020,576,1024
+3,"[144, 349, 282, 376]",18,TOTAL_COST,HỒNG TIẾN PHẢI T.TOÁN,576,1024
+4,"[372, 361, 412, 378]",18,TOTAL_COST,45.400,576,1024

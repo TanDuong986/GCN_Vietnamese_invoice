@@ -1,0 +1,8 @@
+index,bbox,label_id,label_text,content,width,height
+0,"[161, 200, 302, 236]",15,SELLER,VinCommerce,768,1024
+1,"[336, 148, 567, 179]",16,ADDRESS,VM+ QNH Dự án quỹ đất đường sắt,768,1024
+2,"[349, 182, 560, 205]",16,ADDRESS,DA QĐ đọc tuyến ĐS Tổ 3 Khu 2,768,1024
+3,"[339, 208, 561, 235]",16,ADDRESS,"P.Cẩm Sơn, TP. Cẩm Phả, T.QN",768,1024
+4,"[158, 310, 427, 337]",17,TIMESTAMP,Ngày bán: 15/08/2020 11:11,768,1024
+5,"[157, 490, 386, 520]",18,TOTAL_COST,TỔNG TIỀN PHẢI T.TOÁN,768,1024
+6,"[521, 498, 604, 520]",18,TOTAL_COST,131.800,768,1024

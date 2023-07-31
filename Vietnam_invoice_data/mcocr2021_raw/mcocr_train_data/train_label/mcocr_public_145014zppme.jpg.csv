@@ -1,0 +1,5 @@
+index,bbox,label_id,label_text,content,width,height
+0,"[348, 56, 614, 95]",16,ADDRESS,Co.op Food HN THE K-PARK,1024,1366
+1,"[405, 432, 670, 461]",17,TIMESTAMP,Ngay : 20/09/2019 15 : 02 : 49,1024,1366
+2,"[276, 791, 510, 828]",18,TOTAL_COST,Tong so tien thanh toan:,1024,1366
+3,"[568, 790, 665, 820]",18,TOTAL_COST,"55,300.00",1024,1366

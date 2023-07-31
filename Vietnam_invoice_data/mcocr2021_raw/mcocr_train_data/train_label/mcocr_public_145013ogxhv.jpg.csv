@@ -1,0 +1,4 @@
+index,bbox,label_id,label_text,content,width,height
+0,"[289, 117, 881, 271]",15,SELLER,HỆ THỐNG SIÊU THỊ MỸ PHẨM SAMMI SHOP,1024,1820
+1,"[306, 682, 760, 730]",17,TIMESTAMP,Ngày 08/08/2020 Giờ: 11:22:05,1024,1820
+2,"[241, 1175, 861, 1263]",18,TOTAL_COST,Số tiền cần thanh toán,1024,1820

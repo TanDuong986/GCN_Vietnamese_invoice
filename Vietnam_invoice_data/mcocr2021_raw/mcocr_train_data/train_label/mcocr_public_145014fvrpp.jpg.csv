@@ -1,0 +1,6 @@
+index,bbox,label_id,label_text,content,width,height
+0,"[173, 156, 628, 198]",15,SELLER,Vitimex Quảng Ninh VinCom Cẩm Phả,720,1280
+1,"[267, 203, 503, 242]",16,ADDRESS,Cẩm Phả - Quảng Ninh,720,1280
+2,"[139, 353, 249, 377]",17,TIMESTAMP,09/08/2020,720,1280
+3,"[166, 520, 281, 551]",18,TOTAL_COST,Tổng cộng,720,1280
+4,"[504, 525, 598, 551]",18,TOTAL_COST,"490,000",720,1280

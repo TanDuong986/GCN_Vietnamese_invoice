@@ -1,0 +1,6 @@
+index,bbox,label_id,label_text,content,width,height
+0,"[88, 258, 351, 285]",15,SELLER,NHÀ SÁCH GD-TC CẨM PHẢ,472,1024
+1,"[29, 286, 330, 312]",16,ADDRESS,ĐC: 212 Đường Trần Phú-Cẩm Phả,472,1024
+2,"[32, 368, 279, 392]",17,TIMESTAMP,Thời gian: 16:26:43 - 14/08/2020,472,1024
+3,"[18, 508, 181, 530]",18,TOTAL_COST,Tổng số thanh toán,472,1024
+4,"[328, 505, 407, 526]",18,TOTAL_COST,20.000đ,472,1024

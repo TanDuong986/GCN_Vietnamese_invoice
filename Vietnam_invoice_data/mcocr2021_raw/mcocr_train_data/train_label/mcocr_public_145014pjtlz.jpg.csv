@@ -1,0 +1,10 @@
+index,bbox,label_id,label_text,content,width,height
+0,"[519, 17, 640, 45]",15,SELLER,Saigon Co.op,1024,1366
+1,"[475, 44, 677, 69]",15,SELLER,Co.op Food HN VAN KHE,1024,1366
+2,"[462, 85, 707, 115]",16,ADDRESS,400m2 tang 01 toa nha CT5A,1024,1366
+3,"[437, 108, 728, 136]",16,ADDRESS,thuoc du an Van Khe tai dia chi,1024,1366
+4,"[403, 130, 761, 162]",16,ADDRESS,"Khu do thị Van Khe, Ha Dong, Tp.Ha Noi",1024,1366
+5,"[525, 319, 681, 340]",17,TIMESTAMP,Ngày: 14/08/2020,1024,1366
+6,"[689, 318, 769, 341]",17,TIMESTAMP,20:56:23,1024,1366
+7,"[399, 822, 635, 851]",18,TOTAL_COST,Tong so tien thanh toan:,1024,1366
+8,"[675, 821, 785, 847]",18,TOTAL_COST,"163,024.00",1024,1366

@@ -1,0 +1,5 @@
+index,bbox,label_id,label_text,content,width,height
+0,"[84, 140, 453, 203]",16,ADDRESS,Lục Quân - Xã Cổ Đông - thị xã Sơn Tây,640,1280
+1,"[80, 250, 327, 290]",17,TIMESTAMP,Thời gian: 09:03 13/07/2020,640,1280
+2,"[427, 984, 529, 1023]",18,TOTAL_COST,253.000 253.000,640,1280
+3,"[75, 995, 208, 1034]",18,TOTAL_COST,Tổng tiền:,640,1280

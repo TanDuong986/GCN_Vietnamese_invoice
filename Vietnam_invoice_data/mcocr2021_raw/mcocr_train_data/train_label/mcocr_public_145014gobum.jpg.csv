@@ -1,0 +1,6 @@
+index,bbox,label_id,label_text,content,width,height
+0,"[182, 75, 695, 163]",15,SELLER,THỨC COFFEE,1024,1024
+1,"[231, 162, 638, 222]",16,ADDRESS,"22 Quang Trung, P10, Gò Vấp",1024,1024
+2,"[444, 356, 793, 401]",17,TIMESTAMP,Ngày: 31-03-2019,1024,1024
+3,"[78, 680, 370, 741]",18,TOTAL_COST,Tiền thanh toán:,1024,1024
+4,"[673, 670, 789, 716]",18,TOTAL_COST,55 000,1024,1024

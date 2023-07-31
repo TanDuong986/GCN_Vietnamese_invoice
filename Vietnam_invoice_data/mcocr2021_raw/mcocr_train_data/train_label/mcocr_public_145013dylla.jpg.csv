@@ -1,0 +1,7 @@
+index,bbox,label_id,label_text,content,width,height
+0,"[143, 170, 231, 214]",15,SELLER,VinCommerce,576,1024
+1,"[251, 164, 381, 181]",16,ADDRESS,"VM+ QNH Tổ 7, khu Minh Tiến A",576,1024
+2,"[273, 181, 362, 194]",16,ADDRESS,"Tổ 7, Khu Minh Tiến A",576,1024
+3,"[252, 195, 380, 209]",16,ADDRESS,"P. Cẩm Bình, TP. Cẩm Phả, QNH",576,1024
+4,"[134, 354, 287, 385]",18,TOTAL_COST,TỔNG TIỀN PHẢI T.TOÁN,576,1024
+5,"[375, 364, 423, 383]",18,TOTAL_COST,42.904,576,1024

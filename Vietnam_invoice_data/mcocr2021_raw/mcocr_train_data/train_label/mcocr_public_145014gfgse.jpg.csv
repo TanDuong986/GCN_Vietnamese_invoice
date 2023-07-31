@@ -1,0 +1,6 @@
+index,bbox,label_id,label_text,content,width,height
+0,"[248, 240, 497, 282]",15,SELLER,Cuitar Cafe,768,1024
+1,"[106, 328, 652, 379]",16,ADDRESS,"28 Phan Chu Trinh, Hiệp Phú, Quận 9, Hồ",768,1024
+2,"[93, 398, 374, 427]",17,TIMESTAMP,Ngày lấp: 03/10/2020,768,1024
+3,"[294, 700, 530, 742]",18,TOTAL_COST,Thành tiền:,768,1024
+4,"[545, 697, 694, 741]",18,TOTAL_COST,"25,000",768,1024

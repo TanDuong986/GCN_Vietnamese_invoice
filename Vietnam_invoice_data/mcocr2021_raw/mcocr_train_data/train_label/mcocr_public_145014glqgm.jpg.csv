@@ -1,0 +1,4 @@
+index,bbox,label_id,label_text,content,width,height
+0,"[55, 229, 241, 273]",15,SELLER,VinMart,576,1024
+1,"[55, 335, 189, 359]",18,TOTAL_COST,Thành tiền,576,1024
+2,"[70, 363, 273, 435]",18,TOTAL_COST,49.062 49.062 49.062,576,1024

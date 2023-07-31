@@ -1,0 +1,8 @@
+index,bbox,label_id,label_text,content,width,height
+0,"[201, 126, 305, 150]",15,SELLER,VinCommerce,768,1024
+1,"[308, 89, 490, 106]",16,ADDRESS,VM+QNH số 463 Tổ 66 Khu Điềm Thụy,768,1024
+2,"[330, 108, 471, 124]",16,ADDRESS,Số 483 Tổ 66 Khu Diêm Thuỷ,768,1024
+3,"[339, 129, 471, 147]",16,ADDRESS,"P.Cẩm Đông, TP.Cẩm Phả",768,1024
+4,"[201, 203, 393, 218]",17,TIMESTAMP,Ngày bán: 15/08/2020 11:10,768,1024
+5,"[205, 597, 366, 617]",18,TOTAL_COST,TỔNG TIỀN PHẢI T.TOÁN,768,1024
+6,"[455, 598, 519, 616]",18,TOTAL_COST,210.294,768,1024

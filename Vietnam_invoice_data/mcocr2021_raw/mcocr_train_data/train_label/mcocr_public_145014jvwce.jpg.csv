@@ -1,0 +1,5 @@
+index,bbox,label_id,label_text,content,width,height
+0,"[295, 280, 605, 309]",16,ADDRESS,168 Nguyen Dinh Chieu Q.3,1024,1365
+1,"[379, 469, 710, 504]",17,TIMESTAMP,Ngày: 21/05/2020 10:56:29,1024,1365
+2,"[246, 1013, 531, 1048]",18,TOTAL_COST,Tong so tien thanh toan:,1024,1365
+3,"[584, 1008, 730, 1048]",18,TOTAL_COST,"306,060.00",1024,1365

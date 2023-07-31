@@ -1,0 +1,8 @@
+index,bbox,label_id,label_text,content,width,height
+0,"[410, 317, 537, 349]",15,SELLER,Saiigono Co.op,1024,1366
+1,"[363, 338, 596, 371]",15,SELLER,Co.op Food HN THE K-PARK,1024,1366
+2,"[337, 476, 642, 519]",16,ADDRESS,"P. Phu La, Q. Ha Dong, Tp Ha Noi",1024,1366
+3,"[424, 638, 685, 682]",17,TIMESTAMP,Ngày: 19/09/2019 18:14:44,1024,1366
+4,"[600, 784, 706, 814]",18,TOTAL_COST,"25,200.00",1024,1366
+5,"[360, 455, 618, 493]",16,ADDRESS,"tai Khu do thi moi Van Phu,",1024,1366
+6,"[305, 792, 545, 836]",18,TOTAL_COST,Tong so tien thanh toan:,1024,1366

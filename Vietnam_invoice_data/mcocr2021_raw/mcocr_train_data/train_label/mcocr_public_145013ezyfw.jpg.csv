@@ -1,0 +1,4 @@
+index,bbox,label_id,label_text,content,width,height
+0,"[294, 637, 580, 667]",16,ADDRESS,"Số 59 Xuân La, quận Tây Hồ, HN",1024,2115
+1,"[585, 692, 697, 755]",17,TIMESTAMP,09/01/2020,1024,2115
+2,"[208, 1317, 683, 1352]",18,TOTAL_COST,"Tổng giá trị TT: 145,880",1024,2115

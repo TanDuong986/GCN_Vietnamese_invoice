@@ -1,0 +1,7 @@
+index,bbox,label_id,label_text,content,width,height
+0,"[362, 150, 554, 170]",16,ADDRESS,VM+ ONH Dư án quỹ đất đường sắt,768,1024
+1,"[371, 175, 549, 193]",16,ADDRESS,DA QĐ doc tuyến ĐS Tổ 3 Khu 2,768,1024
+2,"[368, 196, 549, 216]",16,ADDRESS,"P. Cẩm Sơn, TP. Cẩm Phả, T.QN",768,1024
+3,"[217, 280, 448, 305]",17,TIMESTAMP,Ngày bán: 14/08/2020 18:56,768,1024
+4,"[216, 517, 410, 538]",18,TOTAL_COST,TỔNG TIỀN PHẢI T.TOÁN,768,1024
+5,"[524, 517, 588, 542]",18,TOTAL_COST,98.085,768,1024

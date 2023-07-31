@@ -1,0 +1,6 @@
+index,bbox,label_id,label_text,content,width,height
+0,"[206, 492, 793, 1069]",16,ADDRESS,ĐC: 23 Nguyễn Thị Định - Trung Hòa - Cầu Giấy - HN,1024,1366
+1,"[546, 640, 614, 670]",17,TIMESTAMP,Ngày:,1024,1366
+2,"[681, 647, 800, 680]",17,TIMESTAMP,06.07.2020,1024,1366
+3,"[218, 1017, 385, 1067]",18,TOTAL_COST,Tổng cộng:,1024,1366
+4,"[677, 1028, 815, 1071]",18,TOTAL_COST,234000,1024,1366

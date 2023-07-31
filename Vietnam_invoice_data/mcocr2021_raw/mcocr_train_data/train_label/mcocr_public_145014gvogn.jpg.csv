@@ -1,0 +1,6 @@
+index,bbox,label_id,label_text,content,width,height
+0,"[297, 16, 719, 57]",15,SELLER,Siêu thị thú cưng PET YÊU,1024,1366
+1,"[210, 55, 811, 92]",16,ADDRESS,Địa chỉ: 11B Nơ Trang Long - Phường 14,1024,1366
+2,"[263, 94, 772, 126]",16,ADDRESS,"Quận Bình Thạnh, Hồ Chí Minh",1024,1366
+3,"[289, 260, 737, 325]",17,TIMESTAMP,Ngày 17 tháng 08 năm 2020,1024,1366
+4,"[337, 897, 853, 968]",18,TOTAL_COST,Tổng thanh toán: 63.000,1024,1366

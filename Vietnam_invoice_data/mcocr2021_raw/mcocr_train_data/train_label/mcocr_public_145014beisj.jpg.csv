@@ -1,0 +1,8 @@
+index,bbox,label_id,label_text,content,width,height
+0,"[536, 18, 662, 36]",15,SELLER,Satra Group,1024,1024
+1,"[370, 26, 670, 55]",15,SELLER,satrafoods Nguyễn Văn Quá 2,1024,1024
+2,"[369, 41, 818, 77]",16,ADDRESS,"73/1 KP2 Đường Nguyễn Văn Qua,P.Đông Hưn",1024,1024
+3,"[363, 179, 477, 211]",17,TIMESTAMP,01/04/2019,1024,1024
+4,"[504, 192, 565, 212]",17,TIMESTAMP,20:20,1024,1024
+5,"[345, 474, 452, 495]",18,TOTAL_COST,Tổng tiền,1024,1024
+6,"[733, 486, 852, 513]",18,TOTAL_COST,"33,813.00",1024,1024

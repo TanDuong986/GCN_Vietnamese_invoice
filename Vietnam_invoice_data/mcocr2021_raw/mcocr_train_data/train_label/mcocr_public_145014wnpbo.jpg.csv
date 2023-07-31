@@ -1,0 +1,3 @@
+index,bbox,label_id,label_text,content,width,height
+0,"[159, 284, 241, 295]",18,TOTAL_COST,hồng thanh toán,576,1024
+1,"[325, 280, 380, 294]",18,TOTAL_COST,28.014.643,576,1024

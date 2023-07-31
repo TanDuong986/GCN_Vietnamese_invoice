@@ -1,0 +1,8 @@
+index,bbox,label_id,label_text,content,width,height
+0,"[301, 102, 446, 147]",15,SELLER,VinCommerce,1024,1365
+1,"[293, 196, 564, 220]",17,TIMESTAMP,Ngày bán: 22/08/2020 18:13,1024,1365
+2,"[293, 702, 518, 732]",18,TOTAL_COST,TỔNG TIỀN PHẢI T.TOÁN,1024,1365
+3,"[655, 698, 733, 723]",18,TOTAL_COST,243.214,1024,1365
+4,"[489, 67, 681, 91]",16,ADDRESS,VM + HNI 23 ngõ 136 Cầu Diễn,1024,1365
+5,"[485, 90, 688, 112]",16,ADDRESS,Số 23 ngõ 136 đường Cầu Diễn,1024,1365
+6,"[482, 113, 693, 138]",16,ADDRESS,"P.Minh Khai, Q Bắc Từ Liêm, HN",1024,1365

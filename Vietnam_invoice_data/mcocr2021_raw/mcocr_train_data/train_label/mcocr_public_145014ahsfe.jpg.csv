@@ -1,0 +1,7 @@
+index,bbox,label_id,label_text,content,width,height
+0,"[77, 571, 224, 608]",15,SELLER,VinCommerce,590,1280
+1,"[255, 494, 468, 535]",16,ADDRESS,"VM+ QNH Tổ 7, Khu Minh Tiến A",590,1280
+2,"[289, 525, 435, 560]",16,ADDRESS,"Tổ 7, Khu Minh Tiến A",590,1280
+3,"[260, 551, 462, 590]",16,ADDRESS,"P. Cẩm Bình, TP. Cẩm Phả, QNH",590,1280
+4,"[81, 641, 250, 678]",17,TIMESTAMP,Ngày: 09/08/2020,590,1280
+5,"[361, 615, 517, 659]",17,TIMESTAMP,Thời gian: 20:08,590,1280

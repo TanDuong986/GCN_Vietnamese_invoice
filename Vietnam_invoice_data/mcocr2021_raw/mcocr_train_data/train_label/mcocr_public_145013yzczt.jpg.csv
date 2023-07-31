@@ -1,0 +1,4 @@
+index,bbox,label_id,label_text,content,width,height
+0,"[78, 112, 242, 126]",15,SELLER,NGÀY KINH DOANH 07/08/2020,472,1024
+1,"[73, 265, 175, 279]",18,TOTAL_COST,Hồng thanh toán,472,1024
+2,"[276, 269, 341, 283]",18,TOTAL_COST,21.004.448,472,1024

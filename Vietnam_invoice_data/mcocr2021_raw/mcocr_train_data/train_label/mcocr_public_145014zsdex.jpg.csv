@@ -1,0 +1,5 @@
+index,bbox,label_id,label_text,content,width,height
+0,"[51, 314, 176, 826]",15,SELLER,THỨC COFFE,1024,1024
+1,"[170, 366, 225, 769]",16,ADDRESS,"22 Quang Trung, P10, Gò Vấp",1024,1024
+2,"[358, 224, 440, 900]",17,TIMESTAMP,24.03.2019,1024,1024
+3,"[623, 235, 674, 906]",18,TOTAL_COST,Tiền Thanh Toán,1024,1024

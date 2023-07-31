@@ -1,0 +1,6 @@
+index,bbox,label_id,label_text,content,width,height
+0,"[210, 498, 244, 613]",15,SELLER,VinCommerce,1024,768
+1,"[192, 292, 211, 448]",16,ADDRESS,"Tổ 8, Khu 3B, P. Cẩm Trung",1024,768
+2,"[212, 289, 234, 449]",16,ADDRESS,"TP.Cẩm Phả, T.Quảng Ninh",1024,768
+3,"[299, 447, 325, 617]",17,TIMESTAMP,Ngày bán: 12/08/2020,1024,768
+4,"[447, 424, 478, 622]",18,TOTAL_COST,TỔNG TIỀN PHẢI T.TOÁN,1024,768

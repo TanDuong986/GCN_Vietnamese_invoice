@@ -1,0 +1,5 @@
+index,bbox,label_id,label_text,content,width,height
+0,"[255, 381, 281, 460]",15,SELLER,PHÓ MỎ,1024,768
+1,"[302, 299, 336, 538]",16,ADDRESS,Tp. Cẩm Phả - Quảng Ninh,1024,768
+2,"[407, 345, 429, 485]",17,TIMESTAMP,11/08/2020 - 16:58,1024,768
+3,"[700, 252, 719, 300]",18,TOTAL_COST,"32,000",1024,768

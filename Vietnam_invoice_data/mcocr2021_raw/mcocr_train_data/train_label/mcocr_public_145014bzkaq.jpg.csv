@@ -1,0 +1,5 @@
+index,bbox,label_id,label_text,content,width,height
+0,"[204, 131, 308, 155]",15,SELLER,VinCommerce,768,1024
+1,"[202, 207, 398, 223]",16,ADDRESS,Ngày bán: 15/08/2020 11:16,768,1024
+2,"[197, 548, 366, 569]",17,TIMESTAMP,HỒNG TIẾN PHẢI T.TOÁN,768,1024
+3,"[469, 554, 531, 570]",17,TIMESTAMP,267.728,768,1024

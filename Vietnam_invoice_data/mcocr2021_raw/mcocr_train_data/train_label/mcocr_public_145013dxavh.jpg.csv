@@ -1,0 +1,7 @@
+index,bbox,label_id,label_text,content,width,height
+0,"[16, 251, 184, 291]",15,SELLER,VinCommerce,576,1024
+1,"[253, 185, 448, 216]",16,ADDRESS,VM+ QNH 112 Thanh Niên,576,1024
+2,"[223, 216, 482, 250]",16,ADDRESS,"Số 112 Thanh Niên, P. Cẩm Thành",576,1024
+3,"[257, 248, 453, 282]",16,ADDRESS,"TP. Cẩm Phả, Quảng Ninh",576,1024
+4,"[15, 346, 212, 377]",17,TIMESTAMP,Ngày: 11/08/2020,576,1024
+5,"[349, 331, 542, 368]",17,TIMESTAMP,Thời gian: 22:02,576,1024

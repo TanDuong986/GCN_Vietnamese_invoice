@@ -1,0 +1,7 @@
+index,bbox,label_id,label_text,content,width,height
+0,"[317, 92, 555, 116]",16,ADDRESS,VM+ QNH Số 463 Tổ 66 Khu Diêm Thuý,768,1024
+1,"[343, 117, 527, 142]",16,ADDRESS,"Số 483, Tổ 86, Khu Diêm Thuỷ",768,1024
+2,"[351, 144, 519, 168]",16,ADDRESS,"P. Cẩm Đông, TP. Cẩm Phả",768,1024
+3,"[164, 243, 410, 264]",17,TIMESTAMP,Ngày bán: 15/08/2020 07:22,768,1024
+4,"[165, 462, 369, 484]",18,TOTAL_COST,TỔNG TIỀN PHẢI T.TOÁN,768,1024
+5,"[516, 469, 578, 484]",18,TOTAL_COST,40.900,768,1024

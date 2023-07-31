@@ -1,0 +1,5 @@
+index,bbox,label_id,label_text,content,width,height
+0,"[70, 249, 122, 268]",15,SELLER,TÊN ĐẠI LÝ,472,1024
+1,"[68, 561, 125, 591]",17,TIMESTAMP,TỔNG:,472,1024
+2,"[166, 267, 269, 282]",16,ADDRESS,"TỔ 7 KHU MINH TIẾN A, P. CẨM",472,1024
+3,"[196, 561, 288, 587]",17,TIMESTAMP,229.885 D,472,1024

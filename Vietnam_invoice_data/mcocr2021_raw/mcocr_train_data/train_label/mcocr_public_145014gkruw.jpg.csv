@@ -1,0 +1,8 @@
+index,bbox,label_id,label_text,content,width,height
+0,"[237, 169, 389, 212]",15,SELLER,VinCommerce,1024,1366
+1,"[480, 124, 620, 151]",16,ADDRESS,VM+ 81A Xuân Diệu,1024,1366
+2,"[457, 153, 643, 183]",16,ADDRESS,"Số 81A, đường Xuân Dâu",1024,1366
+3,"[446, 186, 656, 214]",16,ADDRESS,"P.Quản An, Q Tây Hồ, Hà Nội",1024,1366
+4,"[230, 286, 525, 311]",17,TIMESTAMP,Ngày bán: 15/08/2020 12:09,1024,1366
+5,"[220, 667, 489, 702]",18,TOTAL_COST,TỔNG TIỀN PHẢI T.TOÁN,1024,1366
+6,"[637, 673, 726, 707]",18,TOTAL_COST,39.050,1024,1366

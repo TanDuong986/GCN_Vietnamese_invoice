@@ -1,0 +1,7 @@
+index,bbox,label_id,label_text,content,width,height
+0,"[101, 235, 220, 269]",15,SELLER,VinCommerce,576,1024
+1,"[244, 194, 437, 215]",16,ADDRESS,VM+QNH Dự án quỹ đất đường sắt,576,1024
+2,"[252, 217, 429, 236]",16,ADDRESS,DA QĐ dọc tuyến ĐS Tổ 3 Khu 2,576,1024
+3,"[253, 239, 439, 263]",16,ADDRESS,"P.Cẩm Sơn, TP.Cẩm Phả, T.QN",576,1024
+4,"[98, 303, 236, 325]",17,TIMESTAMP,Ngày: 15/08/2020,576,1024
+5,"[339, 305, 470, 323]",17,TIMESTAMP,Thời gian: 10:27,576,1024

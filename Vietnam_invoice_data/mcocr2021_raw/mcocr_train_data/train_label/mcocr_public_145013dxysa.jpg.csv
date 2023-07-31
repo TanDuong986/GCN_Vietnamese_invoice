@@ -1,0 +1,6 @@
+index,bbox,label_id,label_text,content,width,height
+0,"[66, 139, 341, 161]",16,ADDRESS,Hồ 7 khu Tân Lập 4- P.Cẩm Thủy,472,1024
+1,"[103, 162, 319, 182]",16,ADDRESS,Tp Cẩm Phả - Quảng Ninh,472,1024
+2,"[142, 244, 273, 259]",17,TIMESTAMP,11/08/2020 20:50,472,1024
+3,"[150, 633, 261, 650]",18,TOTAL_COST,Cộng tiền hàng:,472,1024
+4,"[309, 629, 363, 647]",18,TOTAL_COST,"160,000",472,1024

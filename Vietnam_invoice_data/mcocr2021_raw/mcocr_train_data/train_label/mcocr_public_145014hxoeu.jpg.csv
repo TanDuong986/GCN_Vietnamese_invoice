@@ -1,0 +1,6 @@
+index,bbox,label_id,label_text,content,width,height
+0,"[231, 414, 447, 473]",15,SELLER,THE COFFEE HOUSE,576,1024
+1,"[235, 443, 426, 490]",16,ADDRESS,"403 Phan Huy Ích, P.14, Q.Gò Vấp",576,1024
+2,"[190, 470, 325, 511]",17,TIMESTAMP,Thời gian:02.10.2020 14.18,576,1024
+3,"[180, 641, 260, 665]",18,TOTAL_COST,Thanh Toán:,576,1024
+4,"[390, 677, 434, 698]",18,TOTAL_COST,72000,576,1024

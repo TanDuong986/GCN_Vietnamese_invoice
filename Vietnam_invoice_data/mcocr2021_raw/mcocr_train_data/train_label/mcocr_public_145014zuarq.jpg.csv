@@ -1,0 +1,7 @@
+index,bbox,label_id,label_text,content,width,height
+0,"[121, 44, 300, 97]",15,SELLER,VinCommerce,1024,1024
+1,"[373, 6, 614, 34]",16,ADDRESS,VM+ HCM 793 Nguyễn Kiệm,1024,1024
+2,"[368, 34, 609, 69]",16,ADDRESS,"T93 Nguyễn Kiệm, Phường 3",1024,1024
+3,"[113, 176, 458, 221]",17,TIMESTAMP,Ngày bán: 24/03/2019 20:09,1024,1024
+4,"[123, 502, 411, 537]",18,TOTAL_COST,TỔNG TIỀN PHẢI T.TOÁN,1024,1024
+5,"[582, 519, 669, 545]",18,TOTAL_COST,28.200,1024,1024

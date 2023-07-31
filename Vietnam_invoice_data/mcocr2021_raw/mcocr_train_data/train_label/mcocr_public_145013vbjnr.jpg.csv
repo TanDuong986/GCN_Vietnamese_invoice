@@ -1,0 +1,4 @@
+index,bbox,label_id,label_text,content,width,height
+0,"[286, 181, 700, 303]",15,SELLER,Tax invoice will be issued within same day,1024,1366
+1,"[215, 851, 552, 921]",18,TOTAL_COST,Phải thu khách hàng:,1024,1366
+2,"[207, 523, 476, 591]",17,TIMESTAMP,Ngày,1024,1366

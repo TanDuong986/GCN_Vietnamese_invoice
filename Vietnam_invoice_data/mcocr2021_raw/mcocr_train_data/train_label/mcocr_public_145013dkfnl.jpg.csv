@@ -1,0 +1,8 @@
+index,bbox,label_id,label_text,content,width,height
+0,"[119, 754, 287, 781]",18,TOTAL_COST,Tổng thanh toán,590,1280
+1,"[423, 742, 512, 772]",18,TOTAL_COST,80.000đ,590,1280
+2,"[106, 497, 351, 516]",17,TIMESTAMP,Ngày: 10/08/2020 (08:01 CH - 08:01 CH),590,1280
+3,"[118, 228, 475, 289]",15,SELLER,SCTC cổ THỎ 104 TRẦN PHÚ - CẨM,590,1280
+4,"[272, 272, 325, 309]",15,SELLER,PHẢ,590,1280
+5,"[107, 289, 486, 345]",16,ADDRESS,104 Trần Phú phường Cẩm Tây Thành phố Cẩm,590,1280
+6,"[233, 323, 371, 355]",16,ADDRESS,Phả Quảng Ninh,590,1280

@@ -1,0 +1,6 @@
+index,bbox,label_id,label_text,content,width,height
+0,"[180, 301, 446, 407]",15,SELLER,THE COFFEE H9USE,576,1024
+1,"[186, 340, 425, 425]",16,ADDRESS,"403 Phan Huy Ích, P.14, Q.Gò Vấp",576,1024
+2,"[124, 367, 294, 433]",17,TIMESTAMP,Thời gian: 02:10:2020 20201149,576,1024
+3,"[103, 570, 190, 608]",18,TOTAL_COST,Thanh Toán,576,1024
+4,"[352, 647, 404, 673]",18,TOTAL_COST,49000,576,1024

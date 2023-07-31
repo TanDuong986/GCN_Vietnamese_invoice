@@ -1,0 +1,5 @@
+index,bbox,label_id,label_text,content,width,height
+0,"[359, 263, 563, 315]",15,SELLER,VCB 134 Lê Lợi,1024,1366
+1,"[351, 337, 568, 376]",16,ADDRESS,Địa chỉ: 134 Lê Lợi,1024,1366
+2,"[239, 474, 490, 521]",17,TIMESTAMP,11/07/2020 10:21,1024,1366
+3,"[319, 971, 627, 1024]",18,TOTAL_COST,Tổng hoá đơn (VNĐ):,1024,1366

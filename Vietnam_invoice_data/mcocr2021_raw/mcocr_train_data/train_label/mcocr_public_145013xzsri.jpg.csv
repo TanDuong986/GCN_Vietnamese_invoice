@@ -1,0 +1,8 @@
+index,bbox,label_id,label_text,content,width,height
+0,"[302, 211, 428, 240]",15,SELLER,VinCommerce,1024,1366
+1,"[485, 159, 622, 184]",16,ADDRESS,VM+ HNI 32 Lăng Trung,1024,1366
+2,"[455, 187, 649, 207]",16,ADDRESS,"Số 32 ngô Láng Trung, P.Láng Hạ",1024,1366
+3,"[497, 212, 609, 231]",16,ADDRESS,"Q.Đống Đa, Hà Nội",1024,1366
+4,"[298, 297, 535, 318]",17,TIMESTAMP,Ngày bán: 12/07/2020 12:28,1024,1366
+5,"[293, 702, 506, 728]",18,TOTAL_COST,TỔNG TIỀN PHẢI T.TOÁN,1024,1366
+6,"[626, 702, 703, 727]",18,TOTAL_COST,401.830,1024,1366

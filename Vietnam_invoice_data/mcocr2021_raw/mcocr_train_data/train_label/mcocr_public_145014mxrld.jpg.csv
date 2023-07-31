@@ -1,0 +1,7 @@
+index,bbox,label_id,label_text,content,width,height
+0,"[225, 744, 434, 780]",18,TOTAL_COST,TỔNG TIỀN PHẢI T.TOÁN,1024,1366
+1,"[258, 316, 489, 358]",17,TIMESTAMP,Ngày bán: 27/07/2020 20:35,1024,1366
+2,"[268, 231, 394, 280]",15,SELLER,VinCommerce,1024,1366
+3,"[448, 213, 578, 239]",16,ADDRESS,VM + HN 32 Láng Trung,1024,1366
+4,"[418, 231, 602, 261]",16,ADDRESS,"Số 32 ngõ Láng Trung, P. Láng Hà",1024,1366
+5,"[452, 255, 566, 280]",16,ADDRESS,"Q.Đống Đa, Hà Nội",1024,1366

@@ -1,0 +1,6 @@
+index,bbox,label_id,label_text,content,width,height
+0,"[202, 343, 543, 374]",15,SELLER,SIEU THI BACH HOA TONG HOP,720,1280
+1,"[246, 372, 498, 403]",16,ADDRESS,Số 5 Cẩm Tây . Cẩm Phả - QN,720,1280
+2,"[407, 743, 592, 767]",17,TIMESTAMP,Ngày: 09/08/2020 17:,720,1280
+3,"[157, 683, 373, 702]",18,TOTAL_COST,Tổng công (đã gồm VAT),720,1280
+4,"[522, 670, 587, 690]",18,TOTAL_COST,"70,000",720,1280

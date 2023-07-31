@@ -1,0 +1,6 @@
+index,bbox,label_id,label_text,content,width,height
+0,"[115, 238, 231, 272]",15,SELLER,Vincommerce,590,1280
+1,"[261, 233, 400, 260]",16,ADDRESS,"TP Cẩm Phả, T.Quảng Ninh",590,1280
+2,"[116, 309, 321, 336]",17,TIMESTAMP,Ngày bán: 10/08/2020 11:33,590,1280
+3,"[117, 551, 298, 573]",18,TOTAL_COST,TỔNG TIỀN PHẢI T.TOÁN,590,1280
+4,"[401, 546, 463, 566]",18,TOTAL_COST,54.287,590,1280

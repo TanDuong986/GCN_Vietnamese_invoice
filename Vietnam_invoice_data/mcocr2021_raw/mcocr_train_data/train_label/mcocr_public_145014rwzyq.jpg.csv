@@ -1,0 +1,8 @@
+index,bbox,label_id,label_text,content,width,height
+0,"[81, 267, 436, 292]",15,SELLER,CTC CÔ THỎ 104 TRẦN PHÚ - CẨM,590,1280
+1,"[224, 290, 285, 319]",15,SELLER,PHA,590,1280
+2,"[66, 318, 443, 346]",16,ADDRESS,104 Trần Phú phường Cẩm Tây Thành phố Cẩm,590,1280
+3,"[187, 346, 335, 363]",16,ADDRESS,Phả Quảng Ninh,590,1280
+4,"[59, 477, 307, 500]",17,TIMESTAMP,Ngày: 08/08/2020(08 26CH CH),590,1280
+5,"[68, 744, 249, 772]",18,TOTAL_COST,Tổng thanh toán,590,1280
+6,"[370, 729, 474, 757]",18,TOTAL_COST,190.000đ,590,1280

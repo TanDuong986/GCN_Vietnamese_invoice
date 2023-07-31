@@ -1,0 +1,6 @@
+index,bbox,label_id,label_text,content,width,height
+0,"[376, 138, 588, 203]",15,SELLER,Legend,1024,1366
+1,"[244, 214, 691, 246]",15,SELLER,Melcome to Trung Nguyen Legend,1024,1366
+2,"[172, 250, 747, 286]",16,ADDRESS,Add: 683 - 685 duong 3/2 P.6 Q.10 - HCM,1024,1366
+3,"[175, 466, 496, 505]",17,TIMESTAMP,Ngày : 04/20/19 11:25,1024,1366
+4,"[172, 841, 339, 879]",18,TOTAL_COST,Total VND,1024,1366

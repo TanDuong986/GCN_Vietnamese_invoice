@@ -1,0 +1,3 @@
+index,bbox,label_id,label_text,content,width,height
+0,"[132, 429, 233, 451]",18,TOTAL_COST,TIỀN KHÁCH TRẢ,576,1024
+1,"[375, 430, 421, 444]",18,TOTAL_COST,80.000,576,1024

@@ -1,0 +1,6 @@
+index,bbox,label_id,label_text,content,width,height
+0,"[217, 273, 478, 297]",15,SELLER,CỬA HÀNG TỰ CHỌN ANH GIANG,768,1024
+1,"[186, 316, 407, 335]",16,ADDRESS,address: Phú Thị - Gia Lâm- Hà Nội,768,1024
+2,"[188, 354, 362, 372]",17,TIMESTAMP,Date : 13/8/2020 : 5:51:28 PM,768,1024
+3,"[154, 677, 261, 700]",18,TOTAL_COST,Tổng phải trả,768,1024
+4,"[471, 683, 532, 705]",18,TOTAL_COST,"278,000",768,1024

@@ -1,0 +1,5 @@
+index,bbox,label_id,label_text,content,width,height
+0,"[266, 29, 424, 45]",15,SELLER,MINIMART ANAN,768,1024
+1,"[246, 47, 443, 69]",16,ADDRESS,Chức sơn Phú Thị Gia Lam,768,1024
+2,"[106, 959, 205, 995]",18,TOTAL_COST,Tổng tiền:,768,1024
+3,"[491, 966, 578, 996]",18,TOTAL_COST,"799,008",768,1024

@@ -1,0 +1,7 @@
+index,bbox,label_id,label_text,content,width,height
+0,"[116, 55, 769, 188]",16,ADDRESS,"53 Thuỵ Khuê, Quận Tây Hồ, Thành phố Hà Nội",1024,1821
+1,"[99, 338, 245, 391]",17,TIMESTAMP,Giờ vào:,1024,1821
+2,"[589, 393, 828, 445]",17,TIMESTAMP,15/08/2020 12:44,1024,1821
+3,"[99, 383, 213, 423]",17,TIMESTAMP,Giờ ra,1024,1821
+4,"[60, 1571, 196, 1636]",18,TOTAL_COST,Tổng,1024,1821
+5,"[752, 1537, 971, 1595]",18,TOTAL_COST,"886,000đ",1024,1821

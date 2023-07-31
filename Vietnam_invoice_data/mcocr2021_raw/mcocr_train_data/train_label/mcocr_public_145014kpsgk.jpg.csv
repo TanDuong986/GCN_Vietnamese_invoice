@@ -1,0 +1,6 @@
+index,bbox,label_id,label_text,content,width,height
+0,"[320, 385, 832, 451]",16,ADDRESS,"D/c (add): Tầng 2, H2, CCEcoLife, 58 Tố Hữu Nam Từ Liê",1024,1364
+1,"[705, 449, 822, 485]",17,TIMESTAMP,13/08/2020,1024,1364
+2,"[760, 482, 826, 517]",17,TIMESTAMP,0307,1024,1364
+3,"[341, 897, 499, 934]",18,TOTAL_COST,Tổng giá trị TT:,1024,1364
+4,"[722, 881, 826, 917]",18,TOTAL_COST,"111,945",1024,1364

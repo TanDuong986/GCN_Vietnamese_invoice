@@ -1,0 +1,8 @@
+index,bbox,label_id,label_text,content,width,height
+0,"[336, 11, 550, 36]",15,SELLER,Satra Group,1024,1366
+1,"[53, 34, 596, 75]",16,ADDRESS,Satrafoods 2B Đường Bình Lợi,1024,1366
+2,"[49, 68, 824, 107]",16,ADDRESS,"2B Bình Lợi, Phường 13, Quận Bình Thạnh",1024,1366
+3,"[48, 324, 246, 353]",17,TIMESTAMP,13/08/2020,1024,1366
+4,"[296, 324, 399, 353]",17,TIMESTAMP,18:20,1024,1366
+5,"[63, 731, 253, 761]",18,TOTAL_COST,Tổng tiền,1024,1366
+6,"[723, 724, 907, 761]",18,TOTAL_COST,43.500.00,1024,1366

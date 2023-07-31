@@ -1,0 +1,6 @@
+index,bbox,label_id,label_text,content,width,height
+0,"[55, 483, 377, 513]",15,SELLER,CTY CP SÁCH & TBTH QUẢNG NINH,590,1280
+1,"[53, 501, 420, 550]",16,ADDRESS,ĐC Số 10 Long Tien - TP Hạ Long - ON,590,1280
+2,"[190, 583, 477, 629]",17,TIMESTAMP,Print time: 21:54:05 10/08/2020,590,1280
+3,"[54, 708, 234, 739]",18,TOTAL_COST,Tổng số thanh toan,590,1280
+4,"[351, 695, 485, 729]",18,TOTAL_COST,33.212.050d,590,1280

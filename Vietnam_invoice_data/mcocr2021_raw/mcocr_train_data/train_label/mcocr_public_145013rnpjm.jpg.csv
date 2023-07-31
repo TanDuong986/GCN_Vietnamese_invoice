@@ -1,0 +1,7 @@
+index,bbox,label_id,label_text,content,width,height
+0,"[39, 315, 181, 359]",15,SELLER,VinCommerce,576,1024
+1,"[228, 273, 429, 299]",16,ADDRESS,VM+ QNH 1060-1062 Trần Phú,576,1024
+2,"[230, 302, 426, 327]",16,ADDRESS,Số 1060-1062 Đường Trần Phú,576,1024
+3,"[244, 329, 405, 354]",16,ADDRESS,"TP.Cẩm Phả, Quảng Ninh",576,1024
+4,"[37, 399, 202, 429]",17,TIMESTAMP,Ngày : 15/08/2020,576,1024
+5,"[317, 406, 476, 427]",17,TIMESTAMP,Thời gian: 11:02,576,1024

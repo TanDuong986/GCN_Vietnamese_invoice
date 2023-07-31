@@ -1,0 +1,5 @@
+index,bbox,label_id,label_text,content,width,height
+0,"[112, 518, 444, 552]",15,SELLER,NHÀ SÁCH GD-TC CẨM PHẢ,590,1280
+1,"[37, 658, 362, 688]",17,TIMESTAMP,Thời gian: 09:06:32 - 14/08/2020,590,1280
+2,"[16, 841, 229, 873]",18,TOTAL_COST,Tổng số thanh toán,590,1280
+3,"[426, 833, 523, 861]",18,TOTAL_COST,20.000đ,590,1280

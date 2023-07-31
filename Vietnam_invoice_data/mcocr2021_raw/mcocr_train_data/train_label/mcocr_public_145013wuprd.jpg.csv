@@ -1,0 +1,8 @@
+index,bbox,label_id,label_text,content,width,height
+0,"[215, 206, 717, 253]",15,SELLER,Nhà Hàng Út Giang Nguyễn Chánh,1024,1366
+1,"[345, 321, 600, 360]",16,ADDRESS,phố Nguyễn Quốc Tru,1024,1366
+2,"[190, 291, 745, 324]",16,ADDRESS,ngõ 299 phố Trung Kính hoặc đi vào phố đối diện,1024,1366
+3,"[183, 257, 752, 288]",16,ADDRESS,Nhà số 7 Khu B Liền kè A10 Nam Trung Yên (Đi vào,1024,1366
+4,"[176, 482, 532, 516]",17,TIMESTAMP,Ngày: 28/07/2020 (06:45 CH - 08:32 CH),1024,1366
+5,"[189, 1053, 451, 1101]",18,TOTAL_COST,Tổng thanh toán,1024,1366
+6,"[641, 1034, 794, 1080]",18,TOTAL_COST,"640,000đ",1024,1366

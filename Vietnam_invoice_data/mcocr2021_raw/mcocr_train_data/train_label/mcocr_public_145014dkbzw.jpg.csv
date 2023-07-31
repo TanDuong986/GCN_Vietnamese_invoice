@@ -1,0 +1,4 @@
+index,bbox,label_id,label_text,content,width,height
+0,"[259, 392, 286, 496]",15,SELLER,VinCommerce,1024,768
+1,"[334, 303, 365, 498]",17,TIMESTAMP,Ngày bán: 11/08/2020 08:16,1024,768
+2,"[531, 336, 564, 509]",18,TOTAL_COST,TỔNG TIỀN PHẢI T.TOÁN,1024,768

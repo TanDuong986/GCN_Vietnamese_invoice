@@ -1,0 +1,7 @@
+index,bbox,label_id,label_text,content,width,height
+0,"[20, 344, 171, 383]",15,SELLER,VinCommerce,576,1024
+1,"[210, 281, 419, 326]",16,ADDRESS,"VMA QUA Tổ 7 , Khu Minh Tiến A",576,1024
+2,"[243, 318, 391, 349]",16,ADDRESS,"Tổ 7, Khu Minh Tiến A",576,1024
+3,"[208, 337, 423, 378]",16,ADDRESS,"P.Cẩm Bình, TP.Cẩm Phả, QNH",576,1024
+4,"[18, 430, 190, 454]",17,TIMESTAMP,Ngày: 12/08/2020,576,1024
+5,"[314, 410, 482, 448]",17,TIMESTAMP,Thời gian: 20:02,576,1024

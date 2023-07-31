@@ -1,0 +1,8 @@
+index,bbox,label_id,label_text,content,width,height
+0,"[305, 183, 443, 233]",15,SELLER,Thanh,768,1024
+1,"[331, 232, 438, 270]",15,SELLER,Xuân,768,1024
+2,"[198, 303, 553, 330]",16,ADDRESS,"244/23a Huỳnh Văn Bánh, P.11, Q.PN",768,1024
+3,"[170, 511, 293, 533]",17,TIMESTAMP,Ngày giờ vào:,768,1024
+4,"[328, 511, 484, 532]",17,TIMESTAMP,05.10.2020 13.16,768,1024
+5,"[170, 804, 419, 841]",18,TOTAL_COST,Tiên Thanh Toán,768,1024
+6,"[536, 810, 636, 839]",18,TOTAL_COST,58 000,768,1024

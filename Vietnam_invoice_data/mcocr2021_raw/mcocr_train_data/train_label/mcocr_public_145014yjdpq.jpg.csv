@@ -1,0 +1,6 @@
+index,bbox,label_id,label_text,content,width,height
+0,"[2, 194, 79, 709]",15,SELLER,THỨC COFFEE,1024,1024
+1,"[106, 247, 140, 649]",16,ADDRESS,"22 Quang Trung, Plu, Gò Vấp",1024,1024
+2,"[311, 364, 346, 451]",17,TIMESTAMP,Ngày :,1024,1024
+3,"[640, 530, 677, 809]",18,TOTAL_COST,Tiên Thanh Toán,1024,1024
+4,"[644, 103, 673, 225]",18,TOTAL_COST,80 000,1024,1024

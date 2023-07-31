@@ -1,0 +1,5 @@
+index,bbox,label_id,label_text,content,width,height
+0,"[505, 177, 739, 230]",17,TIMESTAMP,Ngày: 23/09/2019,1024,1366
+1,"[757, 203, 874, 238]",17,TIMESTAMP,10:54:55,1024,1366
+2,"[638, 1023, 803, 1080]",18,TOTAL_COST,"201,840.00",1024,1366
+3,"[203, 963, 562, 1045]",18,TOTAL_COST,Tong so tien thanh toan:,1024,1366
