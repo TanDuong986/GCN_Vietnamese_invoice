@@ -65,7 +65,7 @@ ___
 
 - **<font color='green' >3: Combination into sentence</font>**
   
-![](/done_combination.jpg)
+![](/Code/detect_word/result/done_combination.jpg)
 
 <br><br>
 - **<font color='purple' >4: GCN</font>**
