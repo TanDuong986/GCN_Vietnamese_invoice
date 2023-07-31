@@ -3,41 +3,41 @@
 Structure of project:
 ```
 GCN_Vietnamese
-|_Code
-|_aligment (preprocess raw image folder)
-| |_angle_mlp.py (main)
-|_detect_word 
-| |_inference.py
-| |_perspective.py
-|_extract_label (explore raw label file into small file )
-| |_extract_label.py
-|_gcn (create instance of Graph and insists of inference file)
-| |_use
-| |_graph.py (class of Graph)
-| |_prepare (create instance and preprocessing data)
-| |_train.py
-| |_ model.py
-| |_gen_dataVN.py
-| |_test_single.py
-| |_inference.py
-|_material (prepare data file for train GCN)
-| |_test_data
-| |_train_data
-|_ocr (material for read text)
-| |_ocr.py
-|_U2Net (Segmentation background)
-| |_u2net_test.py
-|_Vietnam_invoice_data
-|_mcocr2021_raw (raw data with background - not use) - 1934 images all
-| |_mcocr_train_data
-| |_mcocr_val_data
-| |_test
-|_preprocessed_data (preprocess data (rotated, delete back) use this) - 1090 images
-|
-| |_images (.jpg)
-| |_label_mcocr2021 (.csv)
-|_combineLine.py
-|_fullGCN.py
+|__Code
+|    |__aligment (preprocess raw image folder)
+|    | |__angle_mlp.py (main)
+|    |__detect_word 
+|    | |__inference.py
+|    | |__perspective.py
+|    |__extract_label (explore raw label file into small file )
+|    | |
+|    | |__extract_label.py
+|    |__gcn (create instance of Graph and insists of inference file)
+|    | |__use
+|    | |__graph.py (class of Graph)
+|    | |__prepare (create instance and preprocessing data)
+|    | |__train.py
+|    | |__model.py
+|    | |__gen_dataVN.py
+|    | |__test_single.py
+|    | |__inference.py
+|    |__material (prepare data file for train GCN)
+|    | |__test_data
+|    | |__train_data
+|    |__ocr (material for read text)
+|    | |__ocr.py
+|    |__U2Net (Segmentation background)
+|    | |__u2net_test.py
+|    |__Vietnam_invoice_data
+|    |__mcocr2021_raw (raw data with background - not use) - 1934 images all
+|    | |__mcocr_train_data
+|    | |__mcocr_val_data
+|    | |__test
+|    |__preprocessed_data (preprocess data (rotated, delete back) use this) - 1090 images
+|    | |__images (.jpg)
+|    | |__label_mcocr2021 (.csv)
+|__combineLine.py
+|__fullGCN.py
 ```
 
 
