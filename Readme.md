@@ -52,18 +52,22 @@ File main is [fullGCN](/Code/fullGCN.py), This file combination of process have 
 ___
 ### Ouput of each component
 - **<font color='Blue' >1: U2net Segmentation</font>**
+  
 ![](/Code/U2Net/output/mcocr_public_145013chgcz.jpg)
 
 <br><br>
 
 - **<font color='orange' >2: Text Detection CRAFT</font>**
+  
 ![](/Code/detect_word/result/res_mcocr_public_145013aedmq.jpg)
 
 <br><br>
 
 - **<font color='green' >3: Combination into sentence</font>**
+  
 ![](/done_combination.jpg)
 
 <br><br>
 - **<font color='purple' >4: GCN</font>**
+  
 ![](/Code/gcn/output_result/mcocr_public_145013cxgot_result_.png)
