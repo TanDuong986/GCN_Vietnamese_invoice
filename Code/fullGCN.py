@@ -59,7 +59,7 @@ if __name__ == "__main__":
     model_OCR = gen_model()
     
     t = time.time()
-    path_img = '/home/dtan/Documents/GCN/GCN_Vietnam/Vietnam_invoice_data/preprocessed_data/images/mcocr_public_145014yccar.jpg'
+    path_img = '/home/dtan/Documents/GCN/GCN_Vietnam/Vietnam_invoice_data/preprocessed_data/images/mcocr_public_145013cxgot.jpg'
     name_img = os.path.basename(path_img).split(".")[0]
     canvas = cv2.imread(path_img)
 
@@ -67,6 +67,7 @@ if __name__ == "__main__":
     poly = np.array(poly).reshape(len(poly),-1)
     box,text = end2end(poly,canvas,model_OCR)
     df_box = pd.DataFrame({"poly":list(box),"content":text},index=None)
+    print(df_box)
     # draw_poly(canvas=canvas,poly=box)
     G,df,data = cook_input(canvas,df_box)
     model_GCN = InvoiceGCN(input_dim=data.x.shape[1], chebnet=True)
