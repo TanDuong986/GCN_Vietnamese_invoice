@@ -11,7 +11,7 @@ task:
 2: compare with threshold of angle'''
 ##### Global variable #########
 Pi = 3.14159265359
-variance_rho = 40
+variance_rho = 60
 variance_theta = 0.06
 ###############################
 
@@ -34,7 +34,7 @@ def sort_line(lines): # use mask to compute the last line after fill, this will 
     mask = norm_line(lines)
     if mask.shape[0] == 1:
         return mask
-    sm = mask[mask[:, 0].argsort()] # sorted_matrix
+    sm = mask[np.abs(mask[:, 0]).argsort()] # sorted_matrix by distance
     groups = []
     current_group = []
 
@@ -52,53 +52,56 @@ def sort_line(lines): # use mask to compute the last line after fill, this will 
     # print(rs)
     return rs
 
-def show_img_plot(mask,cl_img):
-    x_coords = mask[:,0]
-    y_coords = mask[:,1]
-    # Plotting the points
-    plt.scatter(x_coords,y_coords)
-    # Adding labels and title
-    plt.xlabel('rho')
-    plt.ylabel('theta')
-    plt.title('Visualize of lines')
-    # Display the plot
-    plt.show()
+def show_line_img(mask,cl_img,show_plt = False): ## draw line on image
+    # print(mask.shape)
+    if show_plt:
+        x_coords = mask[:,0]
+        y_coords = mask[:,1]
+        # Plotting the points
+        plt.scatter(x_coords,y_coords)
+        # Adding labels and title
+        plt.xlabel('rho')
+        plt.ylabel('theta')
+        plt.title('Visualize of lines')
+        # Display the plot
+        plt.show()
     for rho, theta in mask: 
         a = np.cos(theta)
         b = np.sin(theta)
         x0 = a*rho
         y0 = b*rho
-        x1 = int(x0 + 600*(-b))
-        y1 = int(y0 + 600*(a))
-        x2 = int(x0 - 600*(-b))
-        y2 = int(y0 - 600*(a))
+        x1 = int(x0 + 500*(-b))
+        y1 = int(y0 + 500*(a))
+        x2 = int(x0 - 500*(-b))
+        y2 = int(y0 - 500*(a))
         cv2.line(cl_img, (x1, y1), (x2, y2), (0, 0, 255), 3)
     # cv2.imwrite("line_detect.jpg",cl_img)
     show(cv2.resize(cl_img,(500,800)))
 
-def detect_angle(image):
+def detect_angle(image,show_plot = False):
     '''
     Input : Canny image
 
     Output: List of lines (rho,alpha)
     '''
     cl_img = cv2.cvtColor(image,cv2.COLOR_GRAY2BGR)
-    # lines = cv2.HoughLines(image, 1, np.pi/180, threshold=250) 
-    lines = cv2.HoughLinesP(image, rho=1, theta=np.pi/180, threshold=10, minLineLength=100, maxLineGap=30)
+    lines = cv2.HoughLines(image, 1, np.pi/180, threshold=280) 
+    # lines = cv2.HoughLinesP(image, rho=1, theta=np.pi/180, threshold=10, minLineLength=100, maxLineGap=30)
     '''
     rho là khoảng cách đến tâm (0,0), theta là góc tạo bởi đừng thẳng và trục Oy
     góc 0 dựng đứng, góc 90 nằm ngang, góc 180 độ chỉ xuống dưới'''
     if lines is not None:
         lines = np.reshape(lines,(lines.shape[0],-1))
         mask = sort_line(lines)
-        print(mask)
-        print(lines)
-        print(lines.shape[0],mask.shape[0])
-        # print(mask)
-        show_img_plot(lines, cl_img)
+        if show_plot:
+            print(mask)
+            print(lines)
+            print(lines.shape[0],mask.shape[0])
+            # print(mask)
+            show_line_img(lines, cl_img,show_plot)
         return mask
 
-def diagnose(lines):# Draw detected lines on the image
+def diagnose(lines):
     if lines is not None:
         accept = [0.0,Pi/2]
         agl = lines[:,1]
@@ -117,13 +120,20 @@ def diagnose(lines):# Draw detected lines on the image
 #mcocr_private_145120ddbdw.jpg |text out bill | 3 point
 #mcocr_private_145120clklv.jpg |not enough
 #mcocr_private_145120vogtr.jpg | not really line
+
+def embedd(img,mask):
+    mask = np.expand_dims(mask, axis=-1)
+    print(mask.shape)
+    img = img*mask
+    show(img)
+
 if __name__ == "__main__":
     otp = gpr()
     path_img = os.path.join(here,'Code/U2Net/output',otp.source)
     anh = cv2.imread(path_img)
     name_image = os.path.splitext(os.path.basename(path_img))[0]
     rgb = cv2.imread(os.path.join(here,'Vietnam_invoice_data/mcocr2021_raw/mcocr_train_data/train_images',name_image+".jpg"))
-    mask,cny = puring(anh)
-    list_angle = detect_angle(cny)
+    mask,cny = puring(anh) #create mask
+    list_angle = detect_angle(cny,show_plot=True) #detect line
     # diagnose(list_angle)
-    # show(rgb)
+    # embedd(rgb,mask)
