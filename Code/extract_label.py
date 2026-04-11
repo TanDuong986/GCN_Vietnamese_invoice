@@ -13,6 +13,9 @@ def convert_to_list(input_string):
 col = ['cells', 'poly', 'cate_id', 'cate_text', 'vietocr_text', 'group_id']
 with open('/home/dtan/Documents/GCN/GCN_Vietnam/Vietnam_invoice_data/preprocessed_data/mcocr_labels.json','r') as f:
     data = json.load(f)
+
+print(col[2])
+print("Unifying the label format")
 for i in data.keys(): #name of all image
     employee_data = data[i]
     df = pd.DataFrame(employee_data["cells"],columns=["poly", "cate_id", "cate_text", "vietocr_text", "group_id"])
